@@ -35,6 +35,21 @@ namespace CRMobil.Services
             return _serviceCollection.Find(_ => true).ToListAsync();
         }
 
+        public Task<TEntity?> GetAsync(string id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task RemoveAsync(string id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task UpdateAsync(string id, TEntity updateModel)
+        {
+            throw new NotImplementedException();
+        }
+
         //public Task<TEntity?> GetAsync(string id)
         //{
         //    return _serviceCollection.Find(x => x.Id_Servico == id).FirstOrDefaultAsync();

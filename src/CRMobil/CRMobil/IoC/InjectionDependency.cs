@@ -9,8 +9,11 @@ namespace CRMobil.IoC
     {
         public static IServiceCollection AddServices(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddSingleton<IUserService, UserService>();
+            services.AddSingleton<IUsuariosService, UsuariosService>();
             services.AddSingleton<IServicosOficinaServices, ServicosOficinaServices>();
+            services.AddSingleton<IOficinasServices, OficinasServices>();
+            services.AddSingleton<IClientesServices, ClientesService>();
+            services.AddSingleton<IFuncionariosServices, FuncionariosServices>();
 
             return services;
         }

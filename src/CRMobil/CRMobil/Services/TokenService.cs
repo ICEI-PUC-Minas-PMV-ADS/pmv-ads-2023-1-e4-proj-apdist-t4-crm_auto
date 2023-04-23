@@ -8,7 +8,7 @@ namespace CRMobil.Services
 {
     public static class TokenService
     {
-        public static string GenerateToken(User user)
+        public static string GenerateToken(Usuarios user)
         {
             var tokenHandler = new JwtSecurityTokenHandler();
             var key = Encoding.ASCII.GetBytes(Settings.Secret);

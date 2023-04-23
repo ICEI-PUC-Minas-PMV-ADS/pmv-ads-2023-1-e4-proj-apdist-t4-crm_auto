@@ -13,8 +13,11 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.Configure<CnnStoreDatabaseSettings>(builder.Configuration.GetSection("ConnStoreDatabase"));
 
-builder.Services.AddSingleton<ClienteService>();
-builder.Services.AddSingleton<UserService>();
+builder.Services.AddSingleton<ClientesService>();
+builder.Services.AddSingleton<FuncionariosServices>();
+builder.Services.AddSingleton<OficinasServices>();
+builder.Services.AddSingleton<UsuariosService>();
+builder.Services.AddSingleton<VeiculosServices>();
 
 // Add services to the container.
 
@@ -78,7 +81,7 @@ IConfiguration configuration = configurationBuilder.Build();
 
 builder.Services.AddServices(configuration);
 builder.Services.AddApplicationServices(configuration);
-//builder.WebHost.ConfigureKestrel(options => options.ListenAnyIP(8080));
+//builder.WebHost.ConfigureKestrel(options => options.ListenAnyIP(7000));
 
 var app = builder.Build();
 static void ConfigureConfiguration(IConfigurationBuilder configuration)

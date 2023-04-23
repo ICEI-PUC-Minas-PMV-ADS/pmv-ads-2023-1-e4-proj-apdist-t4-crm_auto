@@ -9,21 +9,21 @@ using MongoDB.Bson;
 
 namespace CRMobil.Controllers
 {
-    [Authorize]
+    //[Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class ClienteController : ControllerBase
     {
-        private readonly ClienteService _clienteService;
+        private readonly ClientesService _clienteService;
 
-        public ClienteController(ClienteService clienteService)
+        public ClienteController(ClientesService clienteService)
         {
             _clienteService = clienteService;
         }
 
         // GET: api/<ClienteController>
         [HttpGet]
-        public async Task<List<Cliente>> RecuperaClientes()
+        public async Task<List<Clientes>> RecuperaClientes()
         {
             var listaCliente = await _clienteService.GetAsync();
 
@@ -32,7 +32,7 @@ namespace CRMobil.Controllers
 
         // GET api/<ClienteController>/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Cliente>> RecuperaClientePorId(string id)
+        public async Task<ActionResult<Clientes>> RecuperaClientePorId(string id)
         {
             var cliente = await _clienteService.GetAsync(id);
 
@@ -46,7 +46,7 @@ namespace CRMobil.Controllers
 
         [HttpGet("{cpf_cnpj}")]
         [AllowAnonymous]
-        public async Task<ActionResult<Cliente>> RecuperaClientePorCpfCnpj(string cpf_cnpj)
+        public async Task<ActionResult<Clientes>> RecuperaClientePorCpfCnpj(string cpf_cnpj)
         {
             var cliente = await _clienteService.GetCpfCnpjAsync(cpf_cnpj);
 
@@ -60,7 +60,7 @@ namespace CRMobil.Controllers
 
         // POST api/<ClienteController>
         [HttpPost]
-        public async Task<IActionResult> SalvarCliente(Cliente newCliente)
+        public async Task<IActionResult> SalvarCliente(Clientes newCliente)
         {
             await _clienteService.CreateAsync(newCliente);
 
@@ -69,7 +69,7 @@ namespace CRMobil.Controllers
 
         // PUT api/<ClienteController>/5
         [HttpPut("{id}")]
-        public async Task<ActionResult> AtualizaCliente(string id, Cliente updateCliente)
+        public async Task<ActionResult> AtualizaCliente(string id, Clientes updateCliente)
         {
             var cliente = await _clienteService.GetAsync(id);
 

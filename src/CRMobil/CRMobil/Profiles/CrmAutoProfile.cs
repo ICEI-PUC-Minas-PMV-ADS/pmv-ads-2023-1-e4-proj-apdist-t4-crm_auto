@@ -8,8 +8,8 @@ namespace CRMobil.Profiles
     {
         public CrmAutoProfile() 
         {
-            CreateMap<ClienteMapper, Cliente>();
-            CreateMap<Cliente, ClienteMapper>();
+            CreateMap<ClienteMapper, Clientes>();
+            CreateMap<Clientes, ClienteMapper>();
         }
     }
 }
