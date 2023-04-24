@@ -14,7 +14,7 @@ namespace CRMobil.Controllers
     {
         private readonly IFuncionariosServices _funcionarioService;
 
-        public FuncionarioController(FuncionariosServices funcionarioService)
+        public FuncionarioController(IFuncionariosServices funcionarioService)
         {
             _funcionarioService = funcionarioService;
         }

@@ -2355,27 +2355,30 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\julio\\.nuget\\packages\\": {}
+    "C:\\Users\\julio.lustosa\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\julio\\Documents\\Curso Superior\\Eixo 4\\Repositories\\src\\CRMobil\\CRMobil\\CRMobil.csproj",
+      "projectUniqueName": "C:\\Users\\julio.lustosa\\Documents\\Cursos\\PUC\\Repositórios\\Eixo 4\\pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto\\src\\CRMobil\\CRMobil\\CRMobil.csproj",
       "projectName": "CRMobil",
-      "projectPath": "C:\\Users\\julio\\Documents\\Curso Superior\\Eixo 4\\Repositories\\src\\CRMobil\\CRMobil\\CRMobil.csproj",
-      "packagesPath": "C:\\Users\\julio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\julio\\Documents\\Curso Superior\\Eixo 4\\Repositories\\src\\CRMobil\\CRMobil\\obj\\",
+      "projectPath": "C:\\Users\\julio.lustosa\\Documents\\Cursos\\PUC\\Repositórios\\Eixo 4\\pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto\\src\\CRMobil\\CRMobil\\CRMobil.csproj",
+      "packagesPath": "C:\\Users\\julio.lustosa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\julio.lustosa\\Documents\\Cursos\\PUC\\Repositórios\\Eixo 4\\pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto\\src\\CRMobil\\CRMobil\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\julio\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\MicroFocus.VisualStudio.Offline.config",
+        "C:\\Users\\julio.lustosa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Micro Focus\\Visual COBOL\\NuGetPackages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -2435,7 +2438,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

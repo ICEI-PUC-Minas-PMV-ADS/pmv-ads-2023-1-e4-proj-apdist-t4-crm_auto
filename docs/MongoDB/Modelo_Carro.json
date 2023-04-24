@@ -1,0 +1,67 @@
+[{
+  "_id": {
+    "$oid": "6445b8e7c33fec12c59b99b7"
+  },
+  "id_marca": "6445b76cc33fec12c59b99ac",
+  "nome_modelo": "INTEGRA"
+},{
+  "_id": {
+    "$oid": "6445b8e7c33fec12c59b99b8"
+  },
+  "id_marca": "6445b76cc33fec12c59b99ad",
+  "nome_modelo": "145"
+},{
+  "_id": {
+    "$oid": "6445b8e7c33fec12c59b99b9"
+  },
+  "id_marca": "6445b76cc33fec12c59b99ae",
+  "nome_modelo": "ELDORADO"
+},{
+  "_id": {
+    "$oid": "6445b8e7c33fec12c59b99ba"
+  },
+  "id_marca": "6445b76cc33fec12c59b99b0",
+  "nome_modelo": "JUMPER"
+},{
+  "_id": {
+    "$oid": "6445b8e7c33fec12c59b99bb"
+  },
+  "id_marca": "6445b76cc33fec12c59b99b1",
+  "nome_modelo": "MUSTANG"
+},{
+  "_id": {
+    "$oid": "6445b8e7c33fec12c59b99bc"
+  },
+  "id_marca": "6445b76cc33fec12c59b99af",
+  "nome_modelo": "CELTA"
+},{
+  "_id": {
+    "$oid": "6445b8e7c33fec12c59b99bd"
+  },
+  "id_marca": "6445b76cc33fec12c59b99b2",
+  "nome_modelo": "CITY"
+},{
+  "_id": {
+    "$oid": "6445b8e7c33fec12c59b99be"
+  },
+  "id_marca": "6445b76cc33fec12c59b99b2",
+  "nome_modelo": "CIVIC"
+},{
+  "_id": {
+    "$oid": "6445b8e7c33fec12c59b99bf"
+  },
+  "id_marca": "6445b76cc33fec12c59b99b2",
+  "nome_modelo": "FIT"
+},{
+  "_id": {
+    "$oid": "6445b8e7c33fec12c59b99c0"
+  },
+  "id_marca": "6445b76cc33fec12c59b99b3",
+  "nome_modelo": "BOXSTER"
+},{
+  "_id": {
+    "$oid": "6445b8e7c33fec12c59b99c1"
+  },
+  "id_marca": "6445b76cc33fec12c59b99b4",
+  "nome_modelo": "FORTWO CABRIO"
+}]

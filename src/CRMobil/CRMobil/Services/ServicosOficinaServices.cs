@@ -17,14 +17,14 @@ namespace CRMobil.Services
 
             var mongoDatabase = mongoCollection.GetDatabase(serviceCollection.Value.DatabaseName);
 
-            _serviceCollection = mongoDatabase.GetCollection<ServicosOficina>("Servicos_Oficina");
+            _serviceCollection = mongoDatabase.GetCollection<ServicosOficina>("Servicos");
         }
 
         public async Task<List<ServicosOficina>> GetAsync() => await _serviceCollection.Find(_ => true).ToListAsync();
 
         public async Task<ServicosOficina?> GetAsync(string id) => await _serviceCollection.Find(x => x.Id_Servico == id).FirstOrDefaultAsync();
 
-        public async Task<ServicosOficina?> GetCpfCnpjAsync(string descricao) => await _serviceCollection.Find(x => x.Descricao == descricao).FirstOrDefaultAsync();
+        public async Task<ServicosOficina?> GetDescricaoAsync(string descricao) => await _serviceCollection.Find(x => x.Descricao == descricao).FirstOrDefaultAsync();
 
         public async Task CreateAsync(ServicosOficina createModel) => await _serviceCollection.InsertOneAsync(createModel);
 

@@ -1,4 +1,5 @@
 ﻿using CRMobil.Entities.Cliente;
+using CRMobil.Interfaces;
 using CRMobil.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -14,9 +15,9 @@ namespace CRMobil.Controllers
     [Route("api/[controller]")]
     public class ClienteController : ControllerBase
     {
-        private readonly ClientesService _clienteService;
+        private readonly IClientesServices _clienteService;
 
-        public ClienteController(ClientesService clienteService)
+        public ClienteController(IClientesServices clienteService)
         {
             _clienteService = clienteService;
         }

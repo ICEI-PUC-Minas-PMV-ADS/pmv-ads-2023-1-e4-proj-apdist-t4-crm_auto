@@ -8,6 +8,7 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
 using Microsoft.Extensions.Options;
+using CRMobil.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,6 +19,8 @@ builder.Services.AddSingleton<FuncionariosServices>();
 builder.Services.AddSingleton<OficinasServices>();
 builder.Services.AddSingleton<UsuariosService>();
 builder.Services.AddSingleton<VeiculosServices>();
+builder.Services.AddSingleton<ServicosOficinaServices>();
+builder.Services.AddSingleton<OrdemServicoServices>();
 
 // Add services to the container.
 

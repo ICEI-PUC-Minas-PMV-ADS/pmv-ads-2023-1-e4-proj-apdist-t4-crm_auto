@@ -14,7 +14,9 @@ namespace CRMobil.IoC
             services.AddSingleton<IOficinasServices, OficinasServices>();
             services.AddSingleton<IClientesServices, ClientesService>();
             services.AddSingleton<IFuncionariosServices, FuncionariosServices>();
-
+            services.AddSingleton<IVeiculosServices, VeiculosServices>();
+            services.AddSingleton<IOrdemServicoServices, OrdemServicoServices>();
+            
             return services;
         }
 

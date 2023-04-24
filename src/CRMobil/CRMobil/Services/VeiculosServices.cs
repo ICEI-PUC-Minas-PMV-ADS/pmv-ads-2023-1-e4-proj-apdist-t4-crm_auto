@@ -3,10 +3,11 @@ using CRMobil.Entities;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
 using CRMobil.Entities.Veiculos;
+using CRMobil.Interfaces;
 
 namespace CRMobil.Services
 {
-    public class VeiculosServices
+    public class VeiculosServices : IVeiculosServices
     {
         private readonly IMongoCollection<Veiculos> _serviceCollection;
 
@@ -24,7 +25,7 @@ namespace CRMobil.Services
 
         public async Task<Veiculos?> GetAsync(string id) => await _serviceCollection.Find(x => x.Id_Veiculo == id).FirstOrDefaultAsync();
 
-        public async Task<Veiculos?> GetCpfCnpjAsync(string descricao) => await _serviceCollection.Find(x => x.Placa_Veiculo == descricao).FirstOrDefaultAsync();
+        public async Task<Veiculos> GetPlacaAsync(string descricao) => await _serviceCollection.Find(x => x.Placa_Veiculo == descricao).FirstOrDefaultAsync();
 
         public async Task CreateAsync(Veiculos createModel) => await _serviceCollection.InsertOneAsync(createModel);
 

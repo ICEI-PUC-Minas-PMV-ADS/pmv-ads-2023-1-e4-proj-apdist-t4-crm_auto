@@ -1,15 +1,15 @@
-﻿using CRMobil.Entities.Oficina;
-using CRMobil.Entities.Veiculos;
+﻿using CRMobil.Entities.Veiculos;
 
 namespace CRMobil.Interfaces
 {
-    public interface IVeiculosServices //: IServiceBase<Veiculos>
+    public interface IVeiculosServices
     {
+
         Task<List<Veiculos>> GetAsync();
 
         Task<Veiculos?> GetAsync(string id);
 
-        Task<Veiculos?> GetCpfCnpjAsync(string descricao);
+        Task<Veiculos> GetPlacaAsync(string descricao);
 
         Task CreateAsync(Veiculos createModel);
 

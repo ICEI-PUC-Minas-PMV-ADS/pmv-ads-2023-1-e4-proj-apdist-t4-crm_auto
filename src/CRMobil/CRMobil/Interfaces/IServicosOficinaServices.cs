@@ -9,7 +9,7 @@ namespace CRMobil.Interfaces
 
         Task<ServicosOficina?> GetAsync(string id);
 
-        Task<ServicosOficina?> GetCpfCnpjAsync(string descricao);
+        Task<ServicosOficina?> GetDescricaoAsync(string descricao);
 
         Task CreateAsync(ServicosOficina createModel);
 

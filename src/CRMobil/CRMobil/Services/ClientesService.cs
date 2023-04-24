@@ -24,7 +24,7 @@ namespace CRMobil.Services
 
         public async Task<Clientes?> GetAsync(string id) => await _clienteServiceCollection.Find(x => x.Id_Cliente == id).FirstOrDefaultAsync();
 
-        public async Task<Clientes?> GetCpfCnpjAsync(string documento) => await _clienteServiceCollection.Find(x => x.Cnpj_Cpf == documento).FirstOrDefaultAsync();
+        public async Task<Clientes> GetCpfCnpjAsync(string documento) => await _clienteServiceCollection.Find(x => x.Cnpj_Cpf == documento).FirstOrDefaultAsync();
 
         public async Task CreateAsync(Clientes newCliente) => await _clienteServiceCollection.InsertOneAsync(newCliente);
 

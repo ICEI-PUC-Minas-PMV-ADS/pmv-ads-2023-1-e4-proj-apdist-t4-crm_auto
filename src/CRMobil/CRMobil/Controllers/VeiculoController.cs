@@ -7,7 +7,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CRMobil.Controllers
 {
-    public class VeiculoController : Controller
+    [ApiController]
+    [Route("api/[controller]")]
+    public class VeiculoController : ControllerBase
     {
         private readonly IVeiculosServices _veiculoService;
 
@@ -16,16 +18,16 @@ namespace CRMobil.Controllers
             _veiculoService = veiculoService;
         }
 
-        // GET: api/<ClienteController>
+        // GET: api/<VeiculoController>
         [HttpGet]
-        public async Task<List<Veiculos>> RecuperaFuncionarios()
+        public async Task<List<Veiculos>> RecuperaVeiculos()
         {
             var listaVeiculo = await _veiculoService.GetAsync();
 
             return listaVeiculo;
         }
 
-        // GET api/<ClienteController>/5
+        // GET api/<VeiculoController>/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Veiculos>> RecuperaVeiculoPorId(string id)
         {
@@ -41,9 +43,9 @@ namespace CRMobil.Controllers
 
         [HttpGet("{placa}")]
         [AllowAnonymous]
-        public async Task<ActionResult<Veiculos>> RecuperaFuncionarioPorPlaca(string placa)
+        public async Task<ActionResult<Veiculos>> RecuperaVeiculoPorPlaca(string placa)
         {
-            var veiculo = await _veiculoService.GetCpfAsync(placa);
+            var veiculo = await _veiculoService.GetPlacaAsync(placa);
 
             if (veiculo is null)
             {
@@ -53,40 +55,40 @@ namespace CRMobil.Controllers
             return veiculo;
         }
 
-        // POST api/<ClienteController>
+        // POST api/<VeiculoController>
         [HttpPost]
-        public async Task<IActionResult> SalvarFuncionario(Veiculos newFuncionario)
+        public async Task<IActionResult> SalvarVeiculo(Veiculos newVeiculo)
         {
-            await _veiculoService.CreateAsync(newFuncionario);
+            await _veiculoService.CreateAsync(newVeiculo);
 
-            return CreatedAtAction(nameof(SalvarFuncionario), new { id = newFuncionario.Id_Funcionario }, newFuncionario);
+            return CreatedAtAction(nameof(SalvarVeiculo), new { id = newVeiculo.Id_Veiculo }, newVeiculo);
         }
 
-        // PUT api/<ClienteController>/5
+        // PUT api/<VeiculoController>/5
         [HttpPut("{id}")]
-        public async Task<ActionResult> AtualizaFuncionario(string id, Veiculos updateFuncionario)
+        public async Task<ActionResult> AtualizaVeiculo(string id, Veiculos updateVeiculo)
         {
-            var funcionario = await _veiculoService.GetAsync(id);
+            var veiculo = await _veiculoService.GetAsync(id);
 
-            if (funcionario is null)
+            if (veiculo is null)
             {
                 return NotFound();
             }
 
-            updateFuncionario.Id_Funcionario = funcionario.Id_Funcionario;
+            updateVeiculo.Id_Veiculo = veiculo.Id_Veiculo;
 
-            await _veiculoService.UpdateAsync(id, updateFuncionario);
+            await _veiculoService.UpdateAsync(id, updateVeiculo);
 
             return NoContent();
         }
 
-        // DELETE api/<ClienteController>/5
+        // DELETE api/<VeiculoController>/5
         [HttpDelete("{id}")]
-        public async Task<ActionResult> ExcluiCliente(string id)
+        public async Task<ActionResult> ExcluiVeiculo(string id)
         {
-            var funcionario = await _veiculoService.GetAsync(id);
+            var veiculo = await _veiculoService.GetAsync(id);
 
-            if (funcionario is null)
+            if (veiculo is null)
             {
                 return NotFound();
             }
