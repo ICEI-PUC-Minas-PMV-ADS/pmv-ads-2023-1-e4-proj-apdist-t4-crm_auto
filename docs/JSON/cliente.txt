@@ -10,6 +10,7 @@ Cliente: [
         "id_usuario_cad": "74",
         "email_nf": "anderson.silva@gmail.com",
         "cep": "69914096",
+		"logradouro": "Rua Desembargador",
         "numero": "99999",
         "complemento": "apto 201",
         "bairro": "vilage tiradentes",

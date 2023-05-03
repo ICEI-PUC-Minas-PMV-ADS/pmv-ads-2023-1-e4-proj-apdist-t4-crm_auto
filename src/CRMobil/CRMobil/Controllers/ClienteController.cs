@@ -31,22 +31,7 @@ namespace CRMobil.Controllers
             return listaCliente;
         }
 
-        // GET api/<ClienteController>/5
-        [HttpGet("{id}")]
-        public async Task<ActionResult<Clientes>> RecuperaClientePorId(string id)
-        {
-            var cliente = await _clienteService.GetAsync(id);
-
-            if (cliente is null)
-            {
-                return NotFound();
-            }
-
-            return cliente;
-        }
-
         [HttpGet("{cpf_cnpj}")]
-        [AllowAnonymous]
         public async Task<ActionResult<Clientes>> RecuperaClientePorCpfCnpj(string cpf_cnpj)
         {
             var cliente = await _clienteService.GetCpfCnpjAsync(cpf_cnpj);

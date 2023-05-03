@@ -16,7 +16,7 @@ namespace CRMobil.Controllers
             _ordemServicosService = clienteService;
         }
 
-        // GET: api/<ClienteController>
+        // GET: api/<OrdemServicoController>
         [HttpGet]
         public async Task<List<OrdemServico>> RecuperaOrdemServico()
         {
@@ -25,11 +25,11 @@ namespace CRMobil.Controllers
             return listaOrdemServico;
         }
 
-        // GET api/<ClienteController>/5
-        [HttpGet("{id}")]
-        public async Task<ActionResult<OrdemServico>> RecuperaOrdemServicoPorId(string id)
+        // GET api/<OrdemServicoController>/5
+        [HttpGet("{numeroOS}")]
+        public async Task<ActionResult<OrdemServico>> RecuperaOrdemServicoPorNumero(string numeroOS)
         {
-            var ordemServico = await _ordemServicosService.GetAsync(id);
+            var ordemServico = await _ordemServicosService.GetNumeroOSAsync(numeroOS);
 
             if (ordemServico is null)
             {
@@ -39,21 +39,7 @@ namespace CRMobil.Controllers
             return ordemServico;
         }
 
-        //[HttpGet("{cpf_cnpj}")]
-        //[AllowAnonymous]
-        //public async Task<ActionResult<OrdemServico>> RecuperaOrdemServicoPorCpfCnpj(string cpf_cnpj)
-        //{
-        //    var ordemServico = await _ordemServicosService.GetCpfCnpjAsync(cpf_cnpj);
-
-        //    if (ordemServico is null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    return ordemServico;
-        //}
-
-        // POST api/<ClienteController>
+        // POST api/<OrdemServicoController>
         [HttpPost]
         public async Task<IActionResult> SalvarOrdemServico(OrdemServico newOrdemServico)
         {
@@ -62,11 +48,11 @@ namespace CRMobil.Controllers
             return CreatedAtAction(nameof(SalvarOrdemServico), new { id = newOrdemServico.Id_Cliente }, newOrdemServico);
         }
 
-        // PUT api/<ClienteController>/5
-        [HttpPut("{id}")]
-        public async Task<ActionResult> AtualizaOrdemServico(string id, OrdemServico updateOrdemServico)
+        // PUT api/<OrdemServicoController>/5
+        [HttpPut("{numeroOS}")]
+        public async Task<ActionResult> AtualizaOrdemServico(string numeroOS, OrdemServico updateOrdemServico)
         {
-            var ordemServico = await _ordemServicosService.GetAsync(id);
+            var ordemServico = await _ordemServicosService.GetNumeroOSAsync(numeroOS);
 
             if (ordemServico is null)
             {
@@ -75,23 +61,23 @@ namespace CRMobil.Controllers
 
             updateOrdemServico.Id_Cliente = ordemServico.Id_Cliente;
 
-            await _ordemServicosService.UpdateAsync(id, updateOrdemServico);
+            await _ordemServicosService.UpdateAsync(numeroOS, updateOrdemServico);
 
             return NoContent();
         }
 
-        // DELETE api/<ClienteController>/5
-        [HttpDelete("{id}")]
-        public async Task<ActionResult> ExcluiOrdemServico(string id)
+        // DELETE api/<OrdemServicoController>/5
+        [HttpDelete("{numeroOS}")]
+        public async Task<ActionResult> ExcluiOrdemServico(string numeroOS)
         {
-            var cliente = await _ordemServicosService.GetAsync(id);
+            var cliente = await _ordemServicosService.GetNumeroOSAsync(numeroOS);
 
             if (cliente is null)
             {
                 return NotFound();
             }
 
-            await _ordemServicosService.RemoveAsync(id);
+            await _ordemServicosService.RemoveAsync(numeroOS);
 
             return NoContent();
         }

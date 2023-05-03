@@ -50,7 +50,7 @@ namespace CRMobil.Services
             return await _userServiceCollection.Find(_ => true).ToListAsync();
         }
 
-        public async Task<Usuarios> Login(string userName, string userPassword)
+        public async Task<Usuarios?> Login(string userName, string userPassword)
         {
             var usuario = new Usuarios();
             usuario = await _userServiceCollection.Find(x => x.Nome_Usuario == userName).FirstOrDefaultAsync();
@@ -61,6 +61,8 @@ namespace CRMobil.Services
             }
 
             return null;
+
+            //return await _userServiceCollection.Find(x => x.Nome_Usuario == userName).FirstOrDefaultAsync();
         }        
     }
 }

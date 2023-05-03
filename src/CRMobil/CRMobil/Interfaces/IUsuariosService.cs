@@ -6,6 +6,6 @@ namespace CRMobil.Interfaces
     {
         Task<string> CreateUser(Usuarios userModel);
         Task<List<Usuarios>> GetAsync();
-        Task<Usuarios> Login(string userName, string userPassaword);
+        Task<Usuarios?> Login(string userName, string userPassaword);
     }
 }

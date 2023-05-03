@@ -11,11 +11,16 @@ namespace CRMobil.Entities.Cliente
         [Display(Name = "id_cliente")]
         public string Id_Cliente { get; set; }
 
-        //[Required(ErrorMessage = "O nome é obrigatório")]
+        [Required(ErrorMessage = "O nome é obrigatório")]
+        [MinLength(3, ErrorMessage = "A quantidade mínima é 3 caracteres para o nome")]
+        [RegularExpression(@"^[a-zA-Z''-'\s]{1,40}$", ErrorMessage =
+            "Números e caracteres especiais não são permitidos no nome.")]
         [BsonElement("nome_cliente")]
         public string Nome_Cliente { get; set; }
 
-        //[Required(ErrorMessage = "Número do documento é obrigatório")]
+        [Required(ErrorMessage = "Número do documento é obrigatório")]
+        [MinLength(11)]
+        [MaxLength(14)]
         [BsonElement("cnpj_cpf")]
         public string Cnpj_Cpf { get; set; }
 
@@ -31,9 +36,7 @@ namespace CRMobil.Entities.Cliente
         [BsonElement("data_cadastro")]
         public string Data_Cadastro { get; set; }
 
-        //[BsonElement("id_usuario_cad")]
-        //public string Id_Usuario_Cad { get; set; }
-
+        [Required(ErrorMessage = "O CEP é obrigatório")]
         [BsonElement("cep")]
         public string Cep { get; set; }
 
@@ -58,16 +61,16 @@ namespace CRMobil.Entities.Cliente
         [BsonElement("telefone")]
         public string Telefone { get; set; }
 
-        //[Required(ErrorMessage = "O número do telefone celular é obrigatório")]
+        [Required(ErrorMessage = "O número do telefone celular é obrigatório")]
         [BsonElement("celular")]
         public string Celular { get; set;}
 
-        //[Required(ErrorMessage = "Informe um e-mail válido")]
-        //[RegularExpression(".+\\@.+\\..+", ErrorMessage = "Informe um email válido")]
-        [BsonElement("email_nf")] 
+        [Required(ErrorMessage = "Informe um e-mail válido")]
+        [RegularExpression(".+\\@.+\\..+", ErrorMessage = "Informe um email válido")]
+        [BsonElement("email_nf")]
         public string Email_Nf { get; set; }
-        
-        [BsonElement("Excluido")]
+
+        [BsonElement("excluido")]
         public string Excluido { get; set; }
 
         //[BsonElement("id_clie_veiculo")]
@@ -79,6 +82,12 @@ namespace CRMobil.Entities.Cliente
         //[BsonElement("veiculo_atual")]
         //public string Veiculo_Atual { get; set; }
 
+        [BsonElement("clienteVeiculos")]
         public virtual IEnumerable<ClienteVeiculo> ClienteVeiculos { get; set; }
+
+        public static implicit operator Clientes(void v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

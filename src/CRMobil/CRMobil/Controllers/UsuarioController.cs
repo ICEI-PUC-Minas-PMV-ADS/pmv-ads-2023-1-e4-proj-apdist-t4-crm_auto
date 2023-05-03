@@ -11,7 +11,7 @@ using System.Text;
 
 namespace CRMobil.Controllers
 {
-    [Authorize]
+    //[Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class UsuarioController : ControllerBase
@@ -23,6 +23,7 @@ namespace CRMobil.Controllers
             _userService = userService;
         }
 
+        // POST api/<UsuarioControllers>/5
         [AllowAnonymous]
         [HttpPost, Route("login")]
         public async Task<ActionResult<dynamic>> AuthenticateAsync([FromBody] Usuarios userModel)
@@ -38,6 +39,25 @@ namespace CRMobil.Controllers
 
             return new { username = user.Nome_Usuario, token = token };
         }
+
+
+        // POST api/<UsuarioControllers>/5
+        //[AllowAnonymous]
+        //[HttpPost, Route("login")]
+        //public async Task<ActionResult<dynamic>> AuthenticateAsync(string nomeUsuario, string senhaUsuario)
+        //{
+        //    var user = await _userService.Login(nomeUsuario, senhaUsuario);
+
+        //    if (user == null)
+        //    {
+        //        return NotFound(new { message = "Usuário ou senha inválidos" });
+        //    }
+
+        //    var token = TokenService.GenerateToken(user);
+
+        //    return new { username = nomeUsuario, token = token };
+        //}
+
 
         [HttpPost]
         [Route("create")]

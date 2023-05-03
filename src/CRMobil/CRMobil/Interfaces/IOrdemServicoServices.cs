@@ -7,7 +7,9 @@ namespace CRMobil.Interfaces
     {
         Task<List<OrdemServico>> GetAsync();
 
-        Task<OrdemServico?> GetAsync(string id);
+        //Task<OrdemServico?> GetAsync(string id);
+
+        Task<OrdemServico?> GetNumeroOSAsync(string numeroOS);
 
         Task CreateAsync(OrdemServico createModel);
 

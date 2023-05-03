@@ -22,15 +22,15 @@ namespace CRMobil.Services
 
         public async Task<List<OrdemServico>> GetAsync() => await _serviceCollection.Find(_ => true).ToListAsync();
 
-        public async Task<OrdemServico?> GetAsync(string id) => await _serviceCollection.Find(x => x.Id_Ordem_Servico == id).FirstOrDefaultAsync();
+        //public async Task<OrdemServico?> GetAsync(string id) => await _serviceCollection.Find(x => x.Numero_Ordem_Servico == id).FirstOrDefaultAsync();
 
-        public async Task<OrdemServico?> GetCpfCnpjAsync(string documento) => await _serviceCollection.Find(x => x.Email_Contato == documento).FirstOrDefaultAsync();
+        public async Task<OrdemServico?> GetNumeroOSAsync(string documento) => await _serviceCollection.Find(x => x.Numero_Ordem_Servico == documento).FirstOrDefaultAsync();
 
         public async Task CreateAsync(OrdemServico newCliente) => await _serviceCollection.InsertOneAsync(newCliente);
 
-        public async Task UpdateAsync(string id, OrdemServico updateCliente) => await _serviceCollection.ReplaceOneAsync(x => x.Id_Ordem_Servico == id, updateCliente);
+        public async Task UpdateAsync(string id, OrdemServico updateCliente) => await _serviceCollection.ReplaceOneAsync(x => x.Numero_Ordem_Servico == id, updateCliente);
 
-        public async Task RemoveAsync(string id) => await _serviceCollection.DeleteOneAsync(x => x.Id_Ordem_Servico == id);
+        public async Task RemoveAsync(string id) => await _serviceCollection.DeleteOneAsync(x => x.Numero_Ordem_Servico == id);
 
         public void Dispose()
         {
