@@ -11,6 +11,10 @@
 body {
  background: var(--cor-fundo);
 }
+.container{
+    margin: 0;
+}
+
 
 body::before {
     display: block;
@@ -31,8 +35,8 @@ body::before {
  color: var(--cor-terciaria);
 }
 .logo {
- width: 50px;
- margin-right: 10px;
+ width: 40px;
+ margin-right: 5px;
 }
 
 .navbar-toggler {
