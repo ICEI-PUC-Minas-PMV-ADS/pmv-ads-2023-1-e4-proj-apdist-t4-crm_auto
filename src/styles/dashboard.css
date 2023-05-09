@@ -20,3 +20,15 @@ body::before {
   color: var(--cor-terciaria) !important;
   transition: 0.2s ease-in-out;
 }
+
+.fundo-cinza {
+  background: var(--cor-cinza);
+}
+.titulo {
+  background: var(--cor-principal);
+  border-radius: 10px;
+}
+
+.table-responsive {
+  border-radius: 5px;
+}
