@@ -334,7 +334,7 @@
 
     <!--Tabelas-->
     <section>
-      <!--Lista de Serviços-->
+      <!--Lista de veículos-->
       <div class="container mt-3">
         <h4 class="mb-3 p-2 titulo text-light">Veículos cadastrados</h4>
         <div class="table-responsive">
@@ -535,6 +535,85 @@
               </div>
             </form>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <!--Lista de clientes-->
+      <div class="container mt-3">
+        <h4 class="mb-3 p-2 titulo text-light">Clientes cadastrados</h4>
+        <div class="table-responsive">
+          <table class="table table-striped list">
+            <thead>
+              <tr class="bg-primary text-light">
+                <th scope="col">Nome do cliente</th>
+                <th scope="col">Data cadastro</th>
+                <th scope="col">Pessoa física/jurídica</th>
+                <th scope="col">Data última OS</th>
+                <th scope="col">Editar</th>
+                <th scope="col">Excluir</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="fundo-cinza">
+                <th>Júlio Lustsoa</th>
+                <td>07/01/2023</td>
+                <td>Física</td>
+                <td>15/02/2023</td>
+                <td>
+                  <!-- class="btn btn-link btn-rounded btn-sm fw-bold" -->
+                  <button
+                      type="button"
+                      class="btn"
+                      data-mdb-ripple-color="dark" 
+                      data-placement="right" 
+                      title="Edita" 
+                      data-toggle="modal" 
+                      data-target="#editaVeiculo">
+                    <i class="bi bi-pencil-square"></i>
+                  </button>
+                </td>
+                <td>
+                  <button type="button" class="btn">
+                    <i class="bi bi-trash"></i>
+                  </button>
+                </td>
+              </tr>
+              <tr class="bg-light">
+                <<th>Carros Sucateados Ltda</th>
+                <td>12/05/2005</td>
+                <td>Jurídica</td>
+                <td>10/04/2023</td>
+                <td>
+                  <button type="button" class="btn">
+                    <i class="bi bi-pencil-square"></i>
+                  </button>
+                </td>
+                <td>
+                  <button type="button" class="btn">
+                    <i class="bi bi-trash"></i>
+                  </button>
+                </td>
+              </tr>
+              <tr class="fundo-cinza">
+                <th>Alana Schineider</th>
+                <td>02/07/2022</td>
+                <td>Física</td>
+                <td>11/10/2022</td>
+                <td>
+                  <button type="button" class="btn">
+                    <i class="bi bi-pencil-square"></i>
+                  </button>
+                </td>
+                <td>
+                  <button type="button" class="btn">
+                    <i class="bi bi-trash"></i>
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </section>
