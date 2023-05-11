@@ -1,0 +1,40 @@
+/*Variáveis*/
+
+:root {
+ --cor-principal: #00385e;
+ --cor-segundaria: #0092f7;
+ --cor-terciaria: #0074c4;
+ --cor-cinza: #e6e6e6;
+ --cor-fundo: #ffffff;
+}
+
+.formulario{
+  margin-top: 100px;
+}
+
+.titulo {
+  margin: 20px;
+  background: var(--cor-principal);
+  color: var(--cor-fundo);
+  text-align: center
+}
+
+.titulo h1 {
+  padding: 5px;
+  font-family: sans-serif;
+  font-size: 26px;
+}
+
+.subtitulo{
+  margin: 20px;
+  border-radius: 8px;
+  background: var(--cor-cinza);
+  color: var(--cor-fundo);
+  text-align: center
+}
+
+.subtitulo h1 {
+  padding: 5px;
+  font-family: sans-serif;
+  font-size: 20px;
+}

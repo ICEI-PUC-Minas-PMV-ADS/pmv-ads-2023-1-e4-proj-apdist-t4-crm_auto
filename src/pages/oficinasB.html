@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="/src/img/SVG-CRMobil-removebg.png" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="../styles/styles.css" />
+  <link rel="stylesheet" href="../styles/dashboard.css" />
+  <link rel="stylesheet" href="../styles/oficinaB.css">
+  <title>CRMobil - Oficinas</title>
+</head>
+
+<body>
+  <!--Cabeçalho-->
+  <section>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="dashboard.html"><img src="/src/img/SVG-CRMobil-removebg.png" class="logo"
+            alt="" />CRMobil</a>
+        <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button"
+          data-bs-toggle="collapse" data-bs-target="#navmenu">
+          <span class="toggler-icon top-bar"></span>
+          <span class="toggler-icon middle-bar"></span>
+          <span class="toggler-icon bottom-bar"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item m-1">
+              <a href="dashboard.html" class="nav-link text-light fs-5" aria-current="page"><i
+                  class="bi bi-bar-chart-line-fill"></i>
+                <span class="mx-2">Principal</span>
+              </a>
+            </li>
+
+            <li class="nav-item mt-1">
+              <a href="servicos.html" class="nav-link text-light fs-5" aria-current="page"><i
+                  class="bi bi-file-earmark-spreadsheet-fill"></i>
+                <span class="mx-2">Seviços</span></a>
+            </li>
+            <li class="nav-item mt-1">
+              <a href="clientes.html" class="nav-link text-light fs-5" aria-current="page"><i
+                  class="bi bi-car-front-fill"></i>
+                <span class="mx-2">Clientes</span></a>
+            </li>
+
+            <li class="nav-item mt-1">
+              <a href="orcamentos.html" class="nav-link text-light fs-5" aria-current="page"><i
+                  class="bi bi-pie-chart-fill"></i>
+                <span class="mx-2">Orçamentos</span></a>
+            </li>
+            <li class="nav-item mt-1">
+              <a href="funcionarios.html" class="nav-link text-light fs-5" aria-current="page"><i
+                  class="bi bi-person-badge"></i>
+                <span class="mx-2">Funcionários</span></a>
+            </li>
+          </ul>
+          <div class="btn-group">
+            <a href="" class="text-light fs-5 text-decoration-none btn-config" data-bs-toggle="dropdown"
+              aria-expanded="false"><i class="bi bi-gear"></i><span class="d-lg-none mx-3">Configurações</span></a>
+
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">teste</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li>
+                <a class="dropdown-item text-danger fw-bold" href="#"><i class="bi bi-box-arrow-left"></i><span
+                    class="mx-2">Sair</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </section>
+ 
+  <section class="formulario">
+  
+    <div class="titulo">
+      <h1>Editar Cadastro</h1>
+    </div>
+  
+    <form action="/">
+      <div>
+        <div class="subtitulo">
+          <h1>Dados da Empresa</h1>
+        </div>
+  
+        <div class="container row ms-3">
+          <div class="my-3 col-lg">
+            <label class="form-label">CNPJ</label>
+            <input class="form-control" aria-describedby="emailHelp" >
+          </div>
+  
+          <div class="my-3 col-lg">
+            <label class="form-label">Nome da empresa</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="Informe o nome da oficina">
+          </div>
+        </div>
+  
+        <div class="container row ms-3">
+          <div class="my-3 col-md">
+            <label class="form-label">Inscrição estadual</label>
+            <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="999999999">
+          </div>
+  
+          <div class="my-3 col-md">
+            <label class="form-label">Inscrição Municipal</label>
+            <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+  
+        </div>
+  
+        <div class="subtitulo">
+          <h1>Endereço</h1>
+        </div>
+  
+        <div class="container row ms-3">
+          <div class="my-3 col-md">
+            <label class="form-label">CEP</label>
+            <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="99999-999">
+          </div>
+  
+          <div class="my-3 col-md">
+            <label class="form-label">Logadouro</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="Rua, Avenida, Praça">
+          </div>
+        </div>
+  
+        <div class="container row ms-3">
+          <div class="my-3 col-lg">
+            <label class="form-label">Número</label>
+            <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="1200">
+          </div>
+  
+          <div class="my-3 col-lg">
+            <label class="form-label">Complemento</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="Adicione complemento se existir">
+          </div>
+        </div>
+  
+        <div class="container row ms-3">
+          <div class="my-3 col-lg">
+            <label class="form-label">Bairro</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+  
+          <div class="my-3 col-lg">
+            <label class="form-label">Cidade</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+        </div>
+  
+  
+        <div class="container row ms-3">
+          <div class="my-3 col-lg">
+            <label class="form-label">Telefone</label>
+            <input type="tel" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+  
+          <div class="my-3 col-lg">
+            <label class="form-label">Email constitucional</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+  
+          <div class="mb-5">
+            <input type="submit" class="btn btn-primary btn-lg">
+          </div>
+        </div>
+      </div>
+    </form>
+  </section>
+
+ 
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
