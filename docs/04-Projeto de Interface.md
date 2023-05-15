@@ -22,9 +22,9 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 
 ## Wireframes
 
-## Link protótipo interativo Figma
+## Link protótipo interativo Figma:
 
-![](https://www.figma.com/file/wUefI1yIuE6Pl3iLhjrBT7/CRM?type=design&node-id=302%3A3085&t=YFLG0Do1ZypmDCdu-1)
+Web: https://www.figma.com/file/wUefI1yIuE6Pl3iLhjrBT7/CRM?type=design&node-id=302%3A3085&t=YFLG0Do1ZypmDCdu-1
 
 ## Tela - Cadastro de usuario
 
