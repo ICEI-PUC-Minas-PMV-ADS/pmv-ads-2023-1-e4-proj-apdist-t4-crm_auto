@@ -24,7 +24,7 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 
 ## Link protótipo interativo Figma
 
-![Figma](https://www.figma.com/file/wUefI1yIuE6Pl3iLhjrBT7/CRM?type=design&node-id=302%3A3085&t=YFLG0Do1ZypmDCdu-1)
+![](https://www.figma.com/file/wUefI1yIuE6Pl3iLhjrBT7/CRM?type=design&node-id=302%3A3085&t=YFLG0Do1ZypmDCdu-1)
 
 ## Tela - Cadastro de usuario
 
