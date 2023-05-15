@@ -41,7 +41,7 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 ## Tela - Cadastro de clientes 
 
 
-![Tela - Cadastro de clientes](./img/Tela%20Cadastro%20de%20clientes.png)
+![Tela - Cadastro de clientes](./img/Tela%20-%20cadastro%20de%20Clientes.png)
 
 ## Tela - Serviços
 
