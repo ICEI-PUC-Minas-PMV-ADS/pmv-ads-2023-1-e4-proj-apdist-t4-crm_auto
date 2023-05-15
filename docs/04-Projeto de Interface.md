@@ -45,7 +45,7 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 
 ## Tela - Serviços
 
-![Tela - Serviços](./img/Tela%20Servi%C3%A7o.png)
+![Tela - Serviços](./img/Tela%20-%20Servi%C3%A7os.png)
 
 ## Tela - Orçamentos 
 
