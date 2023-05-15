@@ -1,0 +1,206 @@
+﻿@using CRMobil.Web.Models.Oficina;
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@model List<Oficina>
+@{
+}
+<form>
+    @foreach(Oficina listOficina in Model)
+    {
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <label for="basic-url" class="form-label">CNPJ</label>
+                    <div class="input-group mb-3">
+                        <input type="text"
+                               class="form-control"
+                               placeholder="CNPJ"
+                               aria-label="CNPJ"
+                               aria-describedby="basic-addon1"
+                           asp-for="@listOficina.Cnpj" />
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="mb-3">
+                        <label for="basic-url" class="form-label">
+                            Número Iscrição Estadual
+                        </label>
+                        <div class="input-group">
+                            <input type="text"
+                                   placeholder="Incrição Estadual"
+                                   class="form-control"
+                                   id="basic-url"
+                                   aria-describedby="basic-addon3 basic-addon4"
+                               asp-for="@listOficina.Insc_Estadual" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <label for="basic-url" class="form-label">Nome da oficina</label>
+                        <div class="input-group mb-3">
+                            <input type="text"
+                                   class="form-control"
+                                   placeholder="Nome da oficina"
+                                   aria-label="Nomde da Empresa"
+                                   aria-describedby="basic-addon2"
+                               asp-for="@listOficina.Nome_Oficina" />
+                        </div>
+                    </div>
+
+                    <div class="col-md-2">
+                        <label for="telefone">Telefone</label>
+                        <div class="input-group mb-3">
+                            <input type="tel"
+                                   class="form-control"
+                                   id="telefone"
+                                   placeholder="(98) 9999-8888"
+                               asp-for="@listOficina.Telefone1" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <label for="email">Website</label>
+                        <div class="input-group mb-3">
+                            <input type="email"
+                                   class="form-control email"
+                                   id="email"
+                                   placeholder="crm.auto@crmauto.com.br" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="email">Email</label>
+                        <div class="input-group mb-3">
+                            <input type="email"
+                                   class="form-control email"
+                                   id="email"
+                                   placeholder="crm.auto@crmauto.com.br"
+                               asp-for="@listOficina.Email" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div id="app" class="form-group col-md-2">
+                        <label for="cep">CEP</label>
+                        <div class="input-group mb-3">
+                            <input type="text"
+                                   class="form-control"
+                                   v-model="cep"
+                                   id="cep"
+                                   onclick="this.value=''"
+                                   maxlength="8"
+                                   placeholder="CEP"
+                               value=""
+                               asp-for="@listOficina.Cep" />
+                        </div>
+                    </div>
+                    <!-- INÍCIO DIV CONTEÚDO DO FORM LOGRADOURO -->
+                    <div class="form-group col-md-8">
+                        <label for="endereco">Endereço</label>
+                        <div class="input-group mb-3">
+                            <input type="text"
+                                   class="form-control"
+                                   id="endereco"
+                                   placeholder="Rua, avenida, praça, fazenda..."
+                               asp-for="@listOficina.Logradouro" />
+                        </div>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="numero">Número</label>
+                        <div class="input-group mb-3">
+                            <input type="text"
+                                   class="form-control"
+                                   id="numero"
+                                   placeholder="Número"
+                               asp-for="@listOficina.Numero" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-5">
+                        <label for="bairro">Bairro</label>
+                        <div class="input-group mb-3">
+                            <input type="text"
+                                   class="form-control"
+                                   id="bairro"
+                                   placeholder="Bairro"
+                               asp-for="@listOficina.Bairro" />
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <label for="complemento">Complemento</label>
+                        <div class="input-group mb-3">
+                            <input type="text"
+                                   class="form-control"
+                                   id="complemento"
+                                   placeholder="Apartamento, casa, lote..."
+                               asp-for="@listOficina.Complemento" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-5">
+                        <label for="cidade">Cidade</label>
+                        <div class="input-group">
+                            <input type="text"
+                                   class="form-control"
+                                   id="cidade"
+                                   placeholder="Cidade"
+                               asp-for="@listOficina.Cidade" />
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="estado">Estado</label>
+                        <div class="input-group mb-3">
+                            <select id="estado" class="form-select">
+                                <option selected>UF...</option>
+                                <option value="AC">AC</option>
+                                <option value="AL">AL</option>
+                                <option value="AM">AM</option>
+                                <option value="AP">AP</option>
+                                <option value="BA">BA</option>
+                                <option value="CE">CE</option>
+                                <option value="DF">DF</option>
+                                <option value="ES">ES</option>
+                                <option value="GO">GO</option>
+                                <option value="MA">MA</option>
+                                <option value="MG">MG</option>
+                                <option value="MS">MS</option>
+                                <option value="MT">MT</option>
+                                <option value="PA">PA</option>
+                                <option value="PB">PB</option>
+                                <option value="PE">PE</option>
+                                <option value="PI">PI</option>
+                                <option value="PR">PR</option>
+                                <option value="RJ">RJ</option>
+                                <option value="RN">RN</option>
+                                <option value="RO">RO</option>
+                                <option value="RR">RR</option>
+                                <option value="RS">RS</option>
+                                <option value="SC">SC</option>
+                                <option value="SE">SE</option>
+                                <option value="SP">SP</option>
+                                <option value="TO">TO</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-5 mb-5 text-center">
+            <button type="button" class="btn btn-primary btn-lg px-3">Salvar</button>
+        </div>
+    }
+    
+</form>

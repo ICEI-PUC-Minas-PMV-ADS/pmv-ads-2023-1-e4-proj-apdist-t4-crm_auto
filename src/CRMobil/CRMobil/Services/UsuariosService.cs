@@ -53,7 +53,7 @@ namespace CRMobil.Services
         public async Task<Usuarios?> Login(string userName, string userPassword)
         {
             var usuario = new Usuarios();
-            usuario = await _userServiceCollection.Find(x => x.Nome_Usuario == userName).FirstOrDefaultAsync();
+            usuario = await _userServiceCollection.FindSync(x => x.Nome_Usuario == userName).FirstOrDefaultAsync();
 
             if (SecurePasswordHasher.Verify(userPassword, usuario.Senha))
             {

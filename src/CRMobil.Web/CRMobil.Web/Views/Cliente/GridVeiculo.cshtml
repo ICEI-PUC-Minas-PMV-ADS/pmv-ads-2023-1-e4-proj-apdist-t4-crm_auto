@@ -1,0 +1,121 @@
+﻿@using CRMobil.Web.Models.Cliente;
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@{
+}
+
+<!--Lista de veículos-->
+<div class="container mt-3">
+    <h4 class="text-light p-2 mb-3 titulo">Veículos cadastrados</h4>
+    <div class="row">
+        <div class="col-md-12 mb-3 clearfix">
+            <button type="button"
+                    class="btn btn-primary float-right"
+                    data-toggle="modal"
+                    data-target="#editaVeiculo">
+                <i class="bi bi-plus-square"></i> Novo veículo
+            </button>
+        </div>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-striped list">
+            <thead>
+                <tr class="bg-primary text-light">
+                    <th scope="col">Placa</th>
+                    <th scope="col">Modelo veículo</th>
+                    <th scope="col">Marca do véiculo</th>
+                    <th scope="col">Cor</th>
+                    <th scope="col">Ano modelo</th>
+                    <th scope="col">KM atual</th>
+                    <th scope="col">Data última OS</th>
+                    <th scope="col">Editar</th>
+                    <th scope="col">Excluir</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="fundo-cinza">
+                    <th scope="row">RRR7D11</th>
+                    <td>HB20X Diamond</td>
+                    <td>Hyundai</td>
+                    <td>Branco</td>
+                    <td>2021</td>
+                    <td>20010</td>
+                    <td>15/02/2023</td>
+                    <td>
+                        <!-- class="btn btn-link btn-rounded btn-sm fw-bold" -->
+                        <button type="button"
+                                class="btn"
+                                data-mdb-ripple-color="dark"
+                                data-placement="right"
+                                title="Edita"
+                                data-toggle="modal"
+                                data-target="#editaVeiculo">
+                            <i class="bi bi-pencil-square"></i>
+                        </button>
+                    </td>
+                    <td>
+                        <button type="button" class="btn">
+                            <i class="bi bi-trash"></i>
+                        </button>
+                    </td>
+                </tr>
+                <tr class="bg-light">
+                    <th scope="row">RRR7D11</th>
+                    <td>HB20X Diamond</td>
+                    <td>Hyundai</td>
+                    <td>Branco</td>
+                    <td>2021</td>
+                    <td>20010</td>
+                    <td>15/02/2023</td>
+                    <td>
+                        <button type="button"
+                                class="btn"
+                                data-mdb-ripple-color="dark"
+                                data-placement="right"
+                                title="Edita"
+                                data-toggle="modal"
+                                data-target="#editaVeiculo">
+                            <i class="bi bi-pencil-square"></i>
+                        </button>
+                    </td>
+                    <td>
+                        <button type="button" class="btn">
+                            <i class="bi bi-trash"></i>
+                        </button>
+                    </td>
+                </tr>
+                <tr class="fundo-cinza">
+                    <th scope="row">RRR7D11</th>
+                    <td>HB20X Diamond</td>
+                    <td>Hyundai</td>
+                    <td>Branco</td>
+                    <td>2021</td>
+                    <td>20010</td>
+                    <td>15/02/2023</td>
+                    <td>
+                        <button type="button"
+                                class="btn"
+                                data-mdb-ripple-color="dark"
+                                data-placement="right"
+                                title="Edita"
+                                data-toggle="modal"
+                                data-target="#editaVeiculo">
+                            <i class="bi bi-pencil-square"></i>
+                        </button>
+                    </td>
+                    <td>
+                        <button type="button" class="btn">
+                            <i class="bi bi-trash"></i>
+                        </button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<partial name="ModalCadastroVeiculo.cshtml">

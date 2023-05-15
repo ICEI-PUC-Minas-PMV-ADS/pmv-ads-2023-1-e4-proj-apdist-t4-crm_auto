@@ -1,0 +1,64 @@
+﻿@using CRMobil.Web.Models.Cliente;
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@model List<Cliente> 
+@{
+}
+
+<!--Lista de clientes-->
+<div class="container mt-5">
+    <h4 class="mb-3 p-2 titulo text-light">Clientes cadastrados</h4>
+    <div class="table-responsive">
+        <table class="table table-striped list">
+            <thead>
+                <tr class="bg-primary text-light">
+                    <th scope="col">Nome do cliente</th>
+                    <th scope="col">Data cadastro</th>
+                    <th scope="col">Pessoa física/jurídica</th>
+                    <th scope="col">Data última OS</th>
+                    <th scope="col">Editar</th>
+                    <th scope="col">Excluir</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (Cliente cliente in Model)
+                {
+                    <tr>
+                        <td>@cliente.Nome_Cliente</td>
+                        <td>@cliente.Data_Cadastro</td>
+                        @if(cliente.Cnpj_Ou_Cpf == "0")
+                        {
+                            <td>Pessoa jurídica</td>
+                        }
+                        else
+                        {
+                            <td>Pessoa física</td>
+                        }
+                        <td></td>
+                        <td>
+                            <button type="button"
+                                    class="btn"
+                                    data-mdb-ripple-color="dark"
+                                    data-placement="right"
+                                    title="Edita"
+                                    data-toggle="modal"
+                                    data-target="#editaVeiculo"
+                                >
+                                @Html.ActionLink("Cliente", "RecuperaCliente", new { cpf_cnpj = cliente.Cnpj_Cpf })
+                                <i class="bi bi-pencil-square"></i>
+                            </button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn">
+                                <i class="bi bi-trash"></i>
+                            </button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

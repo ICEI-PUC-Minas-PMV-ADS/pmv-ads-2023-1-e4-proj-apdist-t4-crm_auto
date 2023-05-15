@@ -85,9 +85,9 @@ namespace CRMobil.Entities.Cliente
         [BsonElement("clienteVeiculos")]
         public virtual IEnumerable<ClienteVeiculo> ClienteVeiculos { get; set; }
 
-        public static implicit operator Clientes(void v)
-        {
-            throw new NotImplementedException();
-        }
+        //public static implicit operator Clientes(void v)
+        //{
+        //    throw new NotImplementedException();
+        //}
     }
 }

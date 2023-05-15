@@ -1,0 +1,105 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CRMobil.Web
+build_property.RootNamespace = CRMobil.Web
+build_property.ProjectDir = C:\Users\julio.lustosa\Documents\Cursos\PUC\Repositórios\Eixo 4\pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto\src\CRMobil.Web\CRMobil.Web\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\julio.lustosa\Documents\Cursos\PUC\Repositórios\Eixo 4\pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto\src\CRMobil.Web\CRMobil.Web
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/julio.lustosa/Documents/Cursos/PUC/Repositórios/Eixo 4/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/src/CRMobil.Web/CRMobil.Web/Views/Cliente/FormCliente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxGb3JtQ2xpZW50ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julio.lustosa/Documents/Cursos/PUC/Repositórios/Eixo 4/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/src/CRMobil.Web/CRMobil.Web/Views/Cliente/GridCliente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxHcmlkQ2xpZW50ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julio.lustosa/Documents/Cursos/PUC/Repositórios/Eixo 4/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/src/CRMobil.Web/CRMobil.Web/Views/Cliente/GridVeiculo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxHcmlkVmVpY3Vsby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julio.lustosa/Documents/Cursos/PUC/Repositórios/Eixo 4/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/src/CRMobil.Web/CRMobil.Web/Views/Cliente/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julio.lustosa/Documents/Cursos/PUC/Repositórios/Eixo 4/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/src/CRMobil.Web/CRMobil.Web/Views/Cliente/ModalCadastroVeiculo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxNb2RhbENhZGFzdHJvVmVpY3Vsby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julio.lustosa/Documents/Cursos/PUC/Repositórios/Eixo 4/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/src/CRMobil.Web/CRMobil.Web/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julio.lustosa/Documents/Cursos/PUC/Repositórios/Eixo 4/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/src/CRMobil.Web/CRMobil.Web/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julio.lustosa/Documents/Cursos/PUC/Repositórios/Eixo 4/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/src/CRMobil.Web/CRMobil.Web/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julio.lustosa/Documents/Cursos/PUC/Repositórios/Eixo 4/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/src/CRMobil.Web/CRMobil.Web/Views/Oficina/FormOficina.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZpY2luYVxGb3JtT2ZpY2luYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julio.lustosa/Documents/Cursos/PUC/Repositórios/Eixo 4/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/src/CRMobil.Web/CRMobil.Web/Views/Oficina/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZpY2luYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julio.lustosa/Documents/Cursos/PUC/Repositórios/Eixo 4/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/src/CRMobil.Web/CRMobil.Web/Views/OrdemServico/FormOrdemServico.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW1TZXJ2aWNvXEZvcm1PcmRlbVNlcnZpY28uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julio.lustosa/Documents/Cursos/PUC/Repositórios/Eixo 4/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/src/CRMobil.Web/CRMobil.Web/Views/OrdemServico/GridListaPecas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW1TZXJ2aWNvXEdyaWRMaXN0YVBlY2FzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julio.lustosa/Documents/Cursos/PUC/Repositórios/Eixo 4/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/src/CRMobil.Web/CRMobil.Web/Views/OrdemServico/GridListaServico.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW1TZXJ2aWNvXEdyaWRMaXN0YVNlcnZpY28uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julio.lustosa/Documents/Cursos/PUC/Repositórios/Eixo 4/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/src/CRMobil.Web/CRMobil.Web/Views/OrdemServico/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW1TZXJ2aWNvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julio.lustosa/Documents/Cursos/PUC/Repositórios/Eixo 4/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/src/CRMobil.Web/CRMobil.Web/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julio.lustosa/Documents/Cursos/PUC/Repositórios/Eixo 4/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/src/CRMobil.Web/CRMobil.Web/Views/Shared/_ClienteLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DbGllbnRlTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julio.lustosa/Documents/Cursos/PUC/Repositórios/Eixo 4/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/src/CRMobil.Web/CRMobil.Web/Views/Shared/_LayoutMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRNZW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julio.lustosa/Documents/Cursos/PUC/Repositórios/Eixo 4/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/src/CRMobil.Web/CRMobil.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julio.lustosa/Documents/Cursos/PUC/Repositórios/Eixo 4/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/src/CRMobil.Web/CRMobil.Web/Views/Usuario/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julio.lustosa/Documents/Cursos/PUC/Repositórios/Eixo 4/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/src/CRMobil.Web/CRMobil.Web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julio.lustosa/Documents/Cursos/PUC/Repositórios/Eixo 4/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/src/CRMobil.Web/CRMobil.Web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julio.lustosa/Documents/Cursos/PUC/Repositórios/Eixo 4/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/src/CRMobil.Web/CRMobil.Web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-94hpitbwki

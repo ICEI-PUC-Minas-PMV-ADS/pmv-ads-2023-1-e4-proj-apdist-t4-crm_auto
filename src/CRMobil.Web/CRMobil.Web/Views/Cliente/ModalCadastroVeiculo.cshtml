@@ -1,0 +1,103 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<!-- MODAL DE CADASTRO DE VEÍCULOS -->
+<div class="modal"
+     id="editaVeiculo"
+     tabindex="-1"
+     role="dialog"
+     aria-labelledby="addClienteLabel"
+     aria-hidden="true"
+     style="width: 100% !important; border: 0">
+    <div class="modal-dialog modal-dialog-centered modal-lg"
+         role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-primary text-light">
+                <h5 class="modal-title" id="addVeiculo">Cadastro de Veículos</h5>
+            </div>
+            <form asp-controller="Cliente" asp-action="SalvarRegistroCliente">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <label for="placaVeiculo">Placa do veículo</label>
+                            <div class="input-group mb-3">
+                                <input type="text"
+                                       class="form-control"
+                                       placeholder="Placa do veículo" />
+                            </div>
+                        </div>
+
+                        <div class="col-md-5">
+                            <label for="modeloVeiculo">Modelo do veículo</label>
+                            <div class="input-group mb-3">
+                                <select id="marcaVeiculo" class="form-control">
+                                    <option selected>Selecione o modelo...</option>
+                                    <option value="01">Onix LT</option>
+                                    <option value="02">Onix LTZ</option>
+                                    <option value="03">Onix LT Plus</option>
+                                    <option value="04">Onix LTZ Plus</option>
+                                    <option value="05">HB20 GDI</option>
+                                    <option value="06">HB20S Evolution</option>
+                                    <option value="07">HB20X DIAMOND</option>
+                                    <option value="08">CRETA DIAMOND PLUS</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <label for="marcaVeiculo">Marca do veículo</label>
+                            <div class="input-group mb-3">
+                                <select id="marcaVeiculo" class="form-control">
+                                    <option selected>Selecione a marca...</option>
+                                    <option value="01">GM - Chevrolet</option>
+                                    <option value="02">Hyndai</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-3">
+                            <label for="anoFabricacao">Cor</label>
+                            <div class="input-group mb-2">
+                                <input type="text"
+                                       class="form-control"
+                                       id="anoFabricacao"
+                                       placeholder="Cor" />
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <label for="anoModelo">Ano modelo</label>
+                            <div class="input-group mb-3">
+                                <input type="text"
+                                       class="form-control"
+                                       id="anoModelo"
+                                       placeholder="Ano modelo" />
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="quilometragem">Quilometragem atual</label>
+                            <div class="input-group mb-3">
+                                <input type="text"
+                                       class="form-control"
+                                       id="quilometragem"
+                                       placeholder="Quilometragem" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button"
+                            class="btn btn-secondary"
+                            data-dismiss="modal">
+                        Fechar
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
