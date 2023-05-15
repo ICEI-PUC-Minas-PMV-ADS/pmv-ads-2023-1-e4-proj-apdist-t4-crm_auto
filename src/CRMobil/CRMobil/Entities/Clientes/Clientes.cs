@@ -1,7 +1,5 @@
 ﻿using CRMobil.Entities.Clientes;
-using CRMobil.Entities.Veiculos;
 using MongoDB.Bson.Serialization.Attributes;
-using MongoDB.Driver.Encryption;
 using System.ComponentModel.DataAnnotations;
 
 namespace CRMobil.Entities.Cliente
@@ -10,17 +8,35 @@ namespace CRMobil.Entities.Cliente
     {
         [BsonId]
         [BsonRepresentation(MongoDB.Bson.BsonType.ObjectId)]
-        [BsonElement("id_cliente")]
-        public string IdCliente { get; set; }
+        [Display(Name = "id_cliente")]
+        public string Id_Cliente { get; set; }
 
         [Required(ErrorMessage = "O nome é obrigatório")]
-        [BsonElement("nome")]
-        public string Nome { get; set; }
+        [MinLength(3, ErrorMessage = "A quantidade mínima é 3 caracteres para o nome")]
+        [RegularExpression(@"^[a-zA-Z''-'\s]{1,40}$", ErrorMessage =
+            "Números e caracteres especiais não são permitidos no nome.")]
+        [BsonElement("nome_cliente")]
+        public string Nome_Cliente { get; set; }
 
         [Required(ErrorMessage = "Número do documento é obrigatório")]
-        [BsonElement("cpf_cnpj")]
-        public string CpfCnpj { get; set; }
+        [MinLength(11)]
+        [MaxLength(14)]
+        [BsonElement("cnpj_cpf")]
+        public string Cnpj_Cpf { get; set; }
 
+        [BsonElement("cnpj_ou_cpf")]
+        public string Cnpj_Ou_Cpf { get; set; }
+
+        [BsonElement("apelido")]
+        public string Apelido { get; set; }
+
+        [BsonElement("data_nascimento")]
+        public string Data_Nascimento { get; set; }
+
+        [BsonElement("data_cadastro")]
+        public string Data_Cadastro { get; set; }
+
+        [Required(ErrorMessage = "O CEP é obrigatório")]
         [BsonElement("cep")]
         public string Cep { get; set; }
 
@@ -39,21 +55,39 @@ namespace CRMobil.Entities.Cliente
         [BsonElement("cidade")]
         public string Cidade { get; set;}
 
-        [BsonElement("uf")]
-        public string Uf { get; set; }
+        [BsonElement("estado")]
+        public string Estado { get; set; }
 
-        [BsonElement("telefone_residencial")]
-        public string TelefoneResidencial { get; set; }
+        [BsonElement("telefone")]
+        public string Telefone { get; set; }
 
         [Required(ErrorMessage = "O número do telefone celular é obrigatório")]
-        [BsonElement("telefone_celular")]
-        public string TelefoneCelular { get; set;}
+        [BsonElement("celular")]
+        public string Celular { get; set;}
 
         [Required(ErrorMessage = "Informe um e-mail válido")]
         [RegularExpression(".+\\@.+\\..+", ErrorMessage = "Informe um email válido")]
-        [BsonElement("email")]
-        public string Email { get; set; }
+        [BsonElement("email_nf")]
+        public string Email_Nf { get; set; }
 
+        [BsonElement("excluido")]
+        public string Excluido { get; set; }
+
+        //[BsonElement("id_clie_veiculo")]
+        //public string Id_Cli_veiculo { get; set; }
+
+        //[BsonElement("id_veiculo")]
+        //public string Id_Veiculo { get; set; }
+
+        //[BsonElement("veiculo_atual")]
+        //public string Veiculo_Atual { get; set; }
+
+        [BsonElement("clienteVeiculos")]
         public virtual IEnumerable<ClienteVeiculo> ClienteVeiculos { get; set; }
+
+        public static implicit operator Clientes(void v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

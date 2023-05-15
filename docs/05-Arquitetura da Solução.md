@@ -12,26 +12,8 @@ Quando falamos de uma arquitetura de APIs, estamos falando da estratégia de des
 
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Classes”.
+>-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/blob/main/docs/img/Diagrama-classe.png)
 
-> - [Diagramas de Classes - Documentação da IBM](https://www.ibm.com/docs/pt-br/rational-soft-arch/9.6.1?topic=diagrams-class)
-> - [O que é um diagrama de classe UML? | Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml)
-
-## Modelo ER
-
-O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.]
-
-As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER”.
-
-> - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
-
-## Esquema Relacional
-
-O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
- 
-As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Relacional”.
-
-> - [Criando um modelo relacional - Documentação da IBM](https://www.ibm.com/docs/pt-br/cognos-analytics/10.2.2?topic=designer-creating-relational-model)
 
 ## Modelo Físico
 
@@ -39,31 +21,23 @@ Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do ba
 
 ## Tecnologias Utilizadas
 
-**React:** Uma biblioteca JavaScript para construir interfaces de usuário dinâmicas e reativas.
+| Tecnologia   |                          Descrição                           |
+| ------------ | :----------------------------------------------------------: |
+| C#           | Linguagem de programação orientada a objetos desenvolvida pela Microsoft |
+| ASP.NET MVC  | Um framework para desenvolvimento de aplicativos da web usando o padrão Model-View-Controller (MVC). |
+| Git e GitHub | Um sistema de controle de versão distribuído e uma plataforma de hospedagem de repositórios de código-fonte, respectivamente. |
+| React        | Uma biblioteca JavaScript para construir interfaces de usuário dinâmicas e reativas. |
+| VS Code      | Ambiente de desenvolvimento integrado (IDE) principal para desenvolver o código-fonte do projeto. |
+| MongoDb      |      Software de banco de dados orientado a documentos       |
 
-**C#:** uma linguagem de programação orientada a objetos desenvolvida pela Microsoft.
-
-**ASP.NET MVC:** Um framework para desenvolvimento de aplicativos da web usando o padrão Model-View-Controller (MVC).
-
-**Git e GitHub:** Um sistema de controle de versão distribuído e uma plataforma de hospedagem de repositórios de código-fonte, respectivamente.
-
-**VS Code:** Um editor de código-fonte gratuito e de código aberto desenvolvido pela Microsoft.
-
-
-**Descrição de como cada tecnologia será utilizda no projeto;**
-
-**React:** Será usado para desenvolver a interface do usuário do sistema de CRM.
-
-**C#:** Será usado para desenvolver a lógica de negócios e a camada de acesso a dados do sistema.
-
-**ASP.NET MVC:** Será usado para estruturar o projeto e implementar o padrão Model-View-Controller.
-
-**Git e GitHub:** Serão usados para gerenciar o código-fonte do projeto e permitir colaboração entre os membros da equipe.
-
-**VS Code:** Será usado como o ambiente de desenvolvimento integrado (IDE) principal para desenvolver o código-fonte do projeto.
+<br/>
 
 
 Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+
+>-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/blob/main/docs/img/Relacao-das-tecnologias.png)
+
+
 
 ## Hospedagem
 

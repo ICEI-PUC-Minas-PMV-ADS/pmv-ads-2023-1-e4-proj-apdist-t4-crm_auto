@@ -1,0 +1,594 @@
+[
+    {
+        "id_marca": "25",
+        "nome_marca": "ACURA"
+    },
+    {
+        "id_marca": "26",
+        "nome_marca": "ADAMO"
+    },
+    {
+        "id_marca": "27",
+        "nome_marca": "AGRALE"
+    },
+    {
+        "id_marca": "28",
+        "nome_marca": "ALFA ROMEO"
+    },
+    {
+        "id_marca": "156",
+        "nome_marca": "AM GEN"
+    },
+    {
+        "id_marca": "29",
+        "nome_marca": "AMERICAR"
+    },
+    {
+        "id_marca": "31",
+        "nome_marca": "ASTON MARTIN"
+    },
+    {
+        "id_marca": "32",
+        "nome_marca": "AUDI"
+    },
+    {
+        "id_marca": "34",
+        "nome_marca": "BEACH"
+    },
+    {
+        "id_marca": "20",
+        "nome_marca": "BENTLEY"
+    },
+    {
+        "id_marca": "35",
+        "nome_marca": "BIANCO"
+    },
+    {
+        "id_marca": "36",
+        "nome_marca": "BMW"
+    },
+    {
+        "id_marca": "37",
+        "nome_marca": "BORGWARD"
+    },
+    {
+        "id_marca": "38",
+        "nome_marca": "BRILLIANCE"
+    },
+    {
+        "id_marca": "11",
+        "nome_marca": "BUGATTI"
+    },
+    {
+        "id_marca": "157",
+        "nome_marca": "BUGGY"
+    },
+    {
+        "id_marca": "41",
+        "nome_marca": "BUICK"
+    },
+    {
+        "id_marca": "155",
+        "nome_marca": "CADILLAC"
+    },
+    {
+        "id_marca": "42",
+        "nome_marca": "CBT"
+    },
+    {
+        "id_marca": "44",
+        "nome_marca": "CHAMONIX"
+    },
+    {
+        "id_marca": "6",
+        "nome_marca": "CHANA"
+    },
+    {
+        "id_marca": "46",
+        "nome_marca": "CHEDA"
+    },
+    {
+        "id_marca": "47",
+        "nome_marca": "CHERY"
+    },
+    {
+        "id_marca": "1",
+        "nome_marca": "CHEVROLET"
+    },
+    {
+        "id_marca": "19",
+        "nome_marca": "CHRYSLER"
+    },
+    {
+        "id_marca": "5",
+        "nome_marca": "CITROEN"
+    },
+    {
+        "id_marca": "48",
+        "nome_marca": "CORD"
+    },
+    {
+        "id_marca": "49",
+        "nome_marca": "COYOTE"
+    },
+    {
+        "id_marca": "50",
+        "nome_marca": "CROSS LANDER"
+    },
+    {
+        "id_marca": "51",
+        "nome_marca": "DAEWOO"
+    },
+    {
+        "id_marca": "52",
+        "nome_marca": "DAIHATSU"
+    },
+    {
+        "id_marca": "54",
+        "nome_marca": "DE SOTO"
+    },
+    {
+        "id_marca": "56",
+        "nome_marca": "DELOREAN"
+    },
+    {
+        "id_marca": "55",
+        "nome_marca": "DETOMAZO"
+    },
+    {
+        "id_marca": "341",
+        "nome_marca": "DITALLY"
+    },
+    {
+        "id_marca": "57",
+        "nome_marca": "DKW-VEMAG"
+    },
+    {
+        "id_marca": "18",
+        "nome_marca": "DODGE"
+    },
+    {
+        "id_marca": "60",
+        "nome_marca": "EAGLE"
+    },
+    {
+        "id_marca": "61",
+        "nome_marca": "EFFA"
+    },
+    {
+        "id_marca": "63",
+        "nome_marca": "ENGESA"
+    },
+    {
+        "id_marca": "64",
+        "nome_marca": "ENVEMO"
+    },
+    {
+        "id_marca": "65",
+        "nome_marca": "FARUS"
+    },
+    {
+        "id_marca": "66",
+        "nome_marca": "FERCAR"
+    },
+    {
+        "id_marca": "10",
+        "nome_marca": "FERRARI"
+    },
+    {
+        "id_marca": "3",
+        "nome_marca": "FIAT"
+    },
+    {
+        "id_marca": "68",
+        "nome_marca": "FNM"
+    },
+    {
+        "id_marca": "13",
+        "nome_marca": "FORD"
+    },
+    {
+        "id_marca": "295",
+        "nome_marca": "GAIOLA"
+    },
+    {
+        "id_marca": "534",
+        "nome_marca": "GEELY"
+    },
+    {
+        "id_marca": "72",
+        "nome_marca": "GEO"
+    },
+    {
+        "id_marca": "74",
+        "nome_marca": "GRANCAR"
+    },
+    {
+        "id_marca": "75",
+        "nome_marca": "GREAT WALL"
+    },
+    {
+        "id_marca": "17",
+        "nome_marca": "GURGEL"
+    },
+    {
+        "id_marca": "76",
+        "nome_marca": "HAFEI"
+    },
+    {
+        "id_marca": "258",
+        "nome_marca": "HANOMAG"
+    },
+    {
+        "id_marca": "265",
+        "nome_marca": "HILLMAN"
+    },
+    {
+        "id_marca": "78",
+        "nome_marca": "HOFSTETTER"
+    },
+    {
+        "id_marca": "7",
+        "nome_marca": "HONDA"
+    },
+    {
+        "id_marca": "288",
+        "nome_marca": "HRG"
+    },
+    {
+        "id_marca": "79",
+        "nome_marca": "HUDSON"
+    },
+    {
+        "id_marca": "80",
+        "nome_marca": "HUMMER"
+    },
+    {
+        "id_marca": "14",
+        "nome_marca": "HYUNDAI"
+    },
+    {
+        "id_marca": "82",
+        "nome_marca": "INFINITI"
+    },
+    {
+        "id_marca": "83",
+        "nome_marca": "INTERNATIONAL"
+    },
+    {
+        "id_marca": "15",
+        "nome_marca": "JAC"
+    },
+    {
+        "id_marca": "86",
+        "nome_marca": "JAGUAR"
+    },
+    {
+        "id_marca": "87",
+        "nome_marca": "JEEP"
+    },
+    {
+        "id_marca": "88",
+        "nome_marca": "JINBEI"
+    },
+    {
+        "id_marca": "89",
+        "nome_marca": "JPX"
+    },
+    {
+        "id_marca": "90",
+        "nome_marca": "KAISER"
+    },
+    {
+        "id_marca": "239",
+        "nome_marca": "KARMANN GHIA"
+    },
+    {
+        "id_marca": "254",
+        "nome_marca": "KART"
+    },
+    {
+        "id_marca": "161",
+        "nome_marca": "KASEA"
+    },
+    {
+        "id_marca": "16",
+        "nome_marca": "KIA"
+    },
+    {
+        "id_marca": "91",
+        "nome_marca": "KOENIGSEGG"
+    },
+    {
+        "id_marca": "94",
+        "nome_marca": "LADA"
+    },
+    {
+        "id_marca": "12",
+        "nome_marca": "LAMBORGHINI"
+    },
+    {
+        "id_marca": "95",
+        "nome_marca": "LANCIA"
+    },
+    {
+        "id_marca": "96",
+        "nome_marca": "LAND ROVER"
+    },
+    {
+        "id_marca": "93",
+        "nome_marca": "LAUTOCRAFT"
+    },
+    {
+        "id_marca": "92",
+        "nome_marca": "LAUTOMOBILE"
+    },
+    {
+        "id_marca": "97",
+        "nome_marca": "LEXUS"
+    },
+    {
+        "id_marca": "98",
+        "nome_marca": "LIFAN"
+    },
+    {
+        "id_marca": "99",
+        "nome_marca": "LINCOLN"
+    },
+    {
+        "id_marca": "100",
+        "nome_marca": "LOBINI"
+    },
+    {
+        "id_marca": "101",
+        "nome_marca": "LOTUS"
+    },
+    {
+        "id_marca": "102",
+        "nome_marca": "MAHINDRA"
+    },
+    {
+        "id_marca": "104",
+        "nome_marca": "MASERATI"
+    },
+    {
+        "id_marca": "106",
+        "nome_marca": "MATRA"
+    },
+    {
+        "id_marca": "107",
+        "nome_marca": "MAYBACH"
+    },
+    {
+        "id_marca": "108",
+        "nome_marca": "MAZDA"
+    },
+    {
+        "id_marca": "346",
+        "nome_marca": "MCLAREN"
+    },
+    {
+        "id_marca": "109",
+        "nome_marca": "MENON"
+    },
+    {
+        "id_marca": "4",
+        "nome_marca": "MERCEDES-BENZ"
+    },
+    {
+        "id_marca": "110",
+        "nome_marca": "MERCURY"
+    },
+    {
+        "id_marca": "112",
+        "nome_marca": "MG"
+    },
+    {
+        "id_marca": "113",
+        "nome_marca": "MINI"
+    },
+    {
+        "id_marca": "111",
+        "nome_marca": "MITSUBISHI"
+    },
+    {
+        "id_marca": "114",
+        "nome_marca": "MIURA"
+    },
+    {
+        "id_marca": "115",
+        "nome_marca": "MORRIS"
+    },
+    {
+        "id_marca": "116",
+        "nome_marca": "MP LAFER"
+    },
+    {
+        "id_marca": "117",
+        "nome_marca": "MPLM"
+    },
+    {
+        "id_marca": "118",
+        "nome_marca": "NEWTRACK"
+    },
+    {
+        "id_marca": "43",
+        "nome_marca": "NISSAN"
+    },
+    {
+        "id_marca": "119",
+        "nome_marca": "NISSIN"
+    },
+    {
+        "id_marca": "120",
+        "nome_marca": "OLDSMOBILE"
+    },
+    {
+        "id_marca": "261",
+        "nome_marca": "OUTROS"
+    },
+    {
+        "id_marca": "121",
+        "nome_marca": "PAG"
+    },
+    {
+        "id_marca": "122",
+        "nome_marca": "PAGANI"
+    },
+    {
+        "id_marca": "22",
+        "nome_marca": "PEUGEOT"
+    },
+    {
+        "id_marca": "123",
+        "nome_marca": "PLYMOUTH"
+    },
+    {
+        "id_marca": "69",
+        "nome_marca": "PONTIAC"
+    },
+    {
+        "id_marca": "70",
+        "nome_marca": "PORSCHE"
+    },
+    {
+        "id_marca": "124",
+        "nome_marca": "PUMA"
+    },
+    {
+        "id_marca": "345",
+        "nome_marca": "RELY"
+    },
+    {
+        "id_marca": "24",
+        "nome_marca": "RENAULT"
+    },
+    {
+        "id_marca": "125",
+        "nome_marca": "RENO"
+    },
+    {
+        "id_marca": "126",
+        "nome_marca": "REVA-I"
+    },
+    {
+        "id_marca": "127",
+        "nome_marca": "ROLLS-ROYCE"
+    },
+    {
+        "id_marca": "129",
+        "nome_marca": "ROMI"
+    },
+    {
+        "id_marca": "137",
+        "nome_marca": "SAAB"
+    },
+    {
+        "id_marca": "162",
+        "nome_marca": "SATURN"
+    },
+    {
+        "id_marca": "130",
+        "nome_marca": "SEAT"
+    },
+    {
+        "id_marca": "132",
+        "nome_marca": "SHINERAY"
+    },
+    {
+        "id_marca": "139",
+        "nome_marca": "SHORT"
+    },
+    {
+        "id_marca": "141",
+        "nome_marca": "SIMCA"
+    },
+    {
+        "id_marca": "175",
+        "nome_marca": "SKODA"
+    },
+    {
+        "id_marca": "142",
+        "nome_marca": "SMART"
+    },
+    {
+        "id_marca": "143",
+        "nome_marca": "SPYKER"
+    },
+    {
+        "id_marca": "21",
+        "nome_marca": "SSANGYONG"
+    },
+    {
+        "id_marca": "144",
+        "nome_marca": "STANDARD"
+    },
+    {
+        "id_marca": "145",
+        "nome_marca": "STUDEBAKER"
+    },
+    {
+        "id_marca": "8",
+        "nome_marca": "SUBARU"
+    },
+    {
+        "id_marca": "59",
+        "nome_marca": "SUZUKI"
+    },
+    {
+        "id_marca": "163",
+        "nome_marca": "SWELL MINI"
+    },
+    {
+        "id_marca": "146",
+        "nome_marca": "TAC"
+    },
+    {
+        "id_marca": "147",
+        "nome_marca": "TANGER"
+    },
+    {
+        "id_marca": "338",
+        "nome_marca": "TATA"
+    },
+    {
+        "id_marca": "84",
+        "nome_marca": "TEMPORARIO"
+    },
+    {
+        "id_marca": "23",
+        "nome_marca": "TOYOTA"
+    },
+    {
+        "id_marca": "148",
+        "nome_marca": "TRIUMPH"
+    },
+    {
+        "id_marca": "149",
+        "nome_marca": "TROLLER"
+    },
+    {
+        "id_marca": "150",
+        "nome_marca": "UNIMOG"
+    },
+    {
+        "id_marca": "131",
+        "nome_marca": "UTILITARIOS AGRICOLAS"
+    },
+    {
+        "id_marca": "2",
+        "nome_marca": "VOLKSWAGEN"
+    },
+    {
+        "id_marca": "53",
+        "nome_marca": "VOLVO"
+    },
+    {
+        "id_marca": "154",
+        "nome_marca": "WIESMANN"
+    },
+    {
+        "id_marca": "158",
+        "nome_marca": "WILLYS OVERLAND"
+    }
+]

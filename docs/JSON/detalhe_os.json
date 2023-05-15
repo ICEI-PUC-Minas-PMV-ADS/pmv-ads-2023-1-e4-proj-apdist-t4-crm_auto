@@ -1,0 +1,86 @@
+[
+    {
+        "id_detalhe": "12",
+        "id_ordem": "17",
+        "id_servico": "9",
+        "id_mec_responsavel": "1",
+        "quantidade": "1",
+        "tempo_previsto": "02:30:00",
+        "data_inicio_servico": "2022-06-23 11:00:00",
+        "data_fim_servico": "2022-06-23 13:30:00",
+        "aprovado": "1",
+        "valor_unitario": "180"
+    },
+    {
+        "id_detalhe": "13",
+        "id_ordem": "18",
+        "id_servico": "4",
+        "id_mec_responsavel": "1",
+        "quantidade": "0",
+        "tempo_previsto": "01:10:00",
+        "data_inicio_servico": "2022-06-16 13:50:00",
+        "data_fim_servico": "2022-06-16 15:00:00",
+        "aprovado": "0",
+        "valor_unitario": "90"
+    },
+    {
+        "id_detalhe": "18",
+        "id_ordem": "23",
+        "id_servico": "22",
+        "id_mec_responsavel": "1",
+        "quantidade": "1",
+        "tempo_previsto": "01:00:00",
+        "data_inicio_servico": "2022-06-22 13:30:00",
+        "data_fim_servico": "2022-06-22 14:30:00",
+        "aprovado": "1",
+        "valor_unitario": "110"
+    },
+    {
+        "id_detalhe": "19",
+        "id_ordem": "24",
+        "id_servico": "22",
+        "id_mec_responsavel": "4",
+        "quantidade": "1",
+        "tempo_previsto": "02:00:00",
+        "data_inicio_servico": "2022-06-17 09:00:00",
+        "data_fim_servico": "2022-06-17 11:00:00",
+        "aprovado": "1",
+        "valor_unitario": "110"
+    },
+    {
+        "id_detalhe": "20",
+        "id_ordem": "25",
+        "id_servico": "5",
+        "id_mec_responsavel": "1",
+        "quantidade": "2",
+        "tempo_previsto": "01:00:00",
+        "data_inicio_servico": "2022-06-20 12:00:00",
+        "data_fim_servico": "2022-06-20 13:00:00",
+        "aprovado": "1",
+        "valor_unitario": "150"
+    },
+    {
+        "id_detalhe": "23",
+        "id_ordem": "29",
+        "id_servico": "17",
+        "id_mec_responsavel": "4",
+        "quantidade": "5",
+        "tempo_previsto": "01:00:00",
+        "data_inicio_servico": "2022-06-16 16:30:00",
+        "data_fim_servico": "2022-06-16 17:30:00",
+        "aprovado": "1",
+        "valor_unitario": "110"
+    },
+    {
+        "id_detalhe": "24",
+        "id_ordem": "30",
+        "id_servico": "6",
+        "id_mec_responsavel": "10",
+        "quantidade": "1",
+        "tempo_previsto": "00:00:04",
+        "data_inicio_servico": "2022-06-26 20:50:00",
+        "data_fim_servico": "2022-06-30 20:51:00",
+        "aprovado": "1",
+        "valor_unitario": "75"
+    }
+]

@@ -1,0 +1,206 @@
+[
+    {
+        "id_funcionario": "1",
+        "nome": "josé alves",
+        "funcao": "mecânico",
+        "id_oficina": "1"
+    },
+    {
+        "id_funcionario": "2",
+        "nome": "vania maria",
+        "funcao": "recepcionista",
+        "id_oficina": "1"
+    },
+    {
+        "id_funcionario": "4",
+        "nome": "ricardo moura",
+        "funcao": "mecânico",
+        "id_oficina": "1"
+    },
+    {
+        "id_funcionario": "5",
+        "nome": "vinicius duarte",
+        "funcao": "supervisor",
+        "id_oficina": "1"
+    },
+    {
+        "id_funcionario": "6",
+        "nome": "jessica oliveira",
+        "funcao": "gerente de serviços",
+        "id_oficina": "1"
+    },
+    {
+        "id_funcionario": "8",
+        "nome": "bruno carvalho",
+        "funcao": "recepcionista",
+        "id_oficina": "2"
+    },
+    {
+        "id_funcionario": "10",
+        "nome": "guilherme santana",
+        "funcao": "mecânico",
+        "id_oficina": "2"
+    },
+    {
+        "id_funcionario": "11",
+        "nome": "breno lacerda",
+        "funcao": "gerente geral",
+        "id_oficina": "1"
+    },
+    {
+        "id_funcionario": "12",
+        "nome": "tiago cardoso",
+        "funcao": "gerente de serviços",
+        "id_oficina": "2"
+    },
+    {
+        "id_funcionario": "14",
+        "nome": "gabriela lacerda",
+        "funcao": "mecânica",
+        "id_oficina": "2"
+    },
+    {
+        "id_funcionario": "16",
+        "nome": "laura fernandes",
+        "funcao": "gerente de oficina",
+        "id_oficina": "2"
+    },
+    {
+        "id_funcionario": "18",
+        "nome": "luana silva",
+        "funcao": "auxiliar de limpeza",
+        "id_oficina": "2"
+    },
+    {
+        "id_funcionario": "58",
+        "nome": "eder sousa",
+        "funcao": "gerente",
+        "id_oficina": "1"
+    },
+    {
+        "id_funcionario": "75",
+        "nome": "lucas gonçalves",
+        "funcao": "mecânico",
+        "id_oficina": "2"
+    },
+    {
+        "id_funcionario": "76",
+        "nome": "eduardo esteves",
+        "funcao": "mecânico",
+        "id_oficina": "3"
+    },
+    {
+        "id_funcionario": "77",
+        "nome": "lorenzo pires",
+        "funcao": "recepcionista",
+        "id_oficina": "3"
+    },
+    {
+        "id_funcionario": "79",
+        "nome": "felipe moura",
+        "funcao": "gerente de serviços",
+        "id_oficina": "3"
+    },
+    {
+        "id_funcionario": "80",
+        "nome": "juliano vale",
+        "funcao": "gerente geral",
+        "id_oficina": "3"
+    },
+    {
+        "id_funcionario": "81",
+        "nome": "simone lourenço",
+        "funcao": "auxiliar de limpeza",
+        "id_oficina": "3"
+    },
+    {
+        "id_funcionario": "82",
+        "nome": "marcela belluci",
+        "funcao": "mecânica",
+        "id_oficina": "3"
+    },
+    {
+        "id_funcionario": "83",
+        "nome": "judite cordeiro",
+        "funcao": "auxiliar",
+        "id_oficina": "3"
+    },
+    {
+        "id_funcionario": "84",
+        "nome": "manuela menezes",
+        "funcao": "recepcionista",
+        "id_oficina": "3"
+    },
+    {
+        "id_funcionario": "85",
+        "nome": "samuel albuquerque",
+        "funcao": "mecânico",
+        "id_oficina": "3"
+    },
+    {
+        "id_funcionario": "86",
+        "nome": "oscar ventura",
+        "funcao": "mecânico",
+        "id_oficina": "3"
+    },
+    {
+        "id_funcionario": "87",
+        "nome": "iago assunção",
+        "funcao": "mecânico",
+        "id_oficina": "4"
+    },
+    {
+        "id_funcionario": "88",
+        "nome": "suzana saraiva",
+        "funcao": "recepcionista",
+        "id_oficina": "4"
+    },
+    {
+        "id_funcionario": "89",
+        "nome": "priscila lourenço",
+        "funcao": "gerente de serviços",
+        "id_oficina": "4"
+    },
+    {
+        "id_funcionario": "90",
+        "nome": "giovane fagundes",
+        "funcao": "auxiliar de limpeza",
+        "id_oficina": "4"
+    },
+    {
+        "id_funcionario": "91",
+        "nome": "lavínia vaz",
+        "funcao": "gerente geral",
+        "id_oficina": "4"
+    },
+    {
+        "id_funcionario": "92",
+        "nome": "jorge flores",
+        "funcao": "mecânico",
+        "id_oficina": "4"
+    },
+    {
+        "id_funcionario": "94",
+        "nome": "igor paiva",
+        "funcao": "gerente de serviços",
+        "id_oficina": "4"
+    },
+    {
+        "id_funcionario": "95",
+        "nome": "adriana barroso",
+        "funcao": "auxiliar",
+        "id_oficina": "3"
+    },
+    {
+        "id_funcionario": "96",
+        "nome": "fátima dias",
+        "funcao": "gerente geral",
+        "id_oficina": "4"
+    },
+    {
+        "id_funcionario": "98",
+        "nome": "júlia rocha",
+        "funcao": "mecânica",
+        "id_oficina": "2"
+    }
+]

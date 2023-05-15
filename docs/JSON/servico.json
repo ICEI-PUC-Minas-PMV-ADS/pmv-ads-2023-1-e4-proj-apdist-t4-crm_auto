@@ -1,0 +1,152 @@
+[
+    {
+        "id_servico": "1",
+        "descricao": "Troca da embreagem",
+        "tempo_exec_servico": "02:00:00.000000",
+        "custo_hora": "150.00"
+    },
+    {
+        "id_servico": "2",
+        "descricao": "Revisão dos componentes de Freio",
+        "tempo_exec_servico": "01:00:00.000000",
+        "custo_hora": "85.00"
+    },
+    {
+        "id_servico": "3",
+        "descricao": "Revisão no Sistema de Arrefecimento",
+        "tempo_exec_servico": "01:00:00.000000",
+        "custo_hora": "98.50"
+    },
+    {
+        "id_servico": "4",
+        "descricao": "Troca de óleo do motor",
+        "tempo_exec_servico": "00:30:00.000000",
+        "custo_hora": "90.00"
+    },
+    {
+        "id_servico": "5",
+        "descricao": "Troca de óleo do câmbio automático",
+        "tempo_exec_servico": "00:10:00.000000",
+        "custo_hora": "150.00"
+    },
+    {
+        "id_servico": "6",
+        "descricao": "Troca de filtros",
+        "tempo_exec_servico": "00:30:00.000000",
+        "custo_hora": "75.00"
+    },
+    {
+        "id_servico": "7",
+        "descricao": "Troca de lâmpadas farol dianteiro",
+        "tempo_exec_servico": "00:15:00.000000",
+        "custo_hora": "15.00"
+    },
+    {
+        "id_servico": "8",
+        "descricao": "Troca de lâmpadas farol traseiro",
+        "tempo_exec_servico": "00:15:00.000000",
+        "custo_hora": "15.00"
+    },
+    {
+        "id_servico": "9", 
+        "descricao": "Alinhamento e Balanceamento",
+        "tempo_exec_servico": "01:00:00.000000",
+        "custo_hora": "180.00"
+    },
+    {
+        "id_servico": "10",
+        "descricao": "Desmontagem/montagem cabeçote",
+        "tempo_exec_servico": "01:00:00.000000",
+        "custo_hora": "100.00"
+    },
+    {
+        "id_servico": "11",
+        "descricao": "Retífica bloco motor",
+        "tempo_exec_servico": "05:00:00.000000",
+        "custo_hora": "950.00"
+    },
+    {
+        "id_servico": "12",
+        "descricao": "Troca amortecedor dianteiro",
+        "tempo_exec_servico": "01:30:00.000000",
+        "custo_hora": "120.00"
+    },
+    {
+        "id_servico": "13",
+        "descricao": "Troca amortecedor traseiro",
+        "tempo_exec_servico": "00:50:00.000000",
+        "custo_hora": "90.00"
+    },
+    {
+        "id_servico": "14",
+        "descricao": "Troca de biela do amortecedor dianteiro",
+        "tempo_exec_servico": "00:30:00.000000",
+        "custo_hora": "60.00"
+    },
+    {
+        "id_servico": "15",
+        "descricao": "Troca de biela do amortecedor transeiro",
+        "tempo_exec_servico": "00:50:00.000000",
+        "custo_hora": "90.00"
+    },
+    {
+        "id_servico": "16",
+        "descricao": "Troca bandeja da suspensão",
+        "tempo_exec_servico": "00:50:00.000000",
+        "custo_hora": "110.00"
+    },
+    {
+        "id_servico": "17",
+        "descricao": "Troca da junta do cabeçote",
+        "tempo_exec_servico": "01:00:00.000000",
+        "custo_hora": "110.00"
+    },
+    {
+        "id_servico": "18",
+        "descricao": "Troca da mola do amortecedor dianteiro",
+        "tempo_exec_servico": "01:30:00.000000",
+        "custo_hora": "60.00"
+    },
+    {
+        "id_servico": "19",
+        "descricao": "Troca da mola do amortecedor traseiro",
+        "tempo_exec_servico": "01:30:00.000000",
+        "custo_hora": "60.00"
+    },
+    {
+        "id_servico": "20",
+        "descricao": "Higienização do ar condicionado",
+        "tempo_exec_servico": "00:30:00.000000",
+        "custo_hora": "60.00"
+    },
+    {
+        "id_servico": "21",
+        "descricao": "Troca do eixo da suspensão traseira",
+        "tempo_exec_servico": "01:30:00.000000",
+        "custo_hora": "60.00"
+    },
+    {
+        "id_servico": "22",
+        "descricao": "Troca da homocinética esquerda",
+        "tempo_exec_servico": "01:30:00.000000",
+        "custo_hora": "110.00"
+    },
+    {
+        "id_servico": "23",
+        "descricao": "Troca da homocinética direita",
+        "tempo_exec_servico": "01:30:00.000000",
+        "custo_hora": "90.00"
+    },
+    {
+        "id_servico": "66",
+        "descricao": "Vitrificação automotiva",
+        "tempo_exec_servico": "08:00:00.000000",
+        "custo_hora": "125.00"
+    },
+    {
+        "id_servico": "67",
+        "descricao": "Limpeza automotiva",
+        "tempo_exec_servico": "01:00:00.000000",
+        "custo_hora": "40.00"
+    }
+]

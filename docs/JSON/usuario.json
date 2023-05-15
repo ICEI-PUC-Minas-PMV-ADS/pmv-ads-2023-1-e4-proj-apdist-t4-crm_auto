@@ -1,0 +1,30 @@
+[
+    {
+        "id_usuario": "3",
+        "id_funcionario": "1",
+        "login_usuario": "josealves@oficina.com.br",
+        "senha_usuario": "ad123",
+		"tipo_usuario": "administrator"		
+    },
+    {
+        "id_usuario": "4",
+        "id_funcionario": "2",
+        "login_usuario": "vaniamaria@oficina.com.br",
+        "senha_usuario": "ad123",
+		"tipo_usuario": "diretor"
+    },
+    {
+        "id_usuario": "6",
+        "id_funcionario": "4",
+        "login_usuario": "ricardomoura@oficina.com.br",
+        "senha_usuario": "ad123",
+		"tipo_usuario": "gerente"
+    },
+    {
+        "id_usuario": "7",
+        "id_funcionario": "5",
+        "login_usuario": "viniciusduarte@oficina.com.br",
+        "senha_usuario": "ad123"
+		"tipo_usuario": "mecanico"
+    }
+]

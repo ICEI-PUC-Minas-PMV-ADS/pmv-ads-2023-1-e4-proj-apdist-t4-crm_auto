@@ -24,33 +24,30 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 
 ## Tela - Login 
 
-Tela de login (Email e senha)
+![Tela - Login](./img/Tela%20login.png)
 
-![Tela - Login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/blob/main/docs/img/Tela%20Login%20WireFrame.png)
+## Tela - Principal
 
-## Tela - Cadatro Cliente 
+![Tela - Principal](./img/Tela%20Principal.png)
 
-Tela - Cadastro Cliente (residencial)
+## Tela - Lista de clientes
 
-![Tela - Cadastro Cliente (residencial)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/blob/main/docs/img/Tela%20cadastro%20de%20cliientes%20(Residencial)%20WireFrame.png)
+![Tela - Lista de clientes](./img/Tela%20Lista%20de%20clientes.png)
 
-## Tela - Cadatro Cliente 
+## Tela - Cadastro de clientes 
 
-Tela - Cadastro Cliente (Veículo)
 
-![Tela - Cadastro Cliente (Veículo)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/blob/main/docs/img/Tela%20cadastro%20de%20cliientes%20(Ve%C3%ADculo)%20WireFrame.png)
+![Tela - Cadastro de clientes](./img/Tela%20Cadastro%20de%20clientes.png)
 
-## Tela - Clientes 
+## Tela - Serviços
 
-Tela - de Clientes 
-
-![Tela - de clientes)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/blob/main/docs/img/Tela%20de%20Clientes%20WireFrames.png)
+![Tela - Serviços](./img/Tela%20Servi%C3%A7o.png)
 
 ## Tela - Orçamentos 
 
 Tela - Orçamentos
 
-![Tela - Orçamentos)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/blob/main/docs/img/Tela%20or%C3%A7amento%20WireFrame.png)
+![Tela - Orçamentos](./img/Tela%20Or%C3%A7amento.png)
 
 
 

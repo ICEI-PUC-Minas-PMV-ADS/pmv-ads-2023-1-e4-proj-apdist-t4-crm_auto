@@ -1,0 +1,1232 @@
+[{"id_modelo":"1","id_marca":"25","nome_modelo":"INTEGRA"}
+{"id_modelo":"2","id_marca":"25","nome_modelo":"LEGEND"}
+{"id_modelo":"3","id_marca":"25","nome_modelo":"NSX"}
+{"id_modelo":"4","id_marca":"27","nome_modelo":"MARRUA"}
+{"id_modelo":"5","id_marca":"28","nome_modelo":"145"}
+{"id_modelo":"6","id_marca":"28","nome_modelo":"147"}
+{"id_modelo":"7","id_marca":"28","nome_modelo":"155"}
+{"id_modelo":"8","id_marca":"28","nome_modelo":"156"}
+{"id_modelo":"9","id_marca":"28","nome_modelo":"164"}
+{"id_modelo":"10","id_marca":"28","nome_modelo":"166"}
+{"id_modelo":"11","id_marca":"28","nome_modelo":"2300"}
+{"id_modelo":"12","id_marca":"28","nome_modelo":"SPIDER"}
+{"id_modelo":"13","id_marca":"156","nome_modelo":"HUMMER"}
+{"id_modelo":"14","id_marca":"16","nome_modelo":"AM-825"}
+{"id_modelo":"15","id_marca":"16","nome_modelo":"HI-TOPIC"}
+{"id_modelo":"16","id_marca":"16","nome_modelo":"ROCSTA"}
+{"id_modelo":"17","id_marca":"16","nome_modelo":"TOPIC"}
+{"id_modelo":"18","id_marca":"16","nome_modelo":"TOWNER"}
+{"id_modelo":"19","id_marca":"32","nome_modelo":"100"}
+{"id_modelo":"20","id_marca":"32","nome_modelo":"80"}
+{"id_modelo":"21","id_marca":"32","nome_modelo":"A1"}
+{"id_modelo":"22","id_marca":"32","nome_modelo":"A3"}
+{"id_modelo":"23","id_marca":"32","nome_modelo":"A4 SEDAN"}
+{"id_modelo":"24","id_marca":"32","nome_modelo":"A5 COUPE"}
+{"id_modelo":"25","id_marca":"32","nome_modelo":"A6 SEDAN"}
+{"id_modelo":"26","id_marca":"32","nome_modelo":"A7"}
+{"id_modelo":"27","id_marca":"32","nome_modelo":"A8"}
+{"id_modelo":"30","id_marca":"32","nome_modelo":"Q3"}
+{"id_modelo":"31","id_marca":"32","nome_modelo":"Q5"}
+{"id_modelo":"32","id_marca":"32","nome_modelo":"Q7"}
+{"id_modelo":"33","id_marca":"32","nome_modelo":"R8"}
+{"id_modelo":"34","id_marca":"32","nome_modelo":"RS3"}
+{"id_modelo":"35","id_marca":"32","nome_modelo":"RS4"}
+{"id_modelo":"36","id_marca":"32","nome_modelo":"RS5"}
+{"id_modelo":"37","id_marca":"32","nome_modelo":"RS6"}
+{"id_modelo":"38","id_marca":"32","nome_modelo":"S3"}
+{"id_modelo":"39","id_marca":"32","nome_modelo":"S4 SEDAN"}
+{"id_modelo":"40","id_marca":"32","nome_modelo":"S6 SEDAN"}
+{"id_modelo":"41","id_marca":"32","nome_modelo":"S8"}
+{"id_modelo":"42","id_marca":"32","nome_modelo":"TT"}
+{"id_modelo":"43","id_marca":"32","nome_modelo":"TTS"}
+{"id_modelo":"86","id_marca":"157","nome_modelo":"BUGGY"}
+{"id_modelo":"87","id_marca":"155","nome_modelo":"DEVILLE"}
+{"id_modelo":"88","id_marca":"155","nome_modelo":"ELDORADO"}
+{"id_modelo":"89","id_marca":"155","nome_modelo":"SEVILLE"}
+{"id_modelo":"90","id_marca":"42","nome_modelo":"JAVALI"}
+{"id_modelo":"92","id_marca":"6","nome_modelo":"MINI STAR FAMILY"}
+{"id_modelo":"93","id_marca":"6","nome_modelo":"MINI STAR UTILITY"}
+{"id_modelo":"95","id_marca":"47","nome_modelo":"CIELO"}
+{"id_modelo":"96","id_marca":"47","nome_modelo":"FACE"}
+{"id_modelo":"97","id_marca":"47","nome_modelo":"QQ"}
+{"id_modelo":"98","id_marca":"47","nome_modelo":"S-18"}
+{"id_modelo":"99","id_marca":"47","nome_modelo":"TIGGO"}
+{"id_modelo":"100","id_marca":"19","nome_modelo":"300C"}
+{"id_modelo":"101","id_marca":"19","nome_modelo":"CARAVAN"}
+{"id_modelo":"102","id_marca":"19","nome_modelo":"CIRRUS"}
+{"id_modelo":"103","id_marca":"19","nome_modelo":"GRAN CARAVAN"}
+{"id_modelo":"104","id_marca":"19","nome_modelo":"LE BARON"}
+{"id_modelo":"105","id_marca":"19","nome_modelo":"NEON"}
+{"id_modelo":"106","id_marca":"19","nome_modelo":"PT CRUISER"}
+{"id_modelo":"107","id_marca":"19","nome_modelo":"SEBRING"}
+{"id_modelo":"108","id_marca":"19","nome_modelo":"STRATUS"}
+{"id_modelo":"109","id_marca":"19","nome_modelo":"TOWN E COUNTRY"}
+{"id_modelo":"110","id_marca":"19","nome_modelo":"VISION"}
+{"id_modelo":"111","id_marca":"5","nome_modelo":"AIRCROSS"}
+{"id_modelo":"112","id_marca":"5","nome_modelo":"AX"}
+{"id_modelo":"113","id_marca":"5","nome_modelo":"BERLINGO"}
+{"id_modelo":"114","id_marca":"5","nome_modelo":"BX"}
+{"id_modelo":"115","id_marca":"5","nome_modelo":"C3"}
+{"id_modelo":"116","id_marca":"5","nome_modelo":"C4"}
+{"id_modelo":"117","id_marca":"5","nome_modelo":"C5"}
+{"id_modelo":"118","id_marca":"5","nome_modelo":"C6"}
+{"id_modelo":"119","id_marca":"5","nome_modelo":"C8"}
+{"id_modelo":"120","id_marca":"5","nome_modelo":"DS3"}
+{"id_modelo":"121","id_marca":"5","nome_modelo":"EVASION"}
+{"id_modelo":"122","id_marca":"5","nome_modelo":"JUMPER"}
+{"id_modelo":"123","id_marca":"5","nome_modelo":"XANTIA"}
+{"id_modelo":"124","id_marca":"5","nome_modelo":"XM"}
+{"id_modelo":"125","id_marca":"5","nome_modelo":"XSARA"}
+{"id_modelo":"126","id_marca":"5","nome_modelo":"ZX"}
+{"id_modelo":"127","id_marca":"50","nome_modelo":"CL-244"}
+{"id_modelo":"128","id_marca":"50","nome_modelo":"CL-330"}
+{"id_modelo":"129","id_marca":"51","nome_modelo":"ESPERO"}
+{"id_modelo":"130","id_marca":"51","nome_modelo":"LANOS"}
+{"id_modelo":"131","id_marca":"51","nome_modelo":"LEGANZA"}
+{"id_modelo":"132","id_marca":"51","nome_modelo":"NUBIRA"}
+{"id_modelo":"133","id_marca":"51","nome_modelo":"PRINCE"}
+{"id_modelo":"134","id_marca":"51","nome_modelo":"RACER"}
+{"id_modelo":"135","id_marca":"51","nome_modelo":"SUPER SALON"}
+{"id_modelo":"136","id_marca":"51","nome_modelo":"TICO"}
+{"id_modelo":"137","id_marca":"52","nome_modelo":"APPLAUSE"}
+{"id_modelo":"138","id_marca":"52","nome_modelo":"CHARADE"}
+{"id_modelo":"139","id_marca":"52","nome_modelo":"CUORE"}
+{"id_modelo":"140","id_marca":"52","nome_modelo":"FEROZA"}
+{"id_modelo":"141","id_marca":"52","nome_modelo":"GRAN MOVE"}
+{"id_modelo":"142","id_marca":"52","nome_modelo":"MOVE VAN"}
+{"id_modelo":"143","id_marca":"52","nome_modelo":"TERIOS"}
+{"id_modelo":"144","id_marca":"18","nome_modelo":"AVENGER"}
+{"id_modelo":"145","id_marca":"18","nome_modelo":"DAKOTA"}
+{"id_modelo":"146","id_marca":"18","nome_modelo":"JOURNEY"}
+{"id_modelo":"147","id_marca":"18","nome_modelo":"RAM"}
+{"id_modelo":"148","id_marca":"18","nome_modelo":"STEALTH"}
+{"id_modelo":"151","id_marca":"61","nome_modelo":"M-100"}
+{"id_modelo":"152","id_marca":"61","nome_modelo":"PLUTUS"}
+{"id_modelo":"153","id_marca":"61","nome_modelo":"START"}
+{"id_modelo":"155","id_marca":"61","nome_modelo":"ULC"}
+{"id_modelo":"158","id_marca":"63","nome_modelo":"ENGESA"}
+{"id_modelo":"159","id_marca":"64","nome_modelo":"CAMPER"}
+{"id_modelo":"160","id_marca":"64","nome_modelo":"MASTER"}
+{"id_modelo":"161","id_marca":"10","nome_modelo":"348"}
+{"id_modelo":"162","id_marca":"10","nome_modelo":"355"}
+{"id_modelo":"163","id_marca":"10","nome_modelo":"360"}
+{"id_modelo":"164","id_marca":"10","nome_modelo":"456"}
+{"id_modelo":"165","id_marca":"10","nome_modelo":"550"}
+{"id_modelo":"166","id_marca":"10","nome_modelo":"575M"}
+{"id_modelo":"167","id_marca":"10","nome_modelo":"612"}
+{"id_modelo":"168","id_marca":"10","nome_modelo":"CALIFORNIA"}
+{"id_modelo":"169","id_marca":"10","nome_modelo":"F430"}
+{"id_modelo":"170","id_marca":"10","nome_modelo":"F599"}
+{"id_modelo":"171","id_marca":"3","nome_modelo":"147"}
+{"id_modelo":"174","id_marca":"3","nome_modelo":"500"}
+{"id_modelo":"175","id_marca":"3","nome_modelo":"BRAVA"}
+{"id_modelo":"176","id_marca":"3","nome_modelo":"BRAVO"}
+{"id_modelo":"178","id_marca":"3","nome_modelo":"COUPE"}
+{"id_modelo":"179","id_marca":"3","nome_modelo":"DOBLO"}
+{"id_modelo":"180","id_marca":"3","nome_modelo":"DUCATO CARGO"}
+{"id_modelo":"181","id_marca":"3","nome_modelo":"DUNA"}
+{"id_modelo":"182","id_marca":"3","nome_modelo":"ELBA"}
+{"id_modelo":"183","id_marca":"3","nome_modelo":"FIORINO"}
+{"id_modelo":"184","id_marca":"3","nome_modelo":"FREEMONT"}
+{"id_modelo":"185","id_marca":"3","nome_modelo":"GRAND SIENA"}
+{"id_modelo":"186","id_marca":"3","nome_modelo":"IDEA"}
+{"id_modelo":"187","id_marca":"3","nome_modelo":"LINEA"}
+{"id_modelo":"188","id_marca":"3","nome_modelo":"MAREA"}
+{"id_modelo":"189","id_marca":"3","nome_modelo":"OGGI"}
+{"id_modelo":"190","id_marca":"3","nome_modelo":"PALIO"}
+{"id_modelo":"191","id_marca":"3","nome_modelo":"PANORAMA"}
+{"id_modelo":"192","id_marca":"3","nome_modelo":"PREMIO"}
+{"id_modelo":"193","id_marca":"3","nome_modelo":"PUNTO"}
+{"id_modelo":"194","id_marca":"3","nome_modelo":"SIENA"}
+{"id_modelo":"195","id_marca":"3","nome_modelo":"STILO"}
+{"id_modelo":"196","id_marca":"3","nome_modelo":"STRADA"}
+{"id_modelo":"197","id_marca":"3","nome_modelo":"TEMPRA"}
+{"id_modelo":"198","id_marca":"3","nome_modelo":"TIPO"}
+{"id_modelo":"199","id_marca":"3","nome_modelo":"UNO"}
+{"id_modelo":"201","id_marca":"13","nome_modelo":"AEROSTAR"}
+{"id_modelo":"202","id_marca":"13","nome_modelo":"ASPIRE"}
+{"id_modelo":"203","id_marca":"13","nome_modelo":"BELINA"}
+{"id_modelo":"204","id_marca":"13","nome_modelo":"CLUB WAGON"}
+{"id_modelo":"205","id_marca":"13","nome_modelo":"CONTOUR"}
+{"id_modelo":"206","id_marca":"13","nome_modelo":"CORCEL II"}
+{"id_modelo":"207","id_marca":"13","nome_modelo":"COURIER"}
+{"id_modelo":"208","id_marca":"13","nome_modelo":"CROWN VICTORIA"}
+{"id_modelo":"209","id_marca":"13","nome_modelo":"DEL REY"}
+{"id_modelo":"210","id_marca":"13","nome_modelo":"ECOSPORT"}
+{"id_modelo":"211","id_marca":"13","nome_modelo":"EDGE"}
+{"id_modelo":"212","id_marca":"13","nome_modelo":"ESCORT"}
+{"id_modelo":"213","id_marca":"13","nome_modelo":"EXPEDITION"}
+{"id_modelo":"214","id_marca":"13","nome_modelo":"EXPLORER"}
+{"id_modelo":"215","id_marca":"13","nome_modelo":"F-100"}
+{"id_modelo":"216","id_marca":"13","nome_modelo":"F-1000"}
+{"id_modelo":"217","id_marca":"13","nome_modelo":"F-150"}
+{"id_modelo":"218","id_marca":"13","nome_modelo":"F-250"}
+{"id_modelo":"219","id_marca":"13","nome_modelo":"FIESTA"}
+{"id_modelo":"220","id_marca":"13","nome_modelo":"FOCUS"}
+{"id_modelo":"221","id_marca":"13","nome_modelo":"FURGLAINE"}
+{"id_modelo":"222","id_marca":"13","nome_modelo":"FUSION"}
+{"id_modelo":"223","id_marca":"13","nome_modelo":"IBIZA"}
+{"id_modelo":"224","id_marca":"13","nome_modelo":"KA"}
+{"id_modelo":"225","id_marca":"13","nome_modelo":"MONDEO"}
+{"id_modelo":"226","id_marca":"13","nome_modelo":"MUSTANG"}
+{"id_modelo":"227","id_marca":"13","nome_modelo":"PAMPA"}
+{"id_modelo":"228","id_marca":"13","nome_modelo":"PROBE"}
+{"id_modelo":"229","id_marca":"13","nome_modelo":"RANGER"}
+{"id_modelo":"230","id_marca":"13","nome_modelo":"VERSAILLES ROYALE"}
+{"id_modelo":"231","id_marca":"13","nome_modelo":"TAURUS"}
+{"id_modelo":"232","id_marca":"13","nome_modelo":"THUNDERBIRD"}
+{"id_modelo":"233","id_marca":"13","nome_modelo":"TRANSIT"}
+{"id_modelo":"234","id_marca":"13","nome_modelo":"VERONA"}
+{"id_modelo":"235","id_marca":"13","nome_modelo":"VERSAILLES"}
+{"id_modelo":"236","id_marca":"13","nome_modelo":"WINDSTAR"}
+{"id_modelo":"238","id_marca":"1","nome_modelo":"A-10"}
+{"id_modelo":"239","id_marca":"1","nome_modelo":"A-20"}
+{"id_modelo":"240","id_marca":"1","nome_modelo":"AGILE"}
+{"id_modelo":"241","id_marca":"1","nome_modelo":"ASTRA"}
+{"id_modelo":"242","id_marca":"1","nome_modelo":"BLAZER"}
+{"id_modelo":"243","id_marca":"1","nome_modelo":"BONANZA"}
+{"id_modelo":"245","id_marca":"1","nome_modelo":"C-10"}
+{"id_modelo":"246","id_marca":"1","nome_modelo":"C-20"}
+{"id_modelo":"247","id_marca":"1","nome_modelo":"CALIBRA"}
+{"id_modelo":"248","id_marca":"1","nome_modelo":"CAMARO"}
+{"id_modelo":"249","id_marca":"1","nome_modelo":"CAPRICE"}
+{"id_modelo":"250","id_marca":"1","nome_modelo":"CAPTIVA"}
+{"id_modelo":"251","id_marca":"1","nome_modelo":"CARAVAN"}
+{"id_modelo":"252","id_marca":"1","nome_modelo":"CAVALIER"}
+{"id_modelo":"253","id_marca":"1","nome_modelo":"CELTA"}
+{"id_modelo":"255","id_marca":"1","nome_modelo":"CHEVY"}
+{"id_modelo":"256","id_marca":"1","nome_modelo":"CHEYNNE"}
+{"id_modelo":"258","id_marca":"1","nome_modelo":"COBALT"}
+{"id_modelo":"259","id_marca":"1","nome_modelo":"CORSA"}
+{"id_modelo":"262","id_marca":"1","nome_modelo":"CORVETTE"}
+{"id_modelo":"263","id_marca":"1","nome_modelo":"CRUZE"}
+{"id_modelo":"264","id_marca":"1","nome_modelo":"D-10"}
+{"id_modelo":"265","id_marca":"1","nome_modelo":"D-20"}
+{"id_modelo":"266","id_marca":"1","nome_modelo":"IPANEMA"}
+{"id_modelo":"267","id_marca":"1","nome_modelo":"KADETT"}
+{"id_modelo":"268","id_marca":"1","nome_modelo":"LUMINA"}
+{"id_modelo":"269","id_marca":"1","nome_modelo":"MALIBU"}
+{"id_modelo":"271","id_marca":"1","nome_modelo":"MERIVA"}
+{"id_modelo":"272","id_marca":"1","nome_modelo":"MONTANA"}
+{"id_modelo":"274","id_marca":"1","nome_modelo":"OMEGA"}
+{"id_modelo":"275","id_marca":"1","nome_modelo":"OPALA"}
+{"id_modelo":"276","id_marca":"1","nome_modelo":"PRISMA"}
+{"id_modelo":"277","id_marca":"1","nome_modelo":"S10"}
+{"id_modelo":"280","id_marca":"1","nome_modelo":"SILVERADO"}
+{"id_modelo":"281","id_marca":"1","nome_modelo":"SONIC"}
+{"id_modelo":"282","id_marca":"1","nome_modelo":"SONOMA"}
+{"id_modelo":"283","id_marca":"1","nome_modelo":"SPACEVAN"}
+{"id_modelo":"284","id_marca":"1","nome_modelo":"SS10"}
+{"id_modelo":"285","id_marca":"1","nome_modelo":"SUBURBAN"}
+{"id_modelo":"287","id_marca":"1","nome_modelo":"SYCLONE"}
+{"id_modelo":"288","id_marca":"1","nome_modelo":"TIGRA"}
+{"id_modelo":"289","id_marca":"1","nome_modelo":"TRACKER"}
+{"id_modelo":"290","id_marca":"1","nome_modelo":"TRAFIC"}
+{"id_modelo":"291","id_marca":"1","nome_modelo":"VECTRA"}
+{"id_modelo":"292","id_marca":"1","nome_modelo":"VERANEIO"}
+{"id_modelo":"293","id_marca":"1","nome_modelo":"ZAFIRA"}
+{"id_modelo":"294","id_marca":"75","nome_modelo":"HOVER"}
+{"id_modelo":"295","id_marca":"17","nome_modelo":"BR-800"}
+{"id_modelo":"296","id_marca":"17","nome_modelo":"CARAJAS"}
+{"id_modelo":"297","id_marca":"17","nome_modelo":"TOCANTINS"}
+{"id_modelo":"298","id_marca":"17","nome_modelo":"XAVANTE"}
+{"id_modelo":"299","id_marca":"17","nome_modelo":"VIP"}
+{"id_modelo":"300","id_marca":"76","nome_modelo":"TOWNER"}
+{"id_modelo":"301","id_marca":"7","nome_modelo":"ACCORD"}
+{"id_modelo":"302","id_marca":"7","nome_modelo":"CITY"}
+{"id_modelo":"303","id_marca":"7","nome_modelo":"CIVIC"}
+{"id_modelo":"304","id_marca":"7","nome_modelo":"CR-V"}
+{"id_modelo":"305","id_marca":"7","nome_modelo":"FIT"}
+{"id_modelo":"306","id_marca":"7","nome_modelo":"ODYSSEY"}
+{"id_modelo":"307","id_marca":"7","nome_modelo":"PASSPORT"}
+{"id_modelo":"308","id_marca":"7","nome_modelo":"PRELUDE"}
+{"id_modelo":"309","id_marca":"14","nome_modelo":"ACCENT"}
+{"id_modelo":"310","id_marca":"14","nome_modelo":"ATOS"}
+{"id_modelo":"311","id_marca":"14","nome_modelo":"AZERA"}
+{"id_modelo":"312","id_marca":"14","nome_modelo":"COUPE"}
+{"id_modelo":"314","id_marca":"14","nome_modelo":"ELANTRA"}
+{"id_modelo":"315","id_marca":"14","nome_modelo":"EXCEL"}
+{"id_modelo":"316","id_marca":"14","nome_modelo":"GALLOPER"}
+{"id_modelo":"317","id_marca":"14","nome_modelo":"GENESIS"}
+{"id_modelo":"318","id_marca":"14","nome_modelo":"H1"}
+{"id_modelo":"319","id_marca":"14","nome_modelo":"H100"}
+{"id_modelo":"321","id_marca":"14","nome_modelo":"I30"}
+{"id_modelo":"323","id_marca":"14","nome_modelo":"IX35"}
+{"id_modelo":"324","id_marca":"14","nome_modelo":"MATRIX"}
+{"id_modelo":"325","id_marca":"14","nome_modelo":"PORTER"}
+{"id_modelo":"326","id_marca":"14","nome_modelo":"SANTA FE"}
+{"id_modelo":"327","id_marca":"14","nome_modelo":"SCOUPE"}
+{"id_modelo":"328","id_marca":"14","nome_modelo":"SONATA"}
+{"id_modelo":"329","id_marca":"14","nome_modelo":"TERRACAN"}
+{"id_modelo":"330","id_marca":"14","nome_modelo":"TRAJET"}
+{"id_modelo":"331","id_marca":"14","nome_modelo":"TUCSON"}
+{"id_modelo":"332","id_marca":"14","nome_modelo":"VELOSTER"}
+{"id_modelo":"333","id_marca":"14","nome_modelo":"VERACRUZ"}
+{"id_modelo":"335","id_marca":"84","nome_modelo":"HOMBRE"}
+{"id_modelo":"336","id_marca":"84","nome_modelo":"RODEO"}
+{"id_modelo":"337","id_marca":"15","nome_modelo":"J3"}
+{"id_modelo":"338","id_marca":"15","nome_modelo":"J5"}
+{"id_modelo":"339","id_marca":"15","nome_modelo":"J6"}
+{"id_modelo":"340","id_marca":"86","nome_modelo":"DAIMLER"}
+{"id_modelo":"341","id_marca":"86","nome_modelo":"S-TYPE"}
+{"id_modelo":"342","id_marca":"86","nome_modelo":"X-TYPE"}
+{"id_modelo":"345","id_marca":"86","nome_modelo":"MODELOS XJ"}
+{"id_modelo":"352","id_marca":"86","nome_modelo":"MODELOS XK"}
+{"id_modelo":"354","id_marca":"87","nome_modelo":"CHEROKEE"}
+{"id_modelo":"355","id_marca":"87","nome_modelo":"COMMANDER"}
+{"id_modelo":"356","id_marca":"87","nome_modelo":"COMPASS"}
+{"id_modelo":"357","id_marca":"87","nome_modelo":"GRAND CHEROKEE"}
+{"id_modelo":"358","id_marca":"87","nome_modelo":"WRANGLER"}
+{"id_modelo":"359","id_marca":"88","nome_modelo":"TOPIC VAN"}
+{"id_modelo":"360","id_marca":"89","nome_modelo":"JIPE MONTEZ"}
+{"id_modelo":"361","id_marca":"89","nome_modelo":"PICAPE MONTEZ"}
+{"id_modelo":"362","id_marca":"16","nome_modelo":"BESTA"}
+{"id_modelo":"363","id_marca":"16","nome_modelo":"BONGO"}
+{"id_modelo":"364","id_marca":"16","nome_modelo":"CADENZA"}
+{"id_modelo":"365","id_marca":"16","nome_modelo":"CARENS"}
+{"id_modelo":"366","id_marca":"16","nome_modelo":"CARNIVAL"}
+{"id_modelo":"367","id_marca":"16","nome_modelo":"CERATO"}
+{"id_modelo":"368","id_marca":"16","nome_modelo":"CERES"}
+{"id_modelo":"369","id_marca":"16","nome_modelo":"CLARUS"}
+{"id_modelo":"370","id_marca":"16","nome_modelo":"MAGENTIS"}
+{"id_modelo":"371","id_marca":"16","nome_modelo":"MOHAVE"}
+{"id_modelo":"372","id_marca":"16","nome_modelo":"OPIRUS"}
+{"id_modelo":"373","id_marca":"16","nome_modelo":"OPTIMA"}
+{"id_modelo":"374","id_marca":"16","nome_modelo":"PICANTO"}
+{"id_modelo":"375","id_marca":"16","nome_modelo":"SEPHIA"}
+{"id_modelo":"376","id_marca":"16","nome_modelo":"SHUMA"}
+{"id_modelo":"377","id_marca":"16","nome_modelo":"SORENTO"}
+{"id_modelo":"378","id_marca":"16","nome_modelo":"SOUL"}
+{"id_modelo":"379","id_marca":"16","nome_modelo":"SPORTAGE"}
+{"id_modelo":"380","id_marca":"94","nome_modelo":"LAIKA"}
+{"id_modelo":"381","id_marca":"94","nome_modelo":"NIVA"}
+{"id_modelo":"382","id_marca":"94","nome_modelo":"SAMARA"}
+{"id_modelo":"383","id_marca":"12","nome_modelo":"GALLARDO"}
+{"id_modelo":"384","id_marca":"12","nome_modelo":"MURCIELAGO"}
+{"id_modelo":"385","id_marca":"96","nome_modelo":"DEFENDER"}
+{"id_modelo":"386","id_marca":"96","nome_modelo":"DISCOVERY"}
+{"id_modelo":"389","id_marca":"96","nome_modelo":"FREELANDER"}
+{"id_modelo":"391","id_marca":"96","nome_modelo":"NEW RANGE"}
+{"id_modelo":"392","id_marca":"96","nome_modelo":"RANGE ROVER"}
+{"id_modelo":"393","id_marca":"97","nome_modelo":"ES"}
+{"id_modelo":"396","id_marca":"97","nome_modelo":"GS"}
+{"id_modelo":"397","id_marca":"97","nome_modelo":"IS-300"}
+{"id_modelo":"398","id_marca":"97","nome_modelo":"LS"}
+{"id_modelo":"400","id_marca":"97","nome_modelo":"RX"}
+{"id_modelo":"402","id_marca":"97","nome_modelo":"SC"}
+{"id_modelo":"403","id_marca":"98","nome_modelo":"320"}
+{"id_modelo":"404","id_marca":"98","nome_modelo":"620"}
+{"id_modelo":"405","id_marca":"100","nome_modelo":"H1"}
+{"id_modelo":"406","id_marca":"101","nome_modelo":"ELAN"}
+{"id_modelo":"407","id_marca":"101","nome_modelo":"ESPRIT"}
+{"id_modelo":"408","id_marca":"102","nome_modelo":"SCORPIO"}
+{"id_modelo":"409","id_marca":"104","nome_modelo":"222"}
+{"id_modelo":"410","id_marca":"104","nome_modelo":"228"}
+{"id_modelo":"411","id_marca":"104","nome_modelo":"3200"}
+{"id_modelo":"412","id_marca":"104","nome_modelo":"430"}
+{"id_modelo":"413","id_marca":"104","nome_modelo":"COUPE"}
+{"id_modelo":"414","id_marca":"104","nome_modelo":"GHIBLI"}
+{"id_modelo":"415","id_marca":"104","nome_modelo":"GRANCABRIO"}
+{"id_modelo":"416","id_marca":"104","nome_modelo":"GRANSPORT"}
+{"id_modelo":"417","id_marca":"104","nome_modelo":"GRANTURISMO"}
+{"id_modelo":"418","id_marca":"104","nome_modelo":"QUATTROPORTE"}
+{"id_modelo":"419","id_marca":"104","nome_modelo":"SHAMAL"}
+{"id_modelo":"420","id_marca":"104","nome_modelo":"SPIDER"}
+{"id_modelo":"422","id_marca":"106","nome_modelo":"PICK-UP"}
+{"id_modelo":"423","id_marca":"108","nome_modelo":"323"}
+{"id_modelo":"424","id_marca":"108","nome_modelo":"626"}
+{"id_modelo":"425","id_marca":"108","nome_modelo":"929"}
+{"id_modelo":"426","id_marca":"108","nome_modelo":"B-2500"}
+{"id_modelo":"427","id_marca":"108","nome_modelo":"B2200"}
+{"id_modelo":"428","id_marca":"108","nome_modelo":"MILLENIA"}
+{"id_modelo":"429","id_marca":"108","nome_modelo":"MPV"}
+{"id_modelo":"430","id_marca":"108","nome_modelo":"MX-3"}
+{"id_modelo":"431","id_marca":"108","nome_modelo":"MX-5"}
+{"id_modelo":"432","id_marca":"108","nome_modelo":"NAVAJO"}
+{"id_modelo":"433","id_marca":"108","nome_modelo":"PROTEGE"}
+{"id_modelo":"434","id_marca":"108","nome_modelo":"RX"}
+{"id_modelo":"467","id_marca":"4","nome_modelo":"CLASSE A"}
+{"id_modelo":"468","id_marca":"4","nome_modelo":"CLASSE B"}
+{"id_modelo":"469","id_marca":"4","nome_modelo":"CLASSE R"}
+{"id_modelo":"498","id_marca":"4","nome_modelo":"CLASSE GLK"}
+{"id_modelo":"531","id_marca":"4","nome_modelo":"SPRINTER"}
+{"id_modelo":"532","id_marca":"110","nome_modelo":"MYSTIQUE"}
+{"id_modelo":"533","id_marca":"110","nome_modelo":"SABLE"}
+{"id_modelo":"534","id_marca":"112","nome_modelo":"550"}
+{"id_modelo":"535","id_marca":"112","nome_modelo":"MG6"}
+{"id_modelo":"536","id_marca":"113","nome_modelo":"COOPER"}
+{"id_modelo":"537","id_marca":"113","nome_modelo":"ONE"}
+{"id_modelo":"538","id_marca":"111","nome_modelo":"3000"}
+{"id_modelo":"539","id_marca":"111","nome_modelo":"AIRTREK"}
+{"id_modelo":"540","id_marca":"111","nome_modelo":"ASX"}
+{"id_modelo":"541","id_marca":"111","nome_modelo":"COLT"}
+{"id_modelo":"542","id_marca":"111","nome_modelo":"DIAMANT"}
+{"id_modelo":"543","id_marca":"111","nome_modelo":"ECLIPSE"}
+{"id_modelo":"544","id_marca":"111","nome_modelo":"EXPO"}
+{"id_modelo":"545","id_marca":"111","nome_modelo":"GALANT"}
+{"id_modelo":"546","id_marca":"111","nome_modelo":"GRANDIS"}
+{"id_modelo":"547","id_marca":"111","nome_modelo":"L200"}
+{"id_modelo":"548","id_marca":"111","nome_modelo":"L300"}
+{"id_modelo":"549","id_marca":"111","nome_modelo":"LANCER"}
+{"id_modelo":"550","id_marca":"111","nome_modelo":"MIRAGE"}
+{"id_modelo":"551","id_marca":"111","nome_modelo":"MONTERO"}
+{"id_modelo":"552","id_marca":"111","nome_modelo":"OUTLANDER"}
+{"id_modelo":"553","id_marca":"111","nome_modelo":"PAJERO"}
+{"id_modelo":"554","id_marca":"111","nome_modelo":"SPACE WAGON"}
+{"id_modelo":"555","id_marca":"114","nome_modelo":"BG-TRUCK"}
+{"id_modelo":"556","id_marca":"43","nome_modelo":"350Z"}
+{"id_modelo":"557","id_marca":"43","nome_modelo":"ALTIMA"}
+{"id_modelo":"558","id_marca":"43","nome_modelo":"AX"}
+{"id_modelo":"559","id_marca":"43","nome_modelo":"D-21"}
+{"id_modelo":"560","id_marca":"43","nome_modelo":"FRONTIER"}
+{"id_modelo":"562","id_marca":"43","nome_modelo":"KING-CAB"}
+{"id_modelo":"563","id_marca":"43","nome_modelo":"LIVINA"}
+{"id_modelo":"564","id_marca":"43","nome_modelo":"MARCH"}
+{"id_modelo":"565","id_marca":"43","nome_modelo":"MAXIMA"}
+{"id_modelo":"567","id_marca":"43","nome_modelo":"MURANO"}
+{"id_modelo":"568","id_marca":"43","nome_modelo":"NX"}
+{"id_modelo":"569","id_marca":"43","nome_modelo":"PATHFINDER"}
+{"id_modelo":"571","id_marca":"43","nome_modelo":"PRIMERA"}
+{"id_modelo":"572","id_marca":"43","nome_modelo":"QUEST"}
+{"id_modelo":"573","id_marca":"43","nome_modelo":"SENTRA"}
+{"id_modelo":"574","id_marca":"43","nome_modelo":"STANZA"}
+{"id_modelo":"575","id_marca":"43","nome_modelo":"180SX"}
+{"id_modelo":"576","id_marca":"43","nome_modelo":"TERRANO"}
+{"id_modelo":"577","id_marca":"43","nome_modelo":"TIIDA"}
+{"id_modelo":"578","id_marca":"43","nome_modelo":"VERSA"}
+{"id_modelo":"579","id_marca":"43","nome_modelo":"X-TRAIL"}
+{"id_modelo":"580","id_marca":"43","nome_modelo":"XTERRA"}
+{"id_modelo":"581","id_marca":"43","nome_modelo":"ZX"}
+{"id_modelo":"582","id_marca":"22","nome_modelo":"106"}
+{"id_modelo":"583","id_marca":"22","nome_modelo":"205"}
+{"id_modelo":"584","id_marca":"22","nome_modelo":"206"}
+{"id_modelo":"585","id_marca":"22","nome_modelo":"207"}
+{"id_modelo":"586","id_marca":"22","nome_modelo":"3008"}
+{"id_modelo":"587","id_marca":"22","nome_modelo":"306"}
+{"id_modelo":"588","id_marca":"22","nome_modelo":"307"}
+{"id_modelo":"589","id_marca":"22","nome_modelo":"308"}
+{"id_modelo":"590","id_marca":"22","nome_modelo":"405"}
+{"id_modelo":"591","id_marca":"22","nome_modelo":"406"}
+{"id_modelo":"592","id_marca":"22","nome_modelo":"407"}
+{"id_modelo":"593","id_marca":"22","nome_modelo":"408"}
+{"id_modelo":"594","id_marca":"22","nome_modelo":"504"}
+{"id_modelo":"595","id_marca":"22","nome_modelo":"505"}
+{"id_modelo":"596","id_marca":"22","nome_modelo":"508"}
+{"id_modelo":"597","id_marca":"22","nome_modelo":"605"}
+{"id_modelo":"598","id_marca":"22","nome_modelo":"607"}
+{"id_modelo":"599","id_marca":"22","nome_modelo":"806"}
+{"id_modelo":"600","id_marca":"22","nome_modelo":"807"}
+{"id_modelo":"601","id_marca":"22","nome_modelo":"BOXER"}
+{"id_modelo":"602","id_marca":"22","nome_modelo":"HOGGAR"}
+{"id_modelo":"603","id_marca":"22","nome_modelo":"PARTNER"}
+{"id_modelo":"604","id_marca":"22","nome_modelo":"RCZ"}
+{"id_modelo":"605","id_marca":"123","nome_modelo":"GRAN VOYAGER"}
+{"id_modelo":"606","id_marca":"123","nome_modelo":"SUNDANCE"}
+{"id_modelo":"607","id_marca":"69","nome_modelo":"TRANS-AM"}
+{"id_modelo":"608","id_marca":"69","nome_modelo":"TRANS-SPORT"}
+{"id_modelo":"609","id_marca":"70","nome_modelo":"911"}
+{"id_modelo":"612","id_marca":"70","nome_modelo":"BOXSTER"}
+{"id_modelo":"613","id_marca":"70","nome_modelo":"CAYENNE"}
+{"id_modelo":"614","id_marca":"70","nome_modelo":"CAYMAN"}
+{"id_modelo":"615","id_marca":"70","nome_modelo":"PANAMERA"}
+{"id_modelo":"617","id_marca":"24","nome_modelo":"21 SEDAN"}
+{"id_modelo":"618","id_marca":"24","nome_modelo":"CLIO"}
+{"id_modelo":"619","id_marca":"24","nome_modelo":"DUSTER"}
+{"id_modelo":"620","id_marca":"24","nome_modelo":"EXPRESS"}
+{"id_modelo":"621","id_marca":"24","nome_modelo":"FLUENCE"}
+{"id_modelo":"622","id_marca":"24","nome_modelo":"KANGOO"}
+{"id_modelo":"623","id_marca":"24","nome_modelo":"LAGUNA"}
+{"id_modelo":"624","id_marca":"24","nome_modelo":"LOGAN"}
+{"id_modelo":"625","id_marca":"24","nome_modelo":"MASTER"}
+{"id_modelo":"626","id_marca":"24","nome_modelo":"MEGANE"}
+{"id_modelo":"627","id_marca":"24","nome_modelo":"SAFRANE"}
+{"id_modelo":"628","id_marca":"24","nome_modelo":"SANDERO"}
+{"id_modelo":"629","id_marca":"24","nome_modelo":"SCENIC"}
+{"id_modelo":"630","id_marca":"24","nome_modelo":"SYMBOL"}
+{"id_modelo":"631","id_marca":"24","nome_modelo":"TRAFIC"}
+{"id_modelo":"632","id_marca":"24","nome_modelo":"TWINGO"}
+{"id_modelo":"634","id_marca":"137","nome_modelo":"9000"}
+{"id_modelo":"635","id_marca":"162","nome_modelo":"SL-2"}
+{"id_modelo":"636","id_marca":"130","nome_modelo":"CORDOBA"}
+{"id_modelo":"637","id_marca":"130","nome_modelo":"IBIZA"}
+{"id_modelo":"638","id_marca":"130","nome_modelo":"INCA"}
+{"id_modelo":"641","id_marca":"142","nome_modelo":"FORTWO"}
+{"id_modelo":"642","id_marca":"21","nome_modelo":"ACTYON SPORTS"}
+{"id_modelo":"643","id_marca":"21","nome_modelo":"CHAIRMAN"}
+{"id_modelo":"644","id_marca":"21","nome_modelo":"ISTANA"}
+{"id_modelo":"645","id_marca":"21","nome_modelo":"KORANDO"}
+{"id_modelo":"646","id_marca":"21","nome_modelo":"KYRON"}
+{"id_modelo":"647","id_marca":"21","nome_modelo":"MUSSO"}
+{"id_modelo":"648","id_marca":"21","nome_modelo":"REXTON"}
+{"id_modelo":"649","id_marca":"8","nome_modelo":"FORESTER"}
+{"id_modelo":"650","id_marca":"8","nome_modelo":"IMPREZA"}
+{"id_modelo":"651","id_marca":"8","nome_modelo":"LEGACY"}
+{"id_modelo":"652","id_marca":"8","nome_modelo":"OUTBACK"}
+{"id_modelo":"653","id_marca":"8","nome_modelo":"SVX"}
+{"id_modelo":"654","id_marca":"8","nome_modelo":"TRIBECA"}
+{"id_modelo":"655","id_marca":"8","nome_modelo":"VIVIO"}
+{"id_modelo":"656","id_marca":"59","nome_modelo":"BALENO"}
+{"id_modelo":"657","id_marca":"59","nome_modelo":"GRAND VITARA"}
+{"id_modelo":"658","id_marca":"59","nome_modelo":"IGNIS"}
+{"id_modelo":"660","id_marca":"59","nome_modelo":"JIMNY"}
+{"id_modelo":"662","id_marca":"59","nome_modelo":"SUPER CARRY"}
+{"id_modelo":"663","id_marca":"59","nome_modelo":"SWIFT"}
+{"id_modelo":"664","id_marca":"59","nome_modelo":"SX4"}
+{"id_modelo":"665","id_marca":"59","nome_modelo":"VITARA"}
+{"id_modelo":"666","id_marca":"59","nome_modelo":"WAGON R"}
+{"id_modelo":"667","id_marca":"146","nome_modelo":"STARK"}
+{"id_modelo":"668","id_marca":"23","nome_modelo":"AVALON"}
+{"id_modelo":"669","id_marca":"23","nome_modelo":"BANDEIRANTE"}
+{"id_modelo":"670","id_marca":"23","nome_modelo":"CAMRY"}
+{"id_modelo":"671","id_marca":"23","nome_modelo":"CELICA"}
+{"id_modelo":"672","id_marca":"23","nome_modelo":"COROLLA"}
+{"id_modelo":"673","id_marca":"23","nome_modelo":"CORONA"}
+{"id_modelo":"674","id_marca":"23","nome_modelo":"HILUX"}
+{"id_modelo":"675","id_marca":"23","nome_modelo":"LAND CRUISER"}
+{"id_modelo":"676","id_marca":"23","nome_modelo":"MR-2"}
+{"id_modelo":"677","id_marca":"23","nome_modelo":"PASEO"}
+{"id_modelo":"678","id_marca":"23","nome_modelo":"PREVIA"}
+{"id_modelo":"679","id_marca":"23","nome_modelo":"RAV4"}
+{"id_modelo":"680","id_marca":"23","nome_modelo":"SUPRA"}
+{"id_modelo":"682","id_marca":"149","nome_modelo":"PANTANAL"}
+{"id_modelo":"684","id_marca":"149","nome_modelo":"T-4"}
+{"id_modelo":"685","id_marca":"53","nome_modelo":"400 SERIES"}
+{"id_modelo":"687","id_marca":"53","nome_modelo":"850"}
+{"id_modelo":"688","id_marca":"53","nome_modelo":"900 SERIES"}
+{"id_modelo":"700","id_marca":"2","nome_modelo":"AMAROK"}
+{"id_modelo":"701","id_marca":"2","nome_modelo":"APOLLO"}
+{"id_modelo":"702","id_marca":"2","nome_modelo":"BORA"}
+{"id_modelo":"703","id_marca":"2","nome_modelo":"CARAVELLE"}
+{"id_modelo":"704","id_marca":"2","nome_modelo":"CORRADO"}
+{"id_modelo":"706","id_marca":"2","nome_modelo":"EOS"}
+{"id_modelo":"707","id_marca":"2","nome_modelo":"EUROVAN"}
+{"id_modelo":"708","id_marca":"2","nome_modelo":"FOX"}
+{"id_modelo":"709","id_marca":"2","nome_modelo":"FUSCA"}
+{"id_modelo":"710","id_marca":"2","nome_modelo":"GOL"}
+{"id_modelo":"711","id_marca":"2","nome_modelo":"GOLF"}
+{"id_modelo":"713","id_marca":"2","nome_modelo":"JETTA"}
+{"id_modelo":"714","id_marca":"2","nome_modelo":"KOMBI"}
+{"id_modelo":"715","id_marca":"2","nome_modelo":"LOGUS"}
+{"id_modelo":"717","id_marca":"2","nome_modelo":"PARATI"}
+{"id_modelo":"718","id_marca":"2","nome_modelo":"PASSAT"}
+{"id_modelo":"719","id_marca":"2","nome_modelo":"POINTER"}
+{"id_modelo":"720","id_marca":"2","nome_modelo":"POLO"}
+{"id_modelo":"722","id_marca":"2","nome_modelo":"SANTANA"}
+{"id_modelo":"723","id_marca":"2","nome_modelo":"SAVEIRO"}
+{"id_modelo":"725","id_marca":"2","nome_modelo":"SPACEFOX"}
+{"id_modelo":"726","id_marca":"2","nome_modelo":"TIGUAN"}
+{"id_modelo":"727","id_marca":"2","nome_modelo":"TOUAREG"}
+{"id_modelo":"729","id_marca":"2","nome_modelo":"VOYAGE"}
+{"id_modelo":"732","id_marca":"25","nome_modelo":"ZDX"}
+{"id_modelo":"737","id_marca":"3","nome_modelo":"140"}
+{"id_modelo":"755","id_marca":"2","nome_modelo":"BRASILIA"}
+{"id_modelo":"756","id_marca":"13","nome_modelo":"BRASILVAN"}
+{"id_modelo":"775","id_marca":"13","nome_modelo":"CORCEL"}
+{"id_modelo":"803","id_marca":"3","nome_modelo":"PALIO WEEKEND"}
+{"id_modelo":"806","id_marca":"13","nome_modelo":"FOCUS SEDAN"}
+{"id_modelo":"807","id_marca":"13","nome_modelo":"FIESTA SEDAN"}
+{"id_modelo":"808","id_marca":"13","nome_modelo":"FIESTA TRAIL"}
+{"id_modelo":"810","id_marca":"22","nome_modelo":"207 SW"}
+{"id_modelo":"811","id_marca":"13","nome_modelo":"ESCORT SW"}
+{"id_modelo":"812","id_marca":"22","nome_modelo":"307 SEDAN"}
+{"id_modelo":"813","id_marca":"22","nome_modelo":"307 SW"}
+{"id_modelo":"815","id_marca":"5","nome_modelo":"C4 PALLAS"}
+{"id_modelo":"816","id_marca":"5","nome_modelo":"C4 PICASSO"}
+{"id_modelo":"817","id_marca":"5","nome_modelo":"C4 VTR"}
+{"id_modelo":"818","id_marca":"24","nome_modelo":"CLIO SEDAN"}
+{"id_modelo":"819","id_marca":"23","nome_modelo":"COROLLA FIELDER"}
+{"id_modelo":"824","id_marca":"23","nome_modelo":"HILUX SW4"}
+{"id_modelo":"825","id_marca":"24","nome_modelo":"MEGANE GRAND TOUR"}
+{"id_modelo":"827","id_marca":"24","nome_modelo":"SANDERO STEPWAY"}
+{"id_modelo":"829","id_marca":"5","nome_modelo":"XSARA PICASSO"}
+{"id_modelo":"1360","id_marca":"131","nome_modelo":"COLHEITADEIRA"}
+{"id_modelo":"1361","id_marca":"158","nome_modelo":"PICKUP F75"}
+{"id_modelo":"1362","id_marca":"17","nome_modelo":"X12"}
+{"id_modelo":"1365","id_marca":"1","nome_modelo":"BEL AIR"}
+{"id_modelo":"1366","id_marca":"36","nome_modelo":"RX"}
+{"id_modelo":"1369","id_marca":"1","nome_modelo":"C-14"}
+{"id_modelo":"1370","id_marca":"155","nome_modelo":"SRX4"}
+{"id_modelo":"1372","id_marca":"1","nome_modelo":"C-15"}
+{"id_modelo":"1373","id_marca":"1","nome_modelo":"BRASIL"}
+{"id_modelo":"1377","id_marca":"18","nome_modelo":"POLARA"}
+{"id_modelo":"1380","id_marca":"3","nome_modelo":"600"}
+{"id_modelo":"1382","id_marca":"13","nome_modelo":"F-01"}
+{"id_modelo":"1383","id_marca":"13","nome_modelo":"FALCON"}
+{"id_modelo":"1384","id_marca":"13","nome_modelo":"GALAXIE"}
+{"id_modelo":"1386","id_marca":"13","nome_modelo":"MAVERICK"}
+{"id_modelo":"1387","id_marca":"13","nome_modelo":"MODELO A"}
+{"id_modelo":"1388","id_marca":"13","nome_modelo":"NEW FIESTA"}
+{"id_modelo":"1389","id_marca":"82","nome_modelo":"LINHA FX"}
+{"id_modelo":"1391","id_marca":"124","nome_modelo":"GTS"}
+{"id_modelo":"1392","id_marca":"80","nome_modelo":"H3"}
+{"id_modelo":"1394","id_marca":"14","nome_modelo":"PRIME"}
+{"id_modelo":"1395","id_marca":"14","nome_modelo":"TIBURON"}
+{"id_modelo":"1397","id_marca":"87","nome_modelo":"JEEP"}
+{"id_modelo":"1398","id_marca":"87","nome_modelo":"CJ5"}
+{"id_modelo":"1399","id_marca":"239","nome_modelo":"TC"}
+{"id_modelo":"1404","id_marca":"4","nome_modelo":"CLASSE CLC"}
+{"id_modelo":"1405","id_marca":"4","nome_modelo":"CLASSE CLS"}
+{"id_modelo":"1408","id_marca":"110","nome_modelo":"MONTEREY"}
+{"id_modelo":"1411","id_marca":"114","nome_modelo":"TOPSPORT"}
+{"id_modelo":"1412","id_marca":"114","nome_modelo":"TARGA"}
+{"id_modelo":"1414","id_marca":"114","nome_modelo":"X8"}
+{"id_modelo":"1415","id_marca":"43","nome_modelo":"370Z"}
+{"id_modelo":"1418","id_marca":"124","nome_modelo":"GTB"}
+{"id_modelo":"1419","id_marca":"124","nome_modelo":"GTC"}
+{"id_modelo":"1420","id_marca":"124","nome_modelo":"GTE"}
+{"id_modelo":"1421","id_marca":"115","nome_modelo":"AUSTIN"}
+{"id_modelo":"1423","id_marca":"24","nome_modelo":"7TL"}
+{"id_modelo":"1424","id_marca":"24","nome_modelo":"19"}
+{"id_modelo":"1426","id_marca":"175","nome_modelo":"CONVERSÍVEL"}
+{"id_modelo":"1427","id_marca":"17","nome_modelo":"SUPERMINI"}
+{"id_modelo":"1428","id_marca":"2","nome_modelo":"TL"}
+{"id_modelo":"1429","id_marca":"3","nome_modelo":"TOPOLINO"}
+{"id_modelo":"1430","id_marca":"23","nome_modelo":"SR5"}
+{"id_modelo":"1431","id_marca":"23","nome_modelo":"VITZ"}
+{"id_modelo":"1432","id_marca":"2","nome_modelo":"VARIANT"}
+{"id_modelo":"1454","id_marca":"57","nome_modelo":"CANDANGO"}
+{"id_modelo":"1460","id_marca":"2","nome_modelo":"SP2"}
+{"id_modelo":"1466","id_marca":"258","nome_modelo":"RECORB"}
+{"id_modelo":"1467","id_marca":"2","nome_modelo":"POLAUTO"}
+{"id_modelo":"1508","id_marca":"24","nome_modelo":"GORDINI"}
+{"id_modelo":"1509","id_marca":"265","nome_modelo":"MINX"}
+{"id_modelo":"1971","id_marca":"23","nome_modelo":"ETIOS"}
+{"id_modelo":"1972","id_marca":"1","nome_modelo":"ONIX"}
+{"id_modelo":"1973","id_marca":"14","nome_modelo":"HB20"}
+{"id_modelo":"1975","id_marca":"36","nome_modelo":"330"}
+{"id_modelo":"1976","id_marca":"36","nome_modelo":"520"}
+{"id_modelo":"1978","id_marca":"36","nome_modelo":"730"}
+{"id_modelo":"1980","id_marca":"36","nome_modelo":"M1"}
+{"id_modelo":"1982","id_marca":"36","nome_modelo":"SERIE Z"}
+{"id_modelo":"1983","id_marca":"4","nome_modelo":"CLASSE SLK"}
+{"id_modelo":"1984","id_marca":"4","nome_modelo":"CLASSE C"}
+{"id_modelo":"1985","id_marca":"4","nome_modelo":"CLASSE E"}
+{"id_modelo":"1986","id_marca":"4","nome_modelo":"CLASSE CL"}
+{"id_modelo":"1987","id_marca":"4","nome_modelo":"CLASSE CLK"}
+{"id_modelo":"1988","id_marca":"4","nome_modelo":"CLASSE S"}
+{"id_modelo":"1989","id_marca":"4","nome_modelo":"CLASSE SL"}
+{"id_modelo":"1990","id_marca":"4","nome_modelo":"CLASSE SLS"}
+{"id_modelo":"1991","id_marca":"4","nome_modelo":"CLASSE G"}
+{"id_modelo":"1992","id_marca":"4","nome_modelo":"CLASSE GL"}
+{"id_modelo":"1993","id_marca":"4","nome_modelo":"CLASSE M"}
+{"id_modelo":"2032","id_marca":"288","nome_modelo":"1500"}
+{"id_modelo":"2061","id_marca":"14","nome_modelo":"EQUUS"}
+{"id_modelo":"2067","id_marca":"12","nome_modelo":"350 GT"}
+{"id_modelo":"2068","id_marca":"12","nome_modelo":"400 GT"}
+{"id_modelo":"2069","id_marca":"12","nome_modelo":"MIURA"}
+{"id_modelo":"2070","id_marca":"12","nome_modelo":"ISLERO"}
+{"id_modelo":"2071","id_marca":"12","nome_modelo":"ESPADA"}
+{"id_modelo":"2072","id_marca":"12","nome_modelo":"COUNTACH"}
+{"id_modelo":"2073","id_marca":"12","nome_modelo":"DIABLO"}
+{"id_modelo":"2074","id_marca":"12","nome_modelo":"ZAGATO"}
+{"id_modelo":"2075","id_marca":"12","nome_modelo":"ALAR"}
+{"id_modelo":"2076","id_marca":"12","nome_modelo":"LM002"}
+{"id_modelo":"2077","id_marca":"12","nome_modelo":"REVENTON"}
+{"id_modelo":"2078","id_marca":"12","nome_modelo":"ANKONIAN"}
+{"id_modelo":"2080","id_marca":"12","nome_modelo":"AVENTADOR"}
+{"id_modelo":"2081","id_marca":"12","nome_modelo":"SESTO ELEMENTO"}
+{"id_modelo":"2082","id_marca":"15","nome_modelo":"J3 TURIN"}
+{"id_modelo":"2083","id_marca":"15","nome_modelo":"J2"}
+{"id_modelo":"2084","id_marca":"24","nome_modelo":"SANDERO GT"}
+{"id_modelo":"2087","id_marca":"1","nome_modelo":"SPIN"}
+{"id_modelo":"2088","id_marca":"1","nome_modelo":"TRAILBLAZER"}
+{"id_modelo":"2097","id_marca":"5","nome_modelo":"C3 PICASSO"}
+{"id_modelo":"2098","id_marca":"5","nome_modelo":"GRAND C4 PICASSO"}
+{"id_modelo":"2099","id_marca":"5","nome_modelo":"JUMPER MINIBUS"}
+{"id_modelo":"2100","id_marca":"5","nome_modelo":"JUMPER VETRATO"}
+{"id_modelo":"2101","id_marca":"22","nome_modelo":"207 SEDAN"}
+{"id_modelo":"2102","id_marca":"22","nome_modelo":"207 QUIKSILVER"}
+{"id_modelo":"2103","id_marca":"22","nome_modelo":"207 ESCAPADE"}
+{"id_modelo":"2104","id_marca":"22","nome_modelo":"308 CC"}
+{"id_modelo":"2105","id_marca":"22","nome_modelo":"BOXER PASSAGEIRO"}
+{"id_modelo":"2106","id_marca":"13","nome_modelo":"NEW FIESTA SEDAN"}
+{"id_modelo":"2108","id_marca":"13","nome_modelo":"TRANSIT PASSAGEIRO"}
+{"id_modelo":"2109","id_marca":"13","nome_modelo":"TRANSIT CHASSI"}
+{"id_modelo":"2110","id_marca":"32","nome_modelo":"A4 AVANT"}
+{"id_modelo":"2111","id_marca":"32","nome_modelo":"S4 AVANT"}
+{"id_modelo":"2112","id_marca":"32","nome_modelo":"A5 SPORTBACK"}
+{"id_modelo":"2113","id_marca":"32","nome_modelo":"A5 CABRIOLET"}
+{"id_modelo":"2114","id_marca":"32","nome_modelo":"S5 COUPE"}
+{"id_modelo":"2115","id_marca":"32","nome_modelo":"S5 SPORTBACK"}
+{"id_modelo":"2116","id_marca":"32","nome_modelo":"S5 CABRIOLET"}
+{"id_modelo":"2117","id_marca":"32","nome_modelo":"A6 AVANT"}
+{"id_modelo":"2118","id_marca":"32","nome_modelo":"A6 ALLROAD"}
+{"id_modelo":"2119","id_marca":"32","nome_modelo":"S6 AVANT"}
+{"id_modelo":"2120","id_marca":"32","nome_modelo":"S7"}
+{"id_modelo":"2121","id_marca":"32","nome_modelo":"TT ROADSTER"}
+{"id_modelo":"2122","id_marca":"32","nome_modelo":"TT RS"}
+{"id_modelo":"2123","id_marca":"32","nome_modelo":"TT RS ROADSTER"}
+{"id_modelo":"2124","id_marca":"32","nome_modelo":"TTS ROADSTER"}
+{"id_modelo":"2125","id_marca":"32","nome_modelo":"R8 SPYDER"}
+{"id_modelo":"2126","id_marca":"32","nome_modelo":"R8 GT"}
+{"id_modelo":"2127","id_marca":"32","nome_modelo":"R8 GT SPYDER"}
+{"id_modelo":"2129","id_marca":"10","nome_modelo":"F12"}
+{"id_modelo":"2130","id_marca":"10","nome_modelo":"458 SPIDER"}
+{"id_modelo":"2131","id_marca":"10","nome_modelo":"458 ITALIA"}
+{"id_modelo":"2132","id_marca":"10","nome_modelo":"FF"}
+{"id_modelo":"2133","id_marca":"10","nome_modelo":"599"}
+{"id_modelo":"2134","id_marca":"10","nome_modelo":"SA"}
+{"id_modelo":"2135","id_marca":"10","nome_modelo":"CHALLENGE"}
+{"id_modelo":"2136","id_marca":"10","nome_modelo":"SUPERAMERICA"}
+{"id_modelo":"2137","id_marca":"10","nome_modelo":"F430 SPIDER"}
+{"id_modelo":"2138","id_marca":"10","nome_modelo":"430"}
+{"id_modelo":"2139","id_marca":"10","nome_modelo":"612 SESSANTA"}
+{"id_modelo":"2140","id_marca":"10","nome_modelo":"599 GTB"}
+{"id_modelo":"2141","id_marca":"10","nome_modelo":"SCUDERIA SPIDER"}
+{"id_modelo":"2142","id_marca":"10","nome_modelo":"512"}
+{"id_modelo":"2143","id_marca":"10","nome_modelo":"456 GT"}
+{"id_modelo":"2144","id_marca":"10","nome_modelo":"348 GTS"}
+{"id_modelo":"2145","id_marca":"10","nome_modelo":"348 SPIDER"}
+{"id_modelo":"2146","id_marca":"10","nome_modelo":"F355"}
+{"id_modelo":"2147","id_marca":"10","nome_modelo":"F355 SPIDER"}
+{"id_modelo":"2148","id_marca":"10","nome_modelo":"F50"}
+{"id_modelo":"2149","id_marca":"10","nome_modelo":"355 SPIDER"}
+{"id_modelo":"2150","id_marca":"10","nome_modelo":"360 MODENA"}
+{"id_modelo":"2151","id_marca":"111","nome_modelo":"PAJERO FULL"}
+{"id_modelo":"2152","id_marca":"111","nome_modelo":"PAJERO DAKAR"}
+{"id_modelo":"2153","id_marca":"111","nome_modelo":"PAJERO TR4"}
+{"id_modelo":"2154","id_marca":"111","nome_modelo":"LANCER SPORTBACK"}
+{"id_modelo":"2155","id_marca":"111","nome_modelo":"LANCER EVOLUTION"}
+{"id_modelo":"2156","id_marca":"111","nome_modelo":"L200 TRITON SAVANA"}
+{"id_modelo":"2157","id_marca":"111","nome_modelo":"L200 TRITON"}
+{"id_modelo":"2159","id_marca":"43","nome_modelo":"LIVINA X-GEAR"}
+{"id_modelo":"2160","id_marca":"43","nome_modelo":"GRAND LIVINA"}
+{"id_modelo":"2161","id_marca":"21","nome_modelo":"NEW ACTYON SPORTS"}
+{"id_modelo":"2162","id_marca":"23","nome_modelo":"PRIUS"}
+{"id_modelo":"2163","id_marca":"114","nome_modelo":"SPORT"}
+{"id_modelo":"2164","id_marca":"114","nome_modelo":"MTS"}
+{"id_modelo":"2165","id_marca":"114","nome_modelo":"SPIDER"}
+{"id_modelo":"2166","id_marca":"114","nome_modelo":"KABRIO"}
+{"id_modelo":"2167","id_marca":"114","nome_modelo":"SAGA"}
+{"id_modelo":"2168","id_marca":"114","nome_modelo":"SAGA II"}
+{"id_modelo":"2169","id_marca":"114","nome_modelo":"787"}
+{"id_modelo":"2170","id_marca":"114","nome_modelo":"X11"}
+{"id_modelo":"2171","id_marca":"295","nome_modelo":"GAIOLA"}
+{"id_modelo":"2175","id_marca":"18","nome_modelo":"NITRO"}
+{"id_modelo":"2176","id_marca":"18","nome_modelo":"CHALLENGER"}
+{"id_modelo":"2177","id_marca":"18","nome_modelo":"DART"}
+{"id_modelo":"2178","id_marca":"18","nome_modelo":"LE BARON"}
+{"id_modelo":"2179","id_marca":"18","nome_modelo":"CORDOBA"}
+{"id_modelo":"2180","id_marca":"18","nome_modelo":"CHARGER"}
+{"id_modelo":"2181","id_marca":"19","nome_modelo":"WINDSOR"}
+{"id_modelo":"2183","id_marca":"19","nome_modelo":"CROSSFIRE"}
+{"id_modelo":"2184","id_marca":"19","nome_modelo":"CORDOBA"}
+{"id_modelo":"2185","id_marca":"155","nome_modelo":"ESCALADE"}
+{"id_modelo":"2186","id_marca":"41","nome_modelo":"RIVIERA"}
+{"id_modelo":"2187","id_marca":"41","nome_modelo":"COUPE"}
+{"id_modelo":"2188","id_marca":"41","nome_modelo":"CENTURY"}
+{"id_modelo":"2189","id_marca":"41","nome_modelo":"APOLLO"}
+{"id_modelo":"2190","id_marca":"41","nome_modelo":"CENTURION"}
+{"id_modelo":"2191","id_marca":"41","nome_modelo":"EIGHT"}
+{"id_modelo":"2192","id_marca":"41","nome_modelo":"ELECTRA"}
+{"id_modelo":"2193","id_marca":"41","nome_modelo":"ESTATE WAGON"}
+{"id_modelo":"2194","id_marca":"41","nome_modelo":"GRAN SPORT"}
+{"id_modelo":"2195","id_marca":"41","nome_modelo":"GSX"}
+{"id_modelo":"2196","id_marca":"41","nome_modelo":"INVICTA"}
+{"id_modelo":"2197","id_marca":"41","nome_modelo":"LESABRE"}
+{"id_modelo":"2198","id_marca":"41","nome_modelo":"LIMITED"}
+{"id_modelo":"2199","id_marca":"41","nome_modelo":"PARK AVENUE"}
+{"id_modelo":"2200","id_marca":"41","nome_modelo":"RAINIER"}
+{"id_modelo":"2201","id_marca":"41","nome_modelo":"REATTA"}
+{"id_modelo":"2202","id_marca":"41","nome_modelo":"REGAL"}
+{"id_modelo":"2203","id_marca":"41","nome_modelo":"RENDEZVOUS"}
+{"id_modelo":"2204","id_marca":"41","nome_modelo":"ROADMASTER"}
+{"id_modelo":"2205","id_marca":"41","nome_modelo":"ROYAUM"}
+{"id_modelo":"2206","id_marca":"41","nome_modelo":"SKYHAWK"}
+{"id_modelo":"2207","id_marca":"41","nome_modelo":"SKYLARK"}
+{"id_modelo":"2208","id_marca":"41","nome_modelo":"SOMERSET"}
+{"id_modelo":"2209","id_marca":"41","nome_modelo":"SPECIAL"}
+{"id_modelo":"2210","id_marca":"41","nome_modelo":"SPORT WAGON"}
+{"id_modelo":"2211","id_marca":"41","nome_modelo":"SUPER"}
+{"id_modelo":"2212","id_marca":"41","nome_modelo":"TERRAZA"}
+{"id_modelo":"2213","id_marca":"41","nome_modelo":"WILDCAT"}
+{"id_modelo":"2214","id_marca":"41","nome_modelo":"LACROSSE"}
+{"id_modelo":"2215","id_marca":"41","nome_modelo":"ENCLAVE"}
+{"id_modelo":"2217","id_marca":"41","nome_modelo":"GL8"}
+{"id_modelo":"2218","id_marca":"41","nome_modelo":"HRV"}
+{"id_modelo":"2219","id_marca":"41","nome_modelo":"LUCERNE"}
+{"id_modelo":"2230","id_marca":"13","nome_modelo":"SIERRA"}
+{"id_modelo":"2231","id_marca":"51","nome_modelo":"BROUGHAM"}
+{"id_modelo":"2232","id_marca":"51","nome_modelo":"CHAIRMAN"}
+{"id_modelo":"2233","id_marca":"51","nome_modelo":"DAMAS"}
+{"id_modelo":"2234","id_marca":"51","nome_modelo":"GENTRA"}
+{"id_modelo":"2235","id_marca":"51","nome_modelo":"MAEPSY"}
+{"id_modelo":"2236","id_marca":"51","nome_modelo":"ISTANA"}
+{"id_modelo":"2237","id_marca":"51","nome_modelo":"KALOS"}
+{"id_modelo":"2238","id_marca":"51","nome_modelo":"KORANDO"}
+{"id_modelo":"2239","id_marca":"51","nome_modelo":"LACETTI"}
+{"id_modelo":"2240","id_marca":"51","nome_modelo":"LEMANS"}
+{"id_modelo":"2242","id_marca":"51","nome_modelo":"MATIZ"}
+{"id_modelo":"2243","id_marca":"51","nome_modelo":"MUSSO"}
+{"id_modelo":"2244","id_marca":"51","nome_modelo":"NEXIA"}
+{"id_modelo":"2245","id_marca":"51","nome_modelo":"REZZO"}
+{"id_modelo":"2246","id_marca":"51","nome_modelo":"ROYALE PRINCE"}
+{"id_modelo":"2247","id_marca":"51","nome_modelo":"ROYALE SALON"}
+{"id_modelo":"2248","id_marca":"51","nome_modelo":"STATESMAN"}
+{"id_modelo":"2249","id_marca":"51","nome_modelo":"TOSCA"}
+{"id_modelo":"2250","id_marca":"51","nome_modelo":"WINSTORM"}
+{"id_modelo":"2252","id_marca":"158","nome_modelo":"RURAL"}
+{"id_modelo":"2253","id_marca":"18","nome_modelo":"D100"}
+{"id_modelo":"2259","id_marca":"4","nome_modelo":"170"}
+{"id_modelo":"2261","id_marca":"18","nome_modelo":"CUSTOM ROYAL"}
+{"id_modelo":"2262","id_marca":"1","nome_modelo":"CLUB COUPE"}
+{"id_modelo":"2263","id_marca":"18","nome_modelo":"MAGNUM"}
+{"id_modelo":"2264","id_marca":"1","nome_modelo":"GMC 100"}
+{"id_modelo":"2265","id_marca":"69","nome_modelo":"SOLSTICE"}
+{"id_modelo":"2266","id_marca":"158","nome_modelo":"ITAMARATY"}
+{"id_modelo":"2267","id_marca":"86","nome_modelo":"MARK V"}
+{"id_modelo":"2268","id_marca":"124","nome_modelo":"GT"}
+{"id_modelo":"2269","id_marca":"145","nome_modelo":"CHAMPION"}
+{"id_modelo":"2270","id_marca":"3","nome_modelo":"BALILLA"}
+{"id_modelo":"2271","id_marca":"158","nome_modelo":"INTERLAGOS"}
+{"id_modelo":"2272","id_marca":"17","nome_modelo":"X15"}
+{"id_modelo":"2273","id_marca":"13","nome_modelo":"F-85"}
+{"id_modelo":"2274","id_marca":"70","nome_modelo":"SPEEDSTER 356"}
+{"id_modelo":"2275","id_marca":"88","nome_modelo":"TOPIC FURGAO"}
+{"id_modelo":"2276","id_marca":"88","nome_modelo":"TOPIC ESCOLAR"}
+{"id_modelo":"2279","id_marca":"4","nome_modelo":"300D"}
+{"id_modelo":"2280","id_marca":"4","nome_modelo":"CLASSE TE"}
+{"id_modelo":"2283","id_marca":"23","nome_modelo":"T-100"}
+{"id_modelo":"2294","id_marca":"24","nome_modelo":"MEGANE SEDAN"}
+{"id_modelo":"2295","id_marca":"32","nome_modelo":"A4 CABRIOLET"}
+{"id_modelo":"2298","id_marca":"82","nome_modelo":"LINHA G"}
+{"id_modelo":"2299","id_marca":"82","nome_modelo":"LINHA G COUPE"}
+{"id_modelo":"2300","id_marca":"82","nome_modelo":"LINHA G CONVERSIVEL"}
+{"id_modelo":"2301","id_marca":"82","nome_modelo":"LINHA M"}
+{"id_modelo":"2302","id_marca":"82","nome_modelo":"LINHA EX"}
+{"id_modelo":"2303","id_marca":"82","nome_modelo":"LINHA JX"}
+{"id_modelo":"2304","id_marca":"82","nome_modelo":"LINHA QX"}
+{"id_modelo":"2305","id_marca":"86","nome_modelo":"MODELOS XF"}
+{"id_modelo":"2306","id_marca":"86","nome_modelo":"F-TYPE"}
+{"id_modelo":"2307","id_marca":"86","nome_modelo":"MARK VII"}
+{"id_modelo":"2308","id_marca":"86","nome_modelo":"MARK VIII"}
+{"id_modelo":"2309","id_marca":"86","nome_modelo":"MARK IX"}
+{"id_modelo":"2310","id_marca":"86","nome_modelo":"MARK X"}
+{"id_modelo":"2311","id_marca":"86","nome_modelo":"E-TYPE"}
+{"id_modelo":"2312","id_marca":"86","nome_modelo":"C-TYPE"}
+{"id_modelo":"2313","id_marca":"86","nome_modelo":"D-TYPE"}
+{"id_modelo":"2314","id_marca":"86","nome_modelo":"MARK I"}
+{"id_modelo":"2315","id_marca":"86","nome_modelo":"MARK II"}
+{"id_modelo":"2346","id_marca":"124","nome_modelo":"GT4R"}
+{"id_modelo":"2347","id_marca":"124","nome_modelo":"SPYDER"}
+{"id_modelo":"2348","id_marca":"124","nome_modelo":"GTI"}
+{"id_modelo":"2349","id_marca":"124","nome_modelo":"AM1"}
+{"id_modelo":"2350","id_marca":"124","nome_modelo":"AM2"}
+{"id_modelo":"2351","id_marca":"124","nome_modelo":"AM3"}
+{"id_modelo":"2352","id_marca":"124","nome_modelo":"AM4"}
+{"id_modelo":"2353","id_marca":"124","nome_modelo":"AMV"}
+{"id_modelo":"2377","id_marca":"7","nome_modelo":"ACTY"}
+{"id_modelo":"2378","id_marca":"7","nome_modelo":"AIRWAVE"}
+{"id_modelo":"2379","id_marca":"7","nome_modelo":"ASCOT"}
+{"id_modelo":"2380","id_marca":"7","nome_modelo":"BALLADE"}
+{"id_modelo":"2381","id_marca":"7","nome_modelo":"BEAT"}
+{"id_modelo":"2382","id_marca":"7","nome_modelo":"CR-X"}
+{"id_modelo":"2383","id_marca":"7","nome_modelo":"CONCERTO"}
+{"id_modelo":"2384","id_marca":"7","nome_modelo":"CR-Z"}
+{"id_modelo":"2385","id_marca":"7","nome_modelo":"DOMANI"}
+{"id_modelo":"2386","id_marca":"7","nome_modelo":"EDIX"}
+{"id_modelo":"2387","id_marca":"7","nome_modelo":"ELEMENT"}
+{"id_modelo":"2388","id_marca":"7","nome_modelo":"EV PLUS"}
+{"id_modelo":"2389","id_marca":"7","nome_modelo":"FCX"}
+{"id_modelo":"2390","id_marca":"7","nome_modelo":"FR-V"}
+{"id_modelo":"2392","id_marca":"7","nome_modelo":"HR-V"}
+{"id_modelo":"2393","id_marca":"7","nome_modelo":"HSC"}
+{"id_modelo":"2394","id_marca":"7","nome_modelo":"INSIGHT"}
+{"id_modelo":"2396","id_marca":"25","nome_modelo":"TL"}
+{"id_modelo":"2397","id_marca":"7","nome_modelo":"LIFE DUNK"}
+{"id_modelo":"2398","id_marca":"7","nome_modelo":"LOGO"}
+{"id_modelo":"2399","id_marca":"7","nome_modelo":"MOBILIO"}
+{"id_modelo":"2400","id_marca":"25","nome_modelo":"MDX"}
+{"id_modelo":"2401","id_marca":"7","nome_modelo":"ORTHIA"}
+{"id_modelo":"2402","id_marca":"7","nome_modelo":"PARTNER VAN"}
+{"id_modelo":"2403","id_marca":"7","nome_modelo":"PILOT"}
+{"id_modelo":"2404","id_marca":"7","nome_modelo":"RIDGELINE"}
+{"id_modelo":"2405","id_marca":"7","nome_modelo":"S2000"}
+{"id_modelo":"2406","id_marca":"7","nome_modelo":"S600"}
+{"id_modelo":"2407","id_marca":"7","nome_modelo":"S500"}
+{"id_modelo":"2408","id_marca":"7","nome_modelo":"S800"}
+{"id_modelo":"2409","id_marca":"7","nome_modelo":"STEPWGN"}
+{"id_modelo":"2410","id_marca":"7","nome_modelo":"STREAM"}
+{"id_modelo":"2411","id_marca":"7","nome_modelo":"THATS"}
+{"id_modelo":"2412","id_marca":"7","nome_modelo":"VAMOZ"}
+{"id_modelo":"2413","id_marca":"7","nome_modelo":"Z"}
+{"id_modelo":"2414","id_marca":"7","nome_modelo":"ZEST"}
+{"id_modelo":"2441","id_marca":"59","nome_modelo":"AERIO"}
+{"id_modelo":"2442","id_marca":"59","nome_modelo":"ALTO"}
+{"id_modelo":"2443","id_marca":"59","nome_modelo":"APV"}
+{"id_modelo":"2444","id_marca":"59","nome_modelo":"KEI"}
+{"id_modelo":"2445","id_marca":"59","nome_modelo":"LAPIN"}
+{"id_modelo":"2446","id_marca":"59","nome_modelo":"MR WAGON"}
+{"id_modelo":"2447","id_marca":"59","nome_modelo":"XL-7"}
+{"id_modelo":"2448","id_marca":"59","nome_modelo":"VERONA"}
+{"id_modelo":"2477","id_marca":"158","nome_modelo":"JEEP CJ"}
+{"id_modelo":"2479","id_marca":"22","nome_modelo":"306 CABRIOLET"}
+{"id_modelo":"2484","id_marca":"57","nome_modelo":"BELCAR"}
+{"id_modelo":"2485","id_marca":"90","nome_modelo":"M715"}
+{"id_modelo":"2492","id_marca":"22","nome_modelo":"407 SW"}
+{"id_modelo":"2493","id_marca":"22","nome_modelo":"307 CC"}
+{"id_modelo":"2499","id_marca":"1","nome_modelo":"STYLELINE"}
+{"id_modelo":"2500","id_marca":"13","nome_modelo":"ANGLIA"}
+{"id_modelo":"2508","id_marca":"26","nome_modelo":"GT2"}
+{"id_modelo":"2509","id_marca":"1","nome_modelo":"YUKON"}
+{"id_modelo":"2510","id_marca":"54","nome_modelo":"SPORTSMAN"}
+{"id_modelo":"2514","id_marca":"24","nome_modelo":"21 NEVADA"}
+{"id_modelo":"2515","id_marca":"11","nome_modelo":"VEYRON"}
+{"id_modelo":"2516","id_marca":"10","nome_modelo":"ENZO"}
+{"id_modelo":"2517","id_marca":"22","nome_modelo":"306 SW"}
+{"id_modelo":"2528","id_marca":"28","nome_modelo":"TI 80"}
+{"id_modelo":"2532","id_marca":"70","nome_modelo":"SPYDER 550"}
+{"id_modelo":"2533","id_marca":"10","nome_modelo":"380 GTB"}
+{"id_modelo":"2534","id_marca":"149","nome_modelo":"T-5"}
+{"id_modelo":"2536","id_marca":"18","nome_modelo":"KINGSWAY"}
+{"id_modelo":"2537","id_marca":"1","nome_modelo":"SSR"}
+{"id_modelo":"2540","id_marca":"1","nome_modelo":"IMPALA"}
+{"id_modelo":"2541","id_marca":"22","nome_modelo":"208"}
+{"id_modelo":"2542","id_marca":"1","nome_modelo":"GRAND BLAZER"}
+{"id_modelo":"2555","id_marca":"53","nome_modelo":"100 SERIES"}
+{"id_modelo":"2558","id_marca":"53","nome_modelo":"200 SERIES"}
+{"id_modelo":"2559","id_marca":"53","nome_modelo":"300 SERIES"}
+{"id_modelo":"2561","id_marca":"53","nome_modelo":"66"}
+{"id_modelo":"2562","id_marca":"53","nome_modelo":"700 SERIES"}
+{"id_modelo":"2563","id_marca":"53","nome_modelo":"AMAZON"}
+{"id_modelo":"2564","id_marca":"53","nome_modelo":"C303"}
+{"id_modelo":"2566","id_marca":"53","nome_modelo":"DUETT"}
+{"id_modelo":"2567","id_marca":"53","nome_modelo":"L3314"}
+{"id_modelo":"2568","id_marca":"53","nome_modelo":"OV 4"}
+{"id_modelo":"2569","id_marca":"53","nome_modelo":"P1800"}
+{"id_modelo":"2570","id_marca":"53","nome_modelo":"SUGGA"}
+{"id_modelo":"2571","id_marca":"13","nome_modelo":"TT"}
+{"id_modelo":"2572","id_marca":"5","nome_modelo":"ONCE"}
+{"id_modelo":"2573","id_marca":"13","nome_modelo":"DE LUXE"}
+{"id_modelo":"2574","id_marca":"13","nome_modelo":"CUSTOM"}
+{"id_modelo":"2575","id_marca":"13","nome_modelo":"T-BUCKET"}
+{"id_modelo":"2576","id_marca":"17","nome_modelo":"G15"}
+{"id_modelo":"2588","id_marca":"111","nome_modelo":"PAJERO FULL 3D"}
+{"id_modelo":"2589","id_marca":"111","nome_modelo":"PAJERO SPORT"}
+{"id_modelo":"2590","id_marca":"36","nome_modelo":"120 CABRIO"}
+{"id_modelo":"2591","id_marca":"36","nome_modelo":"320 TOURING"}
+{"id_modelo":"2592","id_marca":"36","nome_modelo":"330 CABRIO"}
+{"id_modelo":"2593","id_marca":"36","nome_modelo":"SERIE 5 TOURING"}
+{"id_modelo":"2594","id_marca":"36","nome_modelo":"SERIE 6 CABRIO"}
+{"id_modelo":"2595","id_marca":"36","nome_modelo":"SERIE M CONVERSIVEL"}
+{"id_modelo":"2596","id_marca":"36","nome_modelo":"M5 TOURING"}
+{"id_modelo":"2597","id_marca":"36","nome_modelo":"SERIE Z ROADSTER"}
+{"id_modelo":"2599","id_marca":"13","nome_modelo":"KA SPORT"}
+{"id_modelo":"2600","id_marca":"2","nome_modelo":"CC"}
+{"id_modelo":"2605","id_marca":"16","nome_modelo":"CERATO KOUP"}
+{"id_modelo":"2607","id_marca":"1","nome_modelo":"ASTRO"}
+{"id_modelo":"2608","id_marca":"23","nome_modelo":"COROLLA XRS"}
+{"id_modelo":"2609","id_marca":"23","nome_modelo":"ETIOS SEDAN"}
+{"id_modelo":"2611","id_marca":"13","nome_modelo":"FREESTYLE"}
+{"id_modelo":"2612","id_marca":"110","nome_modelo":"COUGAR"}
+{"id_modelo":"2615","id_marca":"102","nome_modelo":"XUV 500"}
+{"id_modelo":"2618","id_marca":"102","nome_modelo":"XYLO"}
+{"id_modelo":"2619","id_marca":"102","nome_modelo":"BOLERO"}
+{"id_modelo":"2620","id_marca":"102","nome_modelo":"THAR"}
+{"id_modelo":"2621","id_marca":"102","nome_modelo":"AXE"}
+{"id_modelo":"2622","id_marca":"102","nome_modelo":"LEGEND"}
+{"id_modelo":"2623","id_marca":"87","nome_modelo":"CJ3"}
+{"id_modelo":"2624","id_marca":"102","nome_modelo":"ARMADA"}
+{"id_modelo":"2625","id_marca":"102","nome_modelo":"CHASSI"}
+{"id_modelo":"2626","id_marca":"102","nome_modelo":"SCORPIO PICK-UP"}
+{"id_modelo":"2627","id_marca":"6","nome_modelo":"STAR TRUCK"}
+{"id_modelo":"2628","id_marca":"6","nome_modelo":"STAR"}
+{"id_modelo":"2629","id_marca":"6","nome_modelo":"STAR VAN CARGO"}
+{"id_modelo":"2630","id_marca":"6","nome_modelo":"STAR VAN PASSAGEIROS"}
+{"id_modelo":"2632","id_marca":"141","nome_modelo":"ALVORADA"}
+{"id_modelo":"2633","id_marca":"141","nome_modelo":"CHAMBORD"}
+{"id_modelo":"2637","id_marca":"141","nome_modelo":"PROFISSIONAL"}
+{"id_modelo":"2639","id_marca":"141","nome_modelo":"VEDETTE"}
+{"id_modelo":"2640","id_marca":"141","nome_modelo":"ARONDE"}
+{"id_modelo":"2641","id_marca":"141","nome_modelo":"1200S"}
+{"id_modelo":"2642","id_marca":"141","nome_modelo":"1000"}
+{"id_modelo":"2645","id_marca":"14","nome_modelo":"HB20X"}
+{"id_modelo":"2646","id_marca":"14","nome_modelo":"HB20S"}
+{"id_modelo":"2648","id_marca":"1","nome_modelo":"MONZA"}
+{"id_modelo":"2649","id_marca":"1","nome_modelo":"CHEVETTE"}
+{"id_modelo":"2650","id_marca":"98","nome_modelo":"X60"}
+{"id_modelo":"2651","id_marca":"1","nome_modelo":"TRAX"}
+{"id_modelo":"2652","id_marca":"36","nome_modelo":"118"}
+{"id_modelo":"2653","id_marca":"36","nome_modelo":"120"}
+{"id_modelo":"2654","id_marca":"36","nome_modelo":"130"}
+{"id_modelo":"2655","id_marca":"36","nome_modelo":"BAVARIA"}
+{"id_modelo":"2656","id_marca":"36","nome_modelo":"C-2800"}
+{"id_modelo":"2657","id_marca":"36","nome_modelo":"318"}
+{"id_modelo":"2658","id_marca":"36","nome_modelo":"320"}
+{"id_modelo":"2659","id_marca":"36","nome_modelo":"318 CABRIO"}
+{"id_modelo":"2660","id_marca":"36","nome_modelo":"325 CABRIO"}
+{"id_modelo":"2661","id_marca":"36","nome_modelo":"530"}
+{"id_modelo":"2662","id_marca":"36","nome_modelo":"540"}
+{"id_modelo":"2663","id_marca":"36","nome_modelo":"550"}
+{"id_modelo":"2664","id_marca":"36","nome_modelo":"740"}
+{"id_modelo":"2665","id_marca":"36","nome_modelo":"750"}
+{"id_modelo":"2666","id_marca":"36","nome_modelo":"760"}
+{"id_modelo":"2675","id_marca":"341","nome_modelo":"MATRIX 4X4"}
+{"id_modelo":"2694","id_marca":"132","nome_modelo":"A7"}
+{"id_modelo":"2695","id_marca":"132","nome_modelo":"A9"}
+{"id_modelo":"2696","id_marca":"132","nome_modelo":"A9 CARGO"}
+{"id_modelo":"2697","id_marca":"132","nome_modelo":"T20"}
+{"id_modelo":"2698","id_marca":"132","nome_modelo":"T20 BAU"}
+{"id_modelo":"2699","id_marca":"132","nome_modelo":"T22"}
+{"id_modelo":"2704","id_marca":"64","nome_modelo":"SUPER 90 COUPE"}
+{"id_modelo":"2705","id_marca":"17","nome_modelo":"X20"}
+{"id_modelo":"2706","id_marca":"17","nome_modelo":"ITAIPU"}
+{"id_modelo":"2707","id_marca":"17","nome_modelo":"G800"}
+{"id_modelo":"2708","id_marca":"17","nome_modelo":"XEF"}
+{"id_modelo":"2709","id_marca":"17","nome_modelo":"MOTOMACHINE"}
+{"id_modelo":"2710","id_marca":"17","nome_modelo":"BUGATO"}
+{"id_modelo":"2711","id_marca":"17","nome_modelo":"QT"}
+{"id_modelo":"2716","id_marca":"57","nome_modelo":"CAICARA"}
+{"id_modelo":"2717","id_marca":"57","nome_modelo":"CARCARA"}
+{"id_modelo":"2718","id_marca":"57","nome_modelo":"FISSORE"}
+{"id_modelo":"2719","id_marca":"57","nome_modelo":"MALZONI"}
+{"id_modelo":"2720","id_marca":"57","nome_modelo":"VEMAGUET"}
+{"id_modelo":"2727","id_marca":"5","nome_modelo":"C4 LOUNGE"}
+{"id_modelo":"2728","id_marca":"108","nome_modelo":"CX-7"}
+{"id_modelo":"2729","id_marca":"147","nome_modelo":"TR"}
+{"id_modelo":"2730","id_marca":"147","nome_modelo":"LUCENA"}
+{"id_modelo":"2731","id_marca":"147","nome_modelo":"SEVETSE"}
+{"id_modelo":"2732","id_marca":"147","nome_modelo":"RAGGE"}
+{"id_modelo":"2733","id_marca":"53","nome_modelo":"C70"}
+{"id_modelo":"2734","id_marca":"53","nome_modelo":"C30"}
+{"id_modelo":"2735","id_marca":"53","nome_modelo":"544"}
+{"id_modelo":"2736","id_marca":"53","nome_modelo":"S40"}
+{"id_modelo":"2737","id_marca":"53","nome_modelo":"S60"}
+{"id_modelo":"2738","id_marca":"53","nome_modelo":"S70"}
+{"id_modelo":"2739","id_marca":"53","nome_modelo":"S80"}
+{"id_modelo":"2740","id_marca":"53","nome_modelo":"V40"}
+{"id_modelo":"2741","id_marca":"53","nome_modelo":"V50"}
+{"id_modelo":"2742","id_marca":"53","nome_modelo":"V60"}
+{"id_modelo":"2743","id_marca":"53","nome_modelo":"V70"}
+{"id_modelo":"2744","id_marca":"53","nome_modelo":"S90"}
+{"id_modelo":"2745","id_marca":"53","nome_modelo":"XC60"}
+{"id_modelo":"2746","id_marca":"53","nome_modelo":"XC70"}
+{"id_modelo":"2747","id_marca":"53","nome_modelo":"XC90"}
+{"id_modelo":"2748","id_marca":"53","nome_modelo":"P1900"}
+{"id_modelo":"2749","id_marca":"53","nome_modelo":"PV36"}
+{"id_modelo":"2750","id_marca":"53","nome_modelo":"PV444"}
+{"id_modelo":"2751","id_marca":"53","nome_modelo":"PV544"}
+{"id_modelo":"2752","id_marca":"53","nome_modelo":"PV51"}
+{"id_modelo":"2753","id_marca":"53","nome_modelo":"PV654"}
+{"id_modelo":"2754","id_marca":"53","nome_modelo":"C50"}
+{"id_modelo":"2755","id_marca":"4","nome_modelo":"190"}
+{"id_modelo":"2756","id_marca":"4","nome_modelo":"CLASSE CLA"}
+{"id_modelo":"2757","id_marca":"4","nome_modelo":"CLASSE V"}
+{"id_modelo":"2758","id_marca":"4","nome_modelo":"VANEO"}
+{"id_modelo":"2759","id_marca":"4","nome_modelo":"CITAN"}
+{"id_modelo":"2760","id_marca":"4","nome_modelo":"VARIO"}
+{"id_modelo":"2761","id_marca":"4","nome_modelo":"CLASSE S CLASSICO"}
+{"id_modelo":"2809","id_marca":"15","nome_modelo":"J3S"}
+{"id_modelo":"2810","id_marca":"345","nome_modelo":"PICK-UP"}
+{"id_modelo":"2811","id_marca":"345","nome_modelo":"VAN"}
+{"id_modelo":"2823","id_marca":"5","nome_modelo":"C3 SOLARIS"}
+{"id_modelo":"2824","id_marca":"5","nome_modelo":"C3 XTR"}
+{"id_modelo":"2825","id_marca":"5","nome_modelo":"C4 SOLARIS"}
+{"id_modelo":"2826","id_marca":"5","nome_modelo":"C5 BREAK/TOURER"}
+{"id_modelo":"2827","id_marca":"5","nome_modelo":"XSARA BREAK"}
+{"id_modelo":"2828","id_marca":"5","nome_modelo":"XSARA VTS"}
+{"id_modelo":"2829","id_marca":"5","nome_modelo":"XANTIA BREAK"}
+{"id_modelo":"2830","id_marca":"5","nome_modelo":"XM BREAK"}
+{"id_modelo":"2831","id_marca":"5","nome_modelo":"C15"}
+{"id_modelo":"2832","id_marca":"5","nome_modelo":"NEMO"}
+{"id_modelo":"2833","id_marca":"5","nome_modelo":"VISA"}
+{"id_modelo":"2834","id_marca":"5","nome_modelo":"C1"}
+{"id_modelo":"2835","id_marca":"5","nome_modelo":"C2"}
+{"id_modelo":"2836","id_marca":"5","nome_modelo":"C3 PLURIEL"}
+{"id_modelo":"2837","id_marca":"5","nome_modelo":"DS4"}
+{"id_modelo":"2838","id_marca":"5","nome_modelo":"DS5"}
+{"id_modelo":"2839","id_marca":"5","nome_modelo":"JUMPY"}
+{"id_modelo":"2840","id_marca":"5","nome_modelo":"C-CROSSER"}
+{"id_modelo":"2841","id_marca":"5","nome_modelo":"C35"}
+{"id_modelo":"2842","id_marca":"5","nome_modelo":"C25"}
+{"id_modelo":"2843","id_marca":"5","nome_modelo":"CX"}
+{"id_modelo":"2844","id_marca":"5","nome_modelo":"CX BREAK"}
+{"id_modelo":"2845","id_marca":"5","nome_modelo":"AXEL"}
+{"id_modelo":"2846","id_marca":"5","nome_modelo":"DYANE"}
+{"id_modelo":"2847","id_marca":"5","nome_modelo":"GS/GSA"}
+{"id_modelo":"2848","id_marca":"5","nome_modelo":"GS/GSA BREAK"}
+{"id_modelo":"2849","id_marca":"5","nome_modelo":"MEHARI"}
+{"id_modelo":"2850","id_marca":"5","nome_modelo":"SAXO"}
+{"id_modelo":"2851","id_marca":"5","nome_modelo":"SM"}
+{"id_modelo":"2852","id_marca":"5","nome_modelo":"ELYSEE"}
+{"id_modelo":"2853","id_marca":"24","nome_modelo":"MASTER MINIBUS"}
+{"id_modelo":"2854","id_marca":"47","nome_modelo":"CELER"}
+{"id_modelo":"2855","id_marca":"47","nome_modelo":"CELER SEDAN"}
+{"id_modelo":"2856","id_marca":"47","nome_modelo":"CIELO SEDAN"}
+{"id_modelo":"2857","id_marca":"32","nome_modelo":"A1 SPORTBACK"}
+{"id_modelo":"2858","id_marca":"32","nome_modelo":"A1 QUATTRO"}
+{"id_modelo":"2859","id_marca":"32","nome_modelo":"A3 SPORTBACK"}
+{"id_modelo":"2860","id_marca":"32","nome_modelo":"RS4 AVANT"}
+{"id_modelo":"2861","id_marca":"32","nome_modelo":"A8L W12"}
+{"id_modelo":"2862","id_marca":"32","nome_modelo":"R8 V10"}
+{"id_modelo":"2863","id_marca":"13","nome_modelo":"RANGER CD"}
+{"id_modelo":"2864","id_marca":"15","nome_modelo":"T140"}
+{"id_modelo":"2865","id_marca":"36","nome_modelo":"X1"}
+{"id_modelo":"2866","id_marca":"36","nome_modelo":"X3"}
+{"id_modelo":"2867","id_marca":"36","nome_modelo":"X5"}
+{"id_modelo":"2868","id_marca":"36","nome_modelo":"X6"}
+{"id_modelo":"2869","id_marca":"36","nome_modelo":"840"}
+{"id_modelo":"2870","id_marca":"36","nome_modelo":"850"}
+{"id_modelo":"2871","id_marca":"36","nome_modelo":"645"}
+{"id_modelo":"2872","id_marca":"36","nome_modelo":"650"}
+{"id_modelo":"2874","id_marca":"7","nome_modelo":"FIT TWIST"}
+{"id_modelo":"2876","id_marca":"346","nome_modelo":"MP4"}
+{"id_modelo":"2877","id_marca":"346","nome_modelo":"F1"}
+{"id_modelo":"2878","id_marca":"13","nome_modelo":"MONDEO SW"}
+{"id_modelo":"2879","id_marca":"13","nome_modelo":"ESCORT SEDAN"}
+{"id_modelo":"2880","id_marca":"13","nome_modelo":"ESCORT CONVERSIVEL"}
+{"id_modelo":"2881","id_marca":"108","nome_modelo":"MX-6"}
+{"id_modelo":"2884","id_marca":"1","nome_modelo":"CORISCO"}
+{"id_modelo":"2885","id_marca":"1","nome_modelo":"CHEVELLE"}
+{"id_modelo":"2886","id_marca":"13","nome_modelo":"EXCURSION"}
+{"id_modelo":"2887","id_marca":"2","nome_modelo":"TOURAN"}
+{"id_modelo":"2890","id_marca":"13","nome_modelo":"F-10000"}
+{"id_modelo":"2891","id_marca":"22","nome_modelo":"HOGGAR ESCAPADE"}
+{"id_modelo":"2901","id_marca":"13","nome_modelo":"PHAETON"}
+{"id_modelo":"2913","id_marca":"2","nome_modelo":"TRANSPORTER"}
+{"id_modelo":"2914","id_marca":"16","nome_modelo":"GRAND BESTA"}
+{"id_modelo":"2915","id_marca":"43","nome_modelo":"200SX"}
+{"id_modelo":"2916","id_marca":"43","nome_modelo":"240SX"}
+{"id_modelo":"2921","id_marca":"19","nome_modelo":"300M"}
+{"id_modelo":"2922","id_marca":"19","nome_modelo":"300C TOURING"}
+{"id_modelo":"2928","id_marca":"13","nome_modelo":"TORINO"}
+{"id_modelo":"2931","id_marca":"1","nome_modelo":"VENTURE"}
+{"id_modelo":"2932","id_marca":"1","nome_modelo":"FLEETLINE"}
+{"id_modelo":"2933","id_marca":"1","nome_modelo":"FLEETMASTER"}
+{"id_modelo":"2934","id_marca":"1","nome_modelo":"DELUXE"}
+{"id_modelo":"2936","id_marca":"13","nome_modelo":"ESCORT XR3"}
+{"id_modelo":"2937","id_marca":"1","nome_modelo":"MASTER"}
+{"id_modelo":"2938","id_marca":"120","nome_modelo":"TORONADO"}
+{"id_modelo":"2939","id_marca":"120","nome_modelo":"SIX"}
+{"id_modelo":"2940","id_marca":"120","nome_modelo":"EIGHT"}
+{"id_modelo":"2941","id_marca":"120","nome_modelo":"DELUXE"}
+{"id_modelo":"2942","id_marca":"120","nome_modelo":"SERIES 60"}
+{"id_modelo":"2943","id_marca":"120","nome_modelo":"SERIES 70"}
+{"id_modelo":"2944","id_marca":"120","nome_modelo":"SERIES 80"}
+{"id_modelo":"2945","id_marca":"120","nome_modelo":"SERIES 90"}
+{"id_modelo":"2946","id_marca":"120","nome_modelo":"STARFIRE"}
+{"id_modelo":"2947","id_marca":"120","nome_modelo":"442"}
+{"id_modelo":"2948","id_marca":"120","nome_modelo":"CUTLASS"}
+{"id_modelo":"2949","id_marca":"120","nome_modelo":"CUTLASS SUPREME"}
+{"id_modelo":"2950","id_marca":"120","nome_modelo":"CUTLASS SALON"}
+{"id_modelo":"2951","id_marca":"120","nome_modelo":"CUTLASS CALAIS"}
+{"id_modelo":"2952","id_marca":"120","nome_modelo":"CUTLASS CIERA"}
+{"id_modelo":"2953","id_marca":"120","nome_modelo":"CUSTOM CRUISER"}
+{"id_modelo":"2954","id_marca":"120","nome_modelo":"VISTA CRUISER"}
+{"id_modelo":"2955","id_marca":"120","nome_modelo":"F-85"}
+{"id_modelo":"2957","id_marca":"120","nome_modelo":"FIRENZA"}
+{"id_modelo":"2958","id_marca":"120","nome_modelo":"ACHIEVA"}
+{"id_modelo":"2959","id_marca":"120","nome_modelo":"ALERO"}
+{"id_modelo":"2960","id_marca":"120","nome_modelo":"AURORA"}
+{"id_modelo":"2961","id_marca":"120","nome_modelo":"BRAVADA"}
+{"id_modelo":"2962","id_marca":"120","nome_modelo":"INTRIGUE"}
+{"id_modelo":"2963","id_marca":"120","nome_modelo":"SILHOUETTE"}
+{"id_modelo":"2972","id_marca":"123","nome_modelo":"SUPERBIRD"}
+{"id_modelo":"2973","id_marca":"123","nome_modelo":"FURY"}
+{"id_modelo":"2974","id_marca":"123","nome_modelo":"SPECIAL"}
+{"id_modelo":"2975","id_marca":"123","nome_modelo":"PROWLER"}
+{"id_modelo":"2976","id_marca":"123","nome_modelo":"TRAIL DUSTER"}
+{"id_modelo":"2977","id_marca":"123","nome_modelo":"VOYAGER"}
+{"id_modelo":"2978","id_marca":"123","nome_modelo":"SCAMP"}
+{"id_modelo":"2979","id_marca":"123","nome_modelo":"ARROW"}
+{"id_modelo":"2980","id_marca":"123","nome_modelo":"PT50"}
+{"id_modelo":"2981","id_marca":"123","nome_modelo":"PT57"}
+{"id_modelo":"2982","id_marca":"123","nome_modelo":"PT81"}
+{"id_modelo":"2983","id_marca":"123","nome_modelo":"PT105"}
+{"id_modelo":"2984","id_marca":"123","nome_modelo":"PT125"}
+{"id_modelo":"2985","id_marca":"123","nome_modelo":"EXPRESS"}
+{"id_modelo":"2986","id_marca":"123","nome_modelo":"VOYAGER EXPRESSO"}
+{"id_modelo":"2987","id_marca":"123","nome_modelo":"NEON"}
+{"id_modelo":"2988","id_marca":"123","nome_modelo":"LASER"}
+{"id_modelo":"2989","id_marca":"123","nome_modelo":"CARAVELLE"}
+{"id_modelo":"2990","id_marca":"123","nome_modelo":"STATION WAGON"}
+{"id_modelo":"2991","id_marca":"123","nome_modelo":"MODEL Q"}
+{"id_modelo":"2992","id_marca":"123","nome_modelo":"MODEL P6"}
+{"id_modelo":"2993","id_marca":"31","nome_modelo":"DB9 COUPE"}
+{"id_modelo":"2994","id_marca":"31","nome_modelo":"DB9 VOLANTE"}
+{"id_modelo":"2995","id_marca":"31","nome_modelo":"VIRAGE COUPE"}
+{"id_modelo":"2996","id_marca":"31","nome_modelo":"RAPIDE S"}
+{"id_modelo":"2997","id_marca":"31","nome_modelo":"V12 VANTAGE"}
+{"id_modelo":"2998","id_marca":"31","nome_modelo":"V8 VANTAGE COUPE"}
+{"id_modelo":"2999","id_marca":"31","nome_modelo":"V8 VANTAGE ROADSTER"}
+{"id_modelo":"3000","id_marca":"31","nome_modelo":"V8 VANTAGE S COUPE"}
+{"id_modelo":"3001","id_marca":"31","nome_modelo":"V8 VANTAGE S ROADSTER"}
+{"id_modelo":"3002","id_marca":"31","nome_modelo":"VANQUISH COUPE"}
+{"id_modelo":"3003","id_marca":"31","nome_modelo":"VANQUISH VOLANTE"}
+{"id_modelo":"3004","id_marca":"31","nome_modelo":"V12 ZAGATO"}
+{"id_modelo":"3005","id_marca":"31","nome_modelo":"DB5"}
+{"id_modelo":"3007","id_marca":"31","nome_modelo":"DBS"}
+{"id_modelo":"3008","id_marca":"31","nome_modelo":"DBS VOLANTE"}
+{"id_modelo":"3009","id_marca":"31","nome_modelo":"CYGNET"}
+{"id_modelo":"3010","id_marca":"31","nome_modelo":"ONE-77"}
+{"id_modelo":"3011","id_marca":"31","nome_modelo":"DBR9"}
+{"id_modelo":"3013","id_marca":"36","nome_modelo":"M3"}
+{"id_modelo":"3014","id_marca":"36","nome_modelo":"M5"}
+{"id_modelo":"3015","id_marca":"36","nome_modelo":"M6"}
+{"id_modelo":"3016","id_marca":"36","nome_modelo":"X6 M"}
+{"id_modelo":"3017","id_marca":"113","nome_modelo":"CABRIO"}
+{"id_modelo":"3018","id_marca":"113","nome_modelo":"COUPE"}
+{"id_modelo":"3019","id_marca":"113","nome_modelo":"ROADSTER"}
+{"id_modelo":"3020","id_marca":"113","nome_modelo":"COUNTRYMAN"}
+{"id_modelo":"3021","id_marca":"113","nome_modelo":"PACEMAN"}
+{"id_modelo":"3022","id_marca":"113","nome_modelo":"JOHN COOPER WORKS"}
+{"id_modelo":"3023","id_marca":"122","nome_modelo":"ZONDA"}
+{"id_modelo":"3024","id_marca":"8","nome_modelo":"NEW XV"}
+{"id_modelo":"3025","id_marca":"8","nome_modelo":"IMPREZA WRX HATCH"}
+{"id_modelo":"3026","id_marca":"8","nome_modelo":"IMPREZA WRX STI HATCH"}
+{"id_modelo":"3027","id_marca":"8","nome_modelo":"IMPREZA WRX STI SEDAN"}
+{"id_modelo":"3028","id_marca":"8","nome_modelo":"IMPREZA WRX SEDAN"}
+{"id_modelo":"3030","id_marca":"23","nome_modelo":"ETIOS CROSS"}
+{"id_modelo":"3031","id_marca":"12","nome_modelo":"HURACAN"}
+{"id_modelo":"3032","id_marca":"2","nome_modelo":"UP"}
+{"id_modelo":"4964","id_marca":"142","nome_modelo":"FORTWO CABRIO"}
+{"id_modelo":"4969","id_marca":"26","nome_modelo":"GT"}
+{"id_modelo":"4970","id_marca":"26","nome_modelo":"GTL"}
+{"id_modelo":"4971","id_marca":"26","nome_modelo":"GTM"}
+{"id_modelo":"4972","id_marca":"26","nome_modelo":"C2"}
+{"id_modelo":"4973","id_marca":"26","nome_modelo":"CRX"}
+{"id_modelo":"4974","id_marca":"26","nome_modelo":"AC 2000"}
+{"id_modelo":"4975","id_marca":"99","nome_modelo":"AVIATOR"}
+{"id_modelo":"4976","id_marca":"99","nome_modelo":"BLACKWOOD"}
+{"id_modelo":"4977","id_marca":"99","nome_modelo":"CAPRI"}
+{"id_modelo":"4978","id_marca":"99","nome_modelo":"CONTINENTAL"}
+{"id_modelo":"4979","id_marca":"99","nome_modelo":"LS"}
+{"id_modelo":"4980","id_marca":"99","nome_modelo":"MARK"}
+{"id_modelo":"4981","id_marca":"99","nome_modelo":"MARK LT"}
+{"id_modelo":"4982","id_marca":"99","nome_modelo":"MKR"}
+{"id_modelo":"4983","id_marca":"99","nome_modelo":"MKS"}
+{"id_modelo":"4984","id_marca":"99","nome_modelo":"MKX"}
+{"id_modelo":"4985","id_marca":"99","nome_modelo":"MKZ"}
+{"id_modelo":"4986","id_marca":"99","nome_modelo":"NAVIGATOR"}
+{"id_modelo":"4987","id_marca":"99","nome_modelo":"PREMIERE"}
+{"id_modelo":"4988","id_marca":"99","nome_modelo":"TOWN CAR"}
+{"id_modelo":"4989","id_marca":"99","nome_modelo":"VERSAILLES"}
+{"id_modelo":"4990","id_marca":"99","nome_modelo":"ZEPHYR"}
+{"id_modelo":"4991","id_marca":"1","nome_modelo":"CLASSIC"}
+{"id_modelo":"4992","id_marca":"21","nome_modelo":"ACTYON"}
+{"id_modelo":"5003","id_marca":"1","nome_modelo":"MARAJO"}
+{"id_modelo":"5004","id_marca":"1","nome_modelo":"SUPREMA"}
+{"id_modelo":"5005","id_marca":"2","nome_modelo":"NEW BEETLE"}
+{"id_modelo":"5006","id_marca":"2","nome_modelo":"QUANTUM"}
+{"id_modelo":"5007","id_marca":"2","nome_modelo":"CROSSFOX"}
+{"id_modelo":"5008","id_marca":"3","nome_modelo":"MILLE"}
+{"id_modelo":"5009","id_marca":"534","nome_modelo":"GC2"}
+{"id_modelo":"5010","id_marca":"534","nome_modelo":"EC7"}
+{"id_modelo":"5011","id_marca":"98","nome_modelo":"530"}
+{"id_modelo":"5012","id_marca":"3","nome_modelo":"MOBI"}
+{"id_modelo":"5013","id_marca":"3","nome_modelo":"TORO"}
+{"id_modelo":"5014","id_marca":"87","nome_modelo":"RENEGADE"}
+{"id_modelo":"5015","id_marca":"24","nome_modelo":"DUSTER OROCH"}
+{"id_modelo":"5016","id_marca":"24","nome_modelo":"SANDERO RS"}
+{"id_modelo":"5017","id_marca":"14","nome_modelo":"HB20R"}
+{"id_modelo":"5018","id_marca":"14","nome_modelo":"GRAND SANTA FE"}
+{"id_modelo":"5019","id_marca":"2","nome_modelo":"GOLF VARIANT"}
+{"id_modelo":"5020","id_marca":"2","nome_modelo":"SPACE CROSS"}
+{"id_modelo":"5021","id_marca":"22","nome_modelo":"2008"}
+{"id_modelo":"5022","id_marca":"16","nome_modelo":"QUORIS"}
+{"id_modelo":"5023","id_marca":"16","nome_modelo":"GRAND CARNIVAL"}
+{"id_modelo":"5024","id_marca":"15","nome_modelo":"T8"}
+{"id_modelo":"5025","id_marca":"15","nome_modelo":"T6"}
+{"id_modelo":"5026","id_marca":"15","nome_modelo":"T5"}
+{"id_modelo":"5027","id_marca":"13","nome_modelo":"KA SEDAN"}
+{"id_modelo":"5028","id_marca":"13","nome_modelo":"FOCUS FASTBACK"}]

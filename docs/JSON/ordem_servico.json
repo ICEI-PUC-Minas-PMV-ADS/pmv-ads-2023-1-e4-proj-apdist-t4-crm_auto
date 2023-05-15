@@ -1,0 +1,91 @@
+ORDEM DE SERVIÇO
+[
+    {
+        "ID_ORDEM_SERVICO": "17",
+        "ID_CLIENTE": "5",
+        "ID_VEICULO": "4",
+        "DATA_ORDEM": "2022-06-15 20:43:57",
+        "TELEFONE_CONTATO": "31323444",
+        "EMAIL_CONTATO": "flavinho.pneu@gmail.com",
+        "ID_OFICINA": "1",
+        "ID_AGENDAMENTO": "24",
+        "ID_USUARIO_CAD": "3"
+    },
+    {
+        "ID_ORDEM_SERVICO": "18",
+        "ID_CLIENTE": "1",
+        "ID_VEICULO": "1",
+        "DATA_ORDEM": "2022-06-15 20:45:13",
+        "TELEFONE_CONTATO": "31837183",
+        "EMAIL_CONTATO": "anderson.silva@gmail.com",
+        "ID_OFICINA": "1",
+        "ID_AGENDAMENTO": "25",
+        "ID_USUARIO_CAD": "3"
+    },
+    {
+        "ID_ORDEM_SERVICO": "23",
+        "ID_CLIENTE": "3",
+        "ID_VEICULO": "5",
+        "DATA_ORDEM": "2022-06-21 19:20:06",
+        "TELEFONE_CONTATO": "31323444",
+        "EMAIL_CONTATO": "maria.betania@yahoo.com.br",
+        "ID_OFICINA": "1",
+        "ID_AGENDAMENTO": "30",
+        "ID_USUARIO_CAD": "3"
+    },
+    {
+        "ID_ORDEM_SERVICO": "24",
+        "ID_CLIENTE": "4",
+        "ID_VEICULO": "6",
+        "DATA_ORDEM": "2022-06-21 21:36:18",
+        "TELEFONE_CONTATO": "11989897866",
+        "EMAIL_CONTATO": "luiz.marcondes@outlook.com",
+        "ID_OFICINA": "1",
+        "ID_AGENDAMENTO": "32",
+        "ID_USUARIO_CAD": "3"
+    },
+    {
+        "ID_ORDEM_SERVICO": "25",
+        "ID_CLIENTE": "4",
+        "ID_VEICULO": "3",
+        "DATA_ORDEM": "2022-06-21 21:36:59",
+        "TELEFONE_CONTATO": "11989897866",
+        "EMAIL_CONTATO": "luiz.marcondes@outlook.com",
+        "ID_OFICINA": "1",
+        "ID_AGENDAMENTO": "33",
+        "ID_USUARIO_CAD": "3"
+    },
+    {
+        "ID_ORDEM_SERVICO": "29",
+        "ID_CLIENTE": "5",
+        "ID_VEICULO": "7",
+        "DATA_ORDEM": "2022-06-24 17:09:53",
+        "TELEFONE_CONTATO": "33445566",
+        "EMAIL_CONTATO": "flavinho.pneu@gmail.com",
+        "ID_OFICINA": "1",
+        "ID_AGENDAMENTO": "37",
+        "ID_USUARIO_CAD": "3"
+    },
+    {
+        "ID_ORDEM_SERVICO": "30",
+        "ID_CLIENTE": "3",
+        "ID_VEICULO": "2",
+        "DATA_ORDEM": "2022-06-26 20:49:42",
+        "TELEFONE_CONTATO": "31984841771",
+        "EMAIL_CONTATO": "rafaelasouza2207@hotmail.com",
+        "ID_OFICINA": "2",
+        "ID_AGENDAMENTO": "40",
+        "ID_USUARIO_CAD": "18"
+    },
+    {
+        "ID_ORDEM_SERVICO": "31",
+        "ID_CLIENTE": "1",
+        "ID_VEICULO": "1",
+        "DATA_ORDEM": "2023-02-26 19:54:40",
+        "TELEFONE_CONTATO": "3155555555",
+        "EMAIL_CONTATO": "llaksdjfls@clgj.com.br",
+        "ID_OFICINA": "1",
+        "ID_AGENDAMENTO": "41",
+        "ID_USUARIO_CAD": "3"
+    }
+]

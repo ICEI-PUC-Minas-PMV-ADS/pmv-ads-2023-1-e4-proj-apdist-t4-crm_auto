@@ -7,6 +7,6 @@ namespace CRMobil.Entities
     {
         public string ConnectionString { get; set; } = null!;
         public string DatabaseName { get; set; } = null!;
-        public string ClienteCollectionName { get; set; } = null!;
+        public string EntityCollectionName { get; set; } = null!;
     }
 }
