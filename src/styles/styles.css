@@ -13,10 +13,10 @@ body {
 }
 
 body::before {
- display: block;
- content: "";
- height: 60px;
-}
+    display: block;
+    content: "";
+    height: 60px;
+   }
 /*Navbar*/
 .navbar-nav {
  margin-right: 30px;
@@ -149,6 +149,10 @@ body::before {
     max-width: 70%;
 }
 
+/*Cientes*/
+#clientes{
+    background: var(--cor-principal);
+}
 /*Mapa*/
 
 .mapa {
