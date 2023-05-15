@@ -22,6 +22,10 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 
 ## Wireframes
 
+## Tela - Cadastro de usuario
+
+![Tela - Login](./img/Tela%20-%20Cadastro%20de%20usuario.png)
+
 ## Tela - Login 
 
 ![Tela - Login](./img/Tela%20login.png)
