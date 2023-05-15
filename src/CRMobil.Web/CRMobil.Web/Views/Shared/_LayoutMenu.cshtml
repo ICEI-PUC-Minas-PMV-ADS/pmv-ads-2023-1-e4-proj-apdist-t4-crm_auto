@@ -1,0 +1,89 @@
+﻿<section>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="dashboard.html">
+                <img src="../img/SVG-CRMobil-removebg.png"
+                     class="logo"
+                     alt="" />CRMobil
+            </a>
+            <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navmenu">
+                <span class="toggler-icon top-bar"></span>
+                <span class="toggler-icon middle-bar"></span>
+                <span class="toggler-icon bottom-bar"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item m-1">
+                        <a asp-action="Index" asp-controller="Dashboard"
+                           class="nav-link text-light fs-5"
+                           aria-current="page">
+                            <i class="bi bi-bar-chart-line-fill"></i>
+                            <span class="mx-2">Dashboard</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item mt-1">
+                        <a asp-action="Index" asp-controller="Servico"
+                           class="nav-link text-light fs-5"
+                           aria-current="page">
+                            <i class="bi bi-file-earmark-spreadsheet-fill"></i>
+                            <span class="mx-2">Seviços</span>
+                        </a>
+                    </li>
+                    <li class="nav-item mt-1">
+                        <a asp-action="Index" asp-controller="Cliente"
+                           class="nav-link text-light fs-5"
+                           aria-current="page">
+                            <i class="bi bi-car-front-fill"></i>
+                            <span class="mx-2">Clientes</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item mt-1">
+                        <a asp-action="Index" asp-controller="Orcamento"
+                           class="nav-link text-light fs-5"
+                           aria-current="page">
+                            <i class="bi bi-pie-chart-fill"></i>
+                            <span class="mx-2">Orçamentos</span>
+                        </a>
+                    </li>
+                    <li class="nav-item mt-1">
+                        <a asp-action="Index" asp-controller="Oficina"
+                           class="nav-link text-light fs-5"
+                           aria-current="page">
+                            <i class="bi bi-person-badge"></i>
+                            <span class="mx-2">Oficina</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="btn-group ms-0">
+                    <a href=""
+                       class="text-light fs-5 text-decoration-none btn-config"
+                       data-bs-toggle="dropdown"
+                       aria-expanded="false">
+                        <i class="bi bi-gear"></i>
+                        <span class="d-lg-none mx-3">Configurações</span>
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </li>
+                        <li><hr class="dropdown-divider" /></li>
+                        <li>
+                            <a class="dropdown-item text-danger fw-bold" href="#">
+                                <i class="bi bi-box-arrow-left"></i><span class="mx-2">Sair</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+</section>

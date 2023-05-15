@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Authorization;
+using CRMobil.Entities.Usuarios;
 using MongoDB.Bson.Serialization.Attributes;
 using System.ComponentModel.DataAnnotations;
 

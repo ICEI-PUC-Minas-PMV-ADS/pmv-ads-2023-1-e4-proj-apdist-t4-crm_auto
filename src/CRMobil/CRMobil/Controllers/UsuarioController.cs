@@ -24,29 +24,11 @@ namespace CRMobil.Controllers
         }
 
         // POST api/<UsuarioControllers>/5
-        [AllowAnonymous]
-        [HttpPost, Route("login")]
-        public async Task<ActionResult<dynamic>> AuthenticateAsync([FromBody] Usuarios userModel)
-        {
-            var user = await _userService.Login(userModel.Nome_Usuario, userModel.Senha);
-
-            if (user == null)
-            {
-                return NotFound(new { message = "Usuário ou senha inválidos" });
-            }
-
-            var token = TokenService.GenerateToken(user);
-
-            return new { username = user.Nome_Usuario, token = token };
-        }
-
-
-        // POST api/<UsuarioControllers>/5
         //[AllowAnonymous]
         //[HttpPost, Route("login")]
-        //public async Task<ActionResult<dynamic>> AuthenticateAsync(string nomeUsuario, string senhaUsuario)
+        //public async Task<ActionResult<dynamic>> AuthenticateAsync([FromBody] Usuarios userModel)
         //{
-        //    var user = await _userService.Login(nomeUsuario, senhaUsuario);
+        //    var user = await _userService.Login(userModel.Nome_Usuario, userModel.Senha);
 
         //    if (user == null)
         //    {
@@ -55,8 +37,26 @@ namespace CRMobil.Controllers
 
         //    var token = TokenService.GenerateToken(user);
 
-        //    return new { username = nomeUsuario, token = token };
+        //    return new { username = user.Nome_Usuario, token = token };
         //}
+
+
+        // POST api/<UsuarioControllers>/5
+        //[AllowAnonymous]
+        [HttpPost, Route("login")]
+        public async Task<ActionResult<dynamic>> AuthenticateAsync(string nomeUsuario, string senhaUsuario)
+        {
+            var user = await _userService.Login(nomeUsuario, senhaUsuario);
+
+            if (user == null)
+            {
+                return NotFound(new { message = "Usuário ou senha inválidos" });
+            }
+
+            var token = TokenService.GenerateToken(user);
+
+            return new { username = nomeUsuario, token = token };
+        }
 
 
         [HttpPost]

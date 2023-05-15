@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "GEQqjMDtscytssGc3WtOBcG7QUPeWRs17xwEuyt2N5L8oNpBc4Ff1GuL6dbbNb4s7A82foAhsu2DoVMdfLkYAA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\julio.lustosa\\Documents\\Cursos\\PUC\\Repositórios\\Eixo 4\\pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto\\src\\CRMobil.Web\\CRMobil.Web\\CRMobil.Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\julio.lustosa\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
