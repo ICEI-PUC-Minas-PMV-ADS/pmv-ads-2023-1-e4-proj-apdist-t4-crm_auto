@@ -70,8 +70,8 @@ A seguir, apresentamos os casos de testes de software para avaliação do sistem
 | --------------------- | ------------------------------------------------------------ |
 | Requisitos associados | RF-01 O sistema deve permitir que os usuários façam cadastro e login. |
 | Objetivo do teste     | Verificar o funcionamento correto do login de usuário        |
-| Passos                | - Acessar a página principal                                                                                                              - Clicar em ENTRAR na lateral direita da parte superior da página                                                    - No campo EMAIL digitar o email que foi utilizado ao fazer o cadastro                                                                      - No campo senha digitar a senha que foi cadastrada |
-| Critérios de aceite   | Se o registro de usuário existir no banco de dados, o sistema deve permitir que o usuário acesse o sistema. Se as informações de login e senha estiverem incorretas, a página de login é recarregada para que os campos sejam preenchidos novamente. |
+| Passos                | 1. Acessar a página principal;<br>                                                                                                             2. Clicar em ENTRAR na lateral direita da parte superior da página;<br>                                                    3. No campo EMAIL digitar o email que foi utilizado ao fazer o cadastro;<br>                                                                       4. No campo Senha digitar a senha que foi cadastrada |
+| Critérios de Êxito   | • Se o registro de usuário existir no banco de dados, o sistema deve permitir que o usuário acesse o sistema. Se as informações de login e senha estiverem incorretas, a página de login é recarregada para que os campos sejam preenchidos novamente. |
 
 
 
@@ -79,8 +79,8 @@ A seguir, apresentamos os casos de testes de software para avaliação do sistem
 | --------------------- | ------------------------------------------------------------ |
 | Requisitos associados | RF-03 O sistema deve permitir a inserção, edição e exclusão de registros da oficina |
 | Objetivo do teste     | Verificar o funcionamento correto do CRUD do cadastro de oficina |
-| Passos                | - Fazer login no sistema                                                                                                                             - No menu de navegação clicar em oficina                                                                                          - Preencher os campos com os dados da oficina                                                                          - Clicar em salvar |
-| Critérios de aceite   | Mensagem 200 após o preenchimento e execução                 |
+| Passos                | 1. Fazer login no sistema;<br>                                                                                                                             2. No menu de navegação, clicar em oficina;<br>                                                                                          3. Preencher os campos com os dados da oficina;<br>                                                                         4. Clicar em salvar;<br> |
+| Critérios de Êxito   |• Mensagem 200 após o preenchimento e execução                 |
 
 
 
@@ -88,8 +88,8 @@ A seguir, apresentamos os casos de testes de software para avaliação do sistem
 | --------------------- | ------------------------------------------------------------ |
 | Requisitos associados | RF-04 O sistema deve permitir a inserção, edição e exclusão de um novo serviço disponibilizado pela oficina. |
 | Objetivo do teste     | Verificar o funcionamento correto do CRUD de serviços        |
-| Passos                | - Fazer login no sistema                                                                                                                      - No menu de navegação clicar em Serviços                                                                                 - Clicar no botão editar serviço                                                                                                            - Preencher corretamente o formulário de cadastro                                                                  - Clicar em salvar |
-| Critérios de aceite   | Após a inserção ser efetuada, as informações inseridas no formulário devem ser registradas no banco de dados |
+| Passos                | 1. Fazer login no sistema; <br>                                                                                                                      2. No menu de navegação clicar em Serviços;<br>                                                                                 3. Clicar no botão editar serviço;<br>                                                                                                            4. Preencher corretamente o formulário de cadastro;<br>                                                                  4. Clicar em salvar; |
+| Critérios de Êxito   | • Após a inserção ser efetuada, as informações inseridas no formulário devem ser registradas no banco de dados |
 
 
 
