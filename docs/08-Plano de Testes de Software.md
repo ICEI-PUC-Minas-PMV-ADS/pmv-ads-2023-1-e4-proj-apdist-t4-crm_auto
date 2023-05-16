@@ -90,7 +90,7 @@ A seguir, apresentamos os casos de testes de software para avaliação do sistem
 
 
 
-| Caso de Teste         | CT-02 - Consulta de clientes da oficina                                     |
+| Caso de Teste         | CT-05 - Consulta de clientes da oficina                                     |
 | --------------------- | ------------------------------------------------------------ |
 | Requisitos associados | O sistema deve permitir a consulta dos clientes cadastrados. |
 | Objetivo do teste     | Verificar se o sistema permite ao funcionário visualizar dados de um cliente quando necessário.        |
