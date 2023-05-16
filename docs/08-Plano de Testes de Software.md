@@ -72,7 +72,7 @@ A seguir, apresentamos os casos de testes de software para avaliação do sistem
 
 
 
-| Caso de Teste         | CT-02 - Registro de Oficina                                  |
+| Caso de Teste         | CT-03 - Registro de Oficina                                  |
 | --------------------- | ------------------------------------------------------------ |
 | Requisitos associados | RF-03 O sistema deve permitir a inserção, edição e exclusão de registros da oficina |
 | Objetivo do teste     | Verificar o funcionamento correto do CRUD do cadastro de oficina |
@@ -81,12 +81,23 @@ A seguir, apresentamos os casos de testes de software para avaliação do sistem
 
 
 
-| Caso de Teste         | CT-02 - CRUD de serviços                                     |
+| Caso de Teste         | CT-04 - CRUD de serviços                                     |
 | --------------------- | ------------------------------------------------------------ |
 | Requisitos associados | RF-04 O sistema deve permitir a inserção, edição e exclusão de um novo serviço disponibilizado pela oficina. |
 | Objetivo do teste     | Verificar o funcionamento correto do CRUD de serviços        |
 | Passos                | 1. Fazer login no sistema; <br>                                                                                                                      2. No menu de navegação clicar em Serviços;<br>                                                                                 3. Clicar no botão editar serviço;<br>                                                                                                            4. Preencher corretamente o formulário de cadastro;<br>                                                                  4. Clicar em salvar; |
 | Critérios de Êxito   | • Após a inserção ser efetuada, as informações inseridas no formulário devem ser registradas no banco de dados |
+
+
+
+| Caso de Teste         | CT-02 - Consulta de clientes da oficina                                     |
+| --------------------- | ------------------------------------------------------------ |
+| Requisitos associados | O sistema deve permitir a consulta dos clientes cadastrados. |
+| Objetivo do teste     | Verificar se o sistema permite ao funcionário visualizar dados de um cliente quando necessário.        |
+| Passos                | 1. Fazer login no sistema; <br>                                                                                                                      2. Ir para a lista de clientes;<br>                                                                                 3. Buscar clientes pelo nome, CNPJ ou CPF;<br>                                                                                                            4. Clicar sobre o nome do cliente para visualizar historico ou pêndencais;|
+| Critérios de Êxito   | • Após a inserção ser efetuada, as informações inseridas no formulário devem ser registradas no banco de dados |
+
+
 
 
 
