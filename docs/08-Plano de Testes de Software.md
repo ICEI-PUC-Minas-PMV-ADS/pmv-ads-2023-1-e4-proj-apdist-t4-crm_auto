@@ -54,9 +54,9 @@ Plano de testes de software usado para testar o sistema _CRMOBIL_. Ele inclui um
 
 ## Ferramentas de Testes (Opcional)
 
-**Selenium:** Selenium é uma ferramenta de automação de testes de software que permite aos desenvolvedores e testadores automatizar ações repetitivas em um navegador da web.O Selenium é uma ferramenta poderosa e flexível para automação de testes de software web, permitindo aos testadores automatizar as tarefas repetitivas de teste, economizar tempo e recursos, aumentar a eficiência dos testes e melhorar a qualidade do software.
+**MongoDB/Swagger:** Selenium é uma ferramenta de automação de testes de software que permite aos desenvolvedores e testadores automatizar ações repetitivas em um navegador da web.O Selenium é uma ferramenta poderosa e flexível para automação de testes de software web, permitindo aos testadores automatizar as tarefas repetitivas de teste, economizar tempo e recursos, aumentar a eficiência dos testes e melhorar a qualidade do software.
 
-**Postaman:** O Postman é uma aplicação de desktop que funciona em várias plataformas, como Windows, macOS e Linux. Ele oferece uma interface gráfica do usuário (GUI) intuitiva e fácil de usar que permite aos usuários criar solicitações HTTP e ver as respostas em tempo real. O Postman pode ser usado para enviar solicitações HTTP, como GET, POST, PUT, DELETE, PATCH, entre outros.
+**MongoDB/Swagger:** O Postman é uma aplicação de desktop que funciona em várias plataformas, como Windows, macOS e Linux. Ele oferece uma interface gráfica do usuário (GUI) intuitiva e fácil de usar que permite aos usuários criar solicitações HTTP e ver as respostas em tempo real. O Postman pode ser usado para enviar solicitações HTTP, como GET, POST, PUT, DELETE, PATCH, entre outros.
 
 Além de enviar solicitações HTTP, o Postman também pode ser usado para testar APIs de forma mais avançada, como definir cabeçalhos personalizados, autenticar solicitações, simular erros de rede, monitorar desempenho, entre outras funcionalidades.
 
