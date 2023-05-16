@@ -20,7 +20,7 @@ Plano de testes de software usado para testar o sistema _CRMOBIL_. Ele inclui um
 
 | Funcionalidade<br>Avaliada                 | Grupo de<br>usúarios       | Cenário de Teste                                             | Ferramentas Utilizadas |
 | ------------------------------------------ | -------------------------- | ------------------------------------------------------------ | ---------------------- |
-| Visualização do<br>andamento do<br>serviço | Clientes                   | Cliente faz login no aplicativo móvel e<br>visualiza o status atual do serviço em<br>tempo real. | Selenium               |
+| Visualização do<br>andamento do<br>serviço | Clientes                   | Cliente faz login no aplicativo móvel e<br>visualiza o status atual do serviço em<br>tempo real. | Swagger               |
 | Adicionar um<br>novo serviço               | Funcionários<br>da oficina | Funcionário da oficina faz login na<br>aplicação web, adiciona um novo serviço<br>ao veículo do cliente e verifica se o status<br>do serviço é atualizado corretamente. | MongoDB,<br>Swagger   |
 | Enviar orçamento<br>para o cliente         | Funcionários<br>da oficina | Funcionário da oficina faz login na<br>aplicação web, gera um orçamento para o<br>serviço do veículo do cliente e envia o<br>orçamento para o cliente através do aplicativo móvel. O cliente verifica se o orçamento foi recebido corretamente. | MongoDB,<br>Swagger |
 
@@ -54,12 +54,9 @@ Plano de testes de software usado para testar o sistema _CRMOBIL_. Ele inclui um
 
 ## Ferramentas de Testes (Opcional)
 
-**MongoDB/Swagger:** Selenium é uma ferramenta de automação de testes de software que permite aos desenvolvedores e testadores automatizar ações repetitivas em um navegador da web.O Selenium é uma ferramenta poderosa e flexível para automação de testes de software web, permitindo aos testadores automatizar as tarefas repetitivas de teste, economizar tempo e recursos, aumentar a eficiência dos testes e melhorar a qualidade do software.
+**MongoDB/Swagger:** O Swagger é usado no desenvolvimento de APIs para documentar e testar as funcionalidades da API de forma padronizada.Ele também permite que os profissionais possam testar as APIs de forma mais consistente e segura, sendo uma de suas principais aplicações de forma prática.
 
-**MongoDB/Swagger:** O Postman é uma aplicação de desktop que funciona em várias plataformas, como Windows, macOS e Linux. Ele oferece uma interface gráfica do usuário (GUI) intuitiva e fácil de usar que permite aos usuários criar solicitações HTTP e ver as respostas em tempo real. O Postman pode ser usado para enviar solicitações HTTP, como GET, POST, PUT, DELETE, PATCH, entre outros.
-
-Além de enviar solicitações HTTP, o Postman também pode ser usado para testar APIs de forma mais avançada, como definir cabeçalhos personalizados, autenticar solicitações, simular erros de rede, monitorar desempenho, entre outras funcionalidades.
-
+**MongoDB:** O MongoDB é um banco de dados de documentos com a escalabilidade e flexibilidade que você deseja junto com a consulta e indexação que você precisa .O modelo documental do MongoDB é simples para os desenvolvedores aprenderem e utilizarem, ao mesmo tempo em que oferece todas as capacidades necessárias para atender aos requisitos mais complexos em qualquer escala.
 
 
 A seguir, apresentamos os casos de testes de software para avaliação do sistema. Todos os testes estão associados a um ou mais requisitos funcionais. 
