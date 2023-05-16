@@ -20,7 +20,7 @@ Plano de testes de software usado para testar o sistema _CRMOBIL_. Ele inclui um
 
 | Funcionalidade<br>Avaliada                 | Grupo de<br>usúarios       | Cenário de Teste                                             | Ferramentas Utilizadas |
 | ------------------------------------------ | -------------------------- | ------------------------------------------------------------ | ---------------------- |
-| Visualização do<br>andamento do<br>serviço | Clientes                   | Cliente faz login no aplicativo móvel e<br>visualiza o status atual do serviço em<br>tempo real. | Selenium               |
+| Visualização do<br>andamento do<br>serviço | Clientes                   | Cliente faz login no aplicativo móvel e<br>visualiza o status atual do serviço em<br>tempo real. | Swagger               |
 | Adicionar um<br>novo serviço               | Funcionários<br>da oficina | Funcionário da oficina faz login na<br>aplicação web, adiciona um novo serviço<br>ao veículo do cliente e verifica se o status<br>do serviço é atualizado corretamente. | MongoDB,<br>Swagger   |
 | Enviar orçamento<br>para o cliente         | Funcionários<br>da oficina | Funcionário da oficina faz login na<br>aplicação web, gera um orçamento para o<br>serviço do veículo do cliente e envia o<br>orçamento para o cliente através do aplicativo móvel. O cliente verifica se o orçamento foi recebido corretamente. | MongoDB,<br>Swagger |
 
