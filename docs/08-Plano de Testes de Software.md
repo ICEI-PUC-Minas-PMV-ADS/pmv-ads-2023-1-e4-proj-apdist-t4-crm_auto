@@ -63,7 +63,7 @@ A seguir, apresentamos os casos de testes de software para avaliação do sistem
 
 
 
-| Caso de Teste         | CT-01 - Efetuar login                                        |
+| Caso de Teste         | CT-01 - Efetuar login da Oficina|
 | --------------------- | ------------------------------------------------------------ |
 | Requisitos associados | RF-01 O sistema deve permitir que os usuários façam cadastro e login. |
 | Objetivo do teste     | Verificar o funcionamento correto do login de usuário        |
