@@ -18,8 +18,11 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 ![img1](./img/registo%20CT-01.png)
 ![img1](./img/registo%20CT-01.2.png)
 
+### CT- 02: Contato Cliente
 
+Essa funcionalidade permite que os usuários entrem em contato com a equipe de suporte do CRMobil por meio de tais informações como: Nome ,empresa(caso possua) ,telefone e e-mail(caso possua), como números de telefone. Esse formulário de conto é salvo pelo cliente no campo enviar e os dados serão encaminhados para o suporte.
 
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/assets/92118593/917cfb94-03c0-4efe-9d04-d00a7e1afb96)
 
 
 > **Links Úteis**:
