@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "6445cf9ec33fec12c59b99ec"
+  },
+  "cnpj": "54515438111952",
+  "nome_oficina": "Oficina Santa Mônica",
+  "apelido": "Centro SM",
+  "insc_estadual": "545154381119521",
+  "insc_municipal": "545154381119521",
+  "cep": "31530190",
+  "logradouro": "Rua dos Zapotecas",
+  "numero": "135",
+  "complemento": "NULL",
+  "bairro": "Santa Monica",
+  "cidade": "Belo Horizonte",
+  "telefone1": "3136353231",
+  "telefone2": "",
+  "email": "oficinacentroauto@oficina.com.br",
+  "email_nf": "",
+  "opcao_cadastro": "0"
+}]

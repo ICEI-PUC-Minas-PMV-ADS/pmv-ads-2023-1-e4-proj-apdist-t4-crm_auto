@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gx1vOvcNybvLf6odRcIRb2iIqL+Zbz5yQlM3jYBgveqdfrhYAafNq5zREEIYjwqiffwTNfRcedolb5RcpEjyNw==",
+  "dgSpecHash": "is1SkwkkoVEWNzhgCd+MFxVQTPXzYt11vUU666fUMTLsYyfVYDVvTa/BVuYnK+e8/kExaALpae/3Ke/yRsLPGA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\julio.lustosa\\Documents\\Cursos\\PUC\\Repositórios\\Eixo 4\\pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto\\src\\CRMobil\\CRMobil\\CRMobil.csproj",
+  "projectFilePath": "C:\\Users\\julio.lustosa\\Documents\\Cursos\\PUC\\Repositórios\\Eixo 4\\main\\pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto\\src\\CRMobil\\CRMobil\\CRMobil.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\julio.lustosa\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\julio.lustosa\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",

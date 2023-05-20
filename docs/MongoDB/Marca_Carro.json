@@ -1,0 +1,46 @@
+[{
+  "_id": {
+    "$oid": "6445b76cc33fec12c59b99ac"
+  },
+  "nome_marca": "ACURA"
+},{
+  "_id": {
+    "$oid": "6445b76cc33fec12c59b99ad"
+  },
+  "nome_marca": "ALFA ROMEO"
+},{
+  "_id": {
+    "$oid": "6445b76cc33fec12c59b99ae"
+  },
+  "nome_marca": "CADILLAC"
+},{
+  "_id": {
+    "$oid": "6445b76cc33fec12c59b99af"
+  },
+  "nome_marca": "CHEVROLET"
+},{
+  "_id": {
+    "$oid": "6445b76cc33fec12c59b99b0"
+  },
+  "nome_marca": "CITROEN"
+},{
+  "_id": {
+    "$oid": "6445b76cc33fec12c59b99b1"
+  },
+  "nome_marca": "FORD"
+},{
+  "_id": {
+    "$oid": "6445b76cc33fec12c59b99b2"
+  },
+  "nome_marca": "HONDA"
+},{
+  "_id": {
+    "$oid": "6445b76cc33fec12c59b99b3"
+  },
+  "nome_marca": "PORSCHE"
+},{
+  "_id": {
+    "$oid": "6445b76cc33fec12c59b99b4"
+  },
+  "nome_marca": "SMART"
+}]

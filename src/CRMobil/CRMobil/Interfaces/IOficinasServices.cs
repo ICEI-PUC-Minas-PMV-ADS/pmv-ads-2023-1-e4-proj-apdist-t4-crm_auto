@@ -6,7 +6,7 @@ namespace CRMobil.Interfaces
     public interface IOficinasServices
     {
 
-        Task<List<Oficinas>> GetAsync();
+        Task<Oficinas> GetAsync();
 
         Task<Oficinas?> GetAsync(string id);
 

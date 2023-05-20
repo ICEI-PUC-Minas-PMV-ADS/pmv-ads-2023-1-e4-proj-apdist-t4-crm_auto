@@ -22,7 +22,7 @@ namespace CRMobil.Controllers
 
         // GET: api/<OficinasController>
         [HttpGet]
-        public async Task<List<Oficinas>> RecuperaOficinas()
+        public async Task<Oficinas> RecuperaOficinas()
         {
             var result = await _services.GetAsync();
 
