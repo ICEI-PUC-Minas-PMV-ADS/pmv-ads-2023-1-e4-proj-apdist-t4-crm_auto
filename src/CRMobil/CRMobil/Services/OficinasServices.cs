@@ -21,7 +21,7 @@ namespace CRMobil.Services
             _serviceCollection = mongoDatabase.GetCollection<Oficinas>("Oficinas");
         }
 
-        public async Task<List<Oficinas>> GetAsync() => await _serviceCollection.Find(_ => true).ToListAsync();
+        public async Task<Oficinas> GetAsync() => await _serviceCollection.Find(_ => true).FirstOrDefaultAsync();
 
         public async Task<Oficinas?> GetAsync(string id) => await _serviceCollection.Find(x => x.Id_Oficina == id).FirstOrDefaultAsync();
 

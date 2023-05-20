@@ -1,0 +1,9 @@
+[{
+  "_id": {
+    "$oid": "6445c2d7c33fec12c59b99e6"
+  },
+  "cpf": "99999999999",
+  "nome": "josé alves",
+  "funcao": "mecânico",
+  "id_oficina": "6445cf9ec33fec12c59b99ec"
+}]

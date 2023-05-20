@@ -1,0 +1,65 @@
+[{
+  "_id": {
+    "$oid": "64473255d1d170cb5c9a04c8"
+  },
+  "nome_cliente": "Andeseron Silva",
+  "cnpj_cpf": "89265713411",
+  "cnpj_ou_cpf": "f",
+  "apelido": "ASILVA",
+  "data_nascimento": "1980-02-10",
+  "data_cadastro": "12/05/2022 13:30",
+  "cep": "69914096",
+  "logradouro": "Rua Tiradentes",
+  "numero": "9999",
+  "complemento": "apto 201",
+  "bairro": "Vilage Tiradentes",
+  "cidade": "Rio Branco",
+  "estado": "AC",
+  "telefone": "6934561255",
+  "celular": "69978456644",
+  "email_nf": "anderson.silva@gmail.com",
+  "excluido": "0",
+  "clienteVeiculos": [
+    {
+      "id_veiculo": "6445bdf6c33fec12c59b99d3",
+      "placa_veiculo": "JMM-2592",
+      "motorizacao": "2.8",
+      "ano_fabricacao": "2000",
+      "ano_modelo": "2000",
+      "renavan": "91600090055",
+      "cor": "VERMELHO",
+      "quilometragem": "18235"
+    },
+    {
+      "id_veiculo": "6445bdf6c33fec12c59b99d5",
+      "placa_veiculo": "JKL-1234",
+      "motorizacao": "1.0",
+      "ano_fabricacao": "2010",
+      "ano_modelo": "2015",
+      "renavan": "2478232",
+      "cor": "AZUL",
+      "quilometragem": "0"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6462d6ccc98a735ebdc84119"
+  },
+  "cnpj_cpf": "38194758",
+  "nome_cliente": "maria betânia",
+  "cnpj_ou_cpf": "j",
+  "apelido": "mbetania",
+  "data_nascimento": "20/02/1961",
+  "data_cadastro": "10/06/2022 10:10",
+  "cep": "15987340",
+  "logradouro": "rua das oliveiras",
+  "numero": "343",
+  "complemento": "apto 100",
+  "bairro": "bairro das andorinhas",
+  "cidade": "são paulo",
+  "estado": "sp",
+  "telefone": "33445566",
+  "celular": "11998765789",
+  "email_nf": "maria.betania@yahoo.com.br",
+  "excluido": "0"
+}]

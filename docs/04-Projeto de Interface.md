@@ -22,6 +22,14 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 
 ## Wireframes
 
+## Link protótipo interativo Figma:
+
+Web: https://www.figma.com/file/wUefI1yIuE6Pl3iLhjrBT7/CRM?type=design&node-id=302%3A3085&t=YFLG0Do1ZypmDCdu-1
+
+## Tela - Cadastro de usuario
+
+![Tela - Login](./img/Tela%20-%20Cadastro%20de%20usuario.png)
+
 ## Tela - Login 
 
 ![Tela - Login](./img/Tela%20login.png)
@@ -37,11 +45,11 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 ## Tela - Cadastro de clientes 
 
 
-![Tela - Cadastro de clientes](./img/Tela%20Cadastro%20de%20clientes.png)
+![Tela - Cadastro de clientes](./img/Tela%20-%20cadastro%20de%20Clientes.png)
 
 ## Tela - Serviços
 
-![Tela - Serviços](./img/Tela%20Servi%C3%A7o.png)
+![Tela - Serviços](./img/Tela%20-%20Servi%C3%A7os.png)
 
 ## Tela - Orçamentos 
 

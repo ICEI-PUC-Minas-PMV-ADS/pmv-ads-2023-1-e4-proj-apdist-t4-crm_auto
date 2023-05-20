@@ -1,0 +1,157 @@
+[{
+  "_id": {
+    "$oid": "6445bdf6c33fec12c59b99d3"
+  },
+  "id_modelo": "6445bb6cc33fec12c59b99c9",
+  "placa_veiculo": "JMM-2592",
+  "motorizacao": "2.8",
+  "ano_fabricacao": "2000",
+  "ano_modelo": "2000",
+  "renavan": "91600090055",
+  "cor": "VERMELHO",
+  "quilometragem": "0"
+},{
+  "_id": {
+    "$oid": "6445bdf6c33fec12c59b99d4"
+  },
+  "id_modelo": "6445bb6cc33fec12c59b99ce",
+  "placa_veiculo": "HIO-7994",
+  "motorizacao": "1.5 16V",
+  "ano_fabricacao": "2013",
+  "ano_modelo": "2014",
+  "renavan": "64538830855",
+  "cor": "Cinza",
+  "quilometragem": "0"
+},{
+  "_id": {
+    "$oid": "6445bdf6c33fec12c59b99d5"
+  },
+  "id_modelo": "6445bb6cc33fec12c59b99c6",
+  "placa_veiculo": "JKL-1234",
+  "motorizacao": "1.0",
+  "ano_fabricacao": "2010",
+  "ano_modelo": "2015",
+  "renavan": "2478232",
+  "cor": "AZUL",
+  "quilometragem": "0"
+},{
+  "_id": {
+    "$oid": "6445bdf6c33fec12c59b99d6"
+  },
+  "id_modelo": "6445bb6cc33fec12c59b99c6",
+  "placa_veiculo": "JKL-1134",
+  "motorizacao": "2.0",
+  "ano_fabricacao": "2005",
+  "ano_modelo": "2010",
+  "renavan": "3482724817",
+  "cor": "LARANJA",
+  "quilometragem": "0"
+},{
+  "_id": {
+    "$oid": "6445bdf6c33fec12c59b99d7"
+  },
+  "id_modelo": "6445bb6cc33fec12c59b99c8",
+  "placa_veiculo": "QWE-1010",
+  "motorizacao": "2.2",
+  "ano_fabricacao": "1987",
+  "ano_modelo": "1989",
+  "renavan": "238472897",
+  "cor": "ROXA",
+  "quilometragem": "0"
+},{
+  "_id": {
+    "$oid": "6445bdf6c33fec12c59b99d8"
+  },
+  "id_modelo": "6445bb6cc33fec12c59b99cd",
+  "placa_veiculo": "cdf-2019",
+  "motorizacao": "1.0",
+  "ano_fabricacao": "2010",
+  "ano_modelo": "2015",
+  "renavan": "1238213",
+  "cor": "AZUL",
+  "quilometragem": "0"
+},{
+  "_id": {
+    "$oid": "6445bdf6c33fec12c59b99d9"
+  },
+  "id_modelo": "6445bb6cc33fec12c59b99cc",
+  "placa_veiculo": "MMK-8765",
+  "motorizacao": "2.0",
+  "ano_fabricacao": "2020",
+  "ano_modelo": "2022",
+  "renavan": "2432545234",
+  "cor": "BRANCA",
+  "quilometragem": "0"
+},{
+  "_id": {
+    "$oid": "6445bdf6c33fec12c59b99da"
+  },
+  "id_modelo": "6445bb6cc33fec12c59b99ca",
+  "placa_veiculo": "POP-1010",
+  "motorizacao": "2.0",
+  "ano_fabricacao": "1990",
+  "ano_modelo": "2001",
+  "renavan": "248732",
+  "cor": "PRATA",
+  "quilometragem": "0"
+},{
+  "_id": {
+    "$oid": "6445bdf6c33fec12c59b99db"
+  },
+  "id_modelo": "6445bb6cc33fec12c59b99cd",
+  "placa_veiculo": "HJK-1234",
+  "motorizacao": "2.0",
+  "ano_fabricacao": "2020",
+  "ano_modelo": "2022",
+  "renavan": "2938572912",
+  "cor": "PRATA",
+  "quilometragem": "0"
+},{
+  "_id": {
+    "$oid": "6445bdf6c33fec12c59b99dc"
+  },
+  "id_modelo": "6445bb6cc33fec12c59b99d0",
+  "placa_veiculo": "BGT-2001",
+  "motorizacao": "2.0",
+  "ano_fabricacao": "2017",
+  "ano_modelo": "2020",
+  "renavan": "7873648",
+  "cor": "DOURADA",
+  "quilometragem": "0"
+},{
+  "_id": {
+    "$oid": "6445bdf6c33fec12c59b99dd"
+  },
+  "id_modelo": "6445bb6cc33fec12c59b99c7",
+  "placa_veiculo": "PWI1263",
+  "motorizacao": "1.0",
+  "ano_fabricacao": "2020",
+  "ano_modelo": "2021",
+  "renavan": "5454545",
+  "cor": "AZUL",
+  "quilometragem": "0"
+},{
+  "_id": {
+    "$oid": "6445bdf6c33fec12c59b99de"
+  },
+  "id_modelo": "6445bb6cc33fec12c59b99cf",
+  "placa_veiculo": "PWI1264",
+  "motorizacao": "1.0",
+  "ano_fabricacao": "2020",
+  "ano_modelo": "2021",
+  "renavan": "5454546",
+  "cor": "AZUL",
+  "quilometragem": "0"
+},{
+  "_id": {
+    "$oid": "6445bdf6c33fec12c59b99df"
+  },
+  "id_modelo": "6445bb6cc33fec12c59b99cb",
+  "placa_veiculo": "owp5556",
+  "motorizacao": "1.0",
+  "ano_fabricacao": "2013",
+  "ano_modelo": "2014",
+  "renavan": "01010101",
+  "cor": "PRATA",
+  "quilometragem": "0"
+}]
