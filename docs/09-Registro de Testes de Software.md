@@ -24,6 +24,26 @@ Essa funcionalidade permite que os usuários entrem em contato com a equipe de s
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/assets/92118593/917cfb94-03c0-4efe-9d04-d00a7e1afb96)
 
+###CT -03: Cadastro de Serviço 
+
+Selecionando o Menu Serviços no Painel de Controle
+
+o formulário de cadastro é apresentado da seguinte forma:
+
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/assets/92118593/57e93afa-6c9b-49aa-a4e0-9ef3a9f342e3)
+
+No MongoDB ordem_servico na aplicação é apresentada da seguinte forma:
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/assets/92118593/d2b1c14a-5cb1-4adc-b0ec-9b721afed152)
+
+###CT -04: Cadastro usuário:
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/assets/92118593/5afd3637-d45c-4869-bb00-e7308a0c0adc)
+
+No mongoBB.usuarios é apresentada da seguinte forma:
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/assets/92118593/3f354697-9fa8-466d-a8bb-55f0cc773232)
 
 > **Links Úteis**:
 > - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
