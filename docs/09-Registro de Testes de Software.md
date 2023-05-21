@@ -27,11 +27,6 @@ Se as informações forem preenchidas corretamente, o sistema deve armazenar um 
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/assets/92118593/05dfa1df-3319-4210-bfa4-bd0913d9a42e)
 
-### CT- 02: Contato Cliente
-
-Essa funcionalidade permite que os usuários entrem em contato com a equipe de suporte do CRMobil por meio de tais informações como: Nome ,empresa(caso possua) ,telefone e e-mail(caso possua), como números de telefone. Esse formulário de conto é salvo pelo cliente no campo enviar e os dados serão encaminhados para o suporte.
-
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/assets/92118593/917cfb94-03c0-4efe-9d04-d00a7e1afb96)
 
 ###CT -03: Cadastro de Serviço 
 
@@ -54,6 +49,12 @@ No mongoBB.usuarios é apresentada da seguinte forma:
 Se as informações forem preenchidas corretamente, o sistema deve armazenar um novo registro no banco de dados, contendo as informações fornecidas pelo usuário:
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/assets/92118593/3f354697-9fa8-466d-a8bb-55f0cc773232)
+
+### CT- 04: Contato Cliente
+
+Essa funcionalidade permite que os usuários entrem em contato com a equipe de suporte do CRMobil por meio de tais informações como: Nome ,empresa(caso possua) ,telefone e e-mail(caso possua), como números de telefone. Esse formulário de conto é salvo pelo cliente no campo enviar e os dados serão encaminhados para o suporte.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/assets/92118593/917cfb94-03c0-4efe-9d04-d00a7e1afb96)
 
 > **Links Úteis**:
 > - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
