@@ -7,9 +7,12 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 ## Avaliação
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+### CT -01: Registro de Login:
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/assets/92118593/fbc073dc-af20-4a97-9994-ead4c09a7c21)
 
 
-### CT-01: Login usuario
+### CT-02: Login usuario
 
 **Objetivo:** Verificar se o usuario consegue logar no sistema.
 
@@ -17,6 +20,10 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 
 ![img1](./img/registo%20CT-01.png)
 ![img1](./img/registo%20CT-01.2.png)
+
+No MongoDB CRMOBILDB.Funcionarios a aplicação é apresenta da seguinte forma:
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/assets/92118593/05dfa1df-3319-4210-bfa4-bd0913d9a42e)
 
 ### CT- 02: Contato Cliente
 
@@ -30,18 +37,20 @@ Selecionando o Menu Serviços no Painel de Controle
 
 o formulário de cadastro é apresentado da seguinte forma:
 
+Na página de cadastro de serviço, as informações devem ser corretamente preenchidas. Após isso, clicar em "Ok".
+
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/assets/92118593/57e93afa-6c9b-49aa-a4e0-9ef3a9f342e3)
 
 No MongoDB ordem_servico na aplicação é apresentada da seguinte forma:
 
+Se as informações forem preenchidas corretamente, o sistema deve armazenar um novo registro no banco de dados, contendo as informações fornecidas pelo usuário:
+
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/assets/92118593/d2b1c14a-5cb1-4adc-b0ec-9b721afed152)
 
-###CT -04: Cadastro usuário:
-
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/assets/92118593/5afd3637-d45c-4869-bb00-e7308a0c0adc)
-
 No mongoBB.usuarios é apresentada da seguinte forma:
+
+Se as informações forem preenchidas corretamente, o sistema deve armazenar um novo registro no banco de dados, contendo as informações fornecidas pelo usuário:
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/assets/92118593/3f354697-9fa8-466d-a8bb-55f0cc773232)
 
