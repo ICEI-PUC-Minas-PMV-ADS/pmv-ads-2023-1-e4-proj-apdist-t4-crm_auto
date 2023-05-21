@@ -7,14 +7,20 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 ## Avaliação
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+
+Ao executar a aplicação, o usuário deverá fazer login como Colaborador, preenchendo todos os campos solicitados. EM seguida A opção "Salvar" deve ser selecionada:
+
+
 ### CT -01: Registro de Login:
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/assets/92118593/fbc073dc-af20-4a97-9994-ead4c09a7c21)
 
 
-### CT-02: Login usuario
+### CT-02: Login usuário
 
-**Objetivo:** Verificar se o usuario consegue logar no sistema.
+Após clicar em "Salvar", o usuário é direcionado à página de "login Usuário" da oficina. As informações devem ser corretamente preenchidas. Após isso, clicar em "Salvar".
+
+**Objetivo:** Verificar se o usuário consegue logar no sistema.
 
 **Passos:** 1. Acessar a página principal;<br>                                                                                                             2. Clicar em ENTRAR na lateral direita da parte superior da página;<br>                                                    3. No campo EMAIL digitar o email que foi utilizado ao fazer o cadastro;<br>                                                                       4. No campo Senha digitar a senha que foi cadastrada
 
