@@ -23,6 +23,8 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 
 No MongoDB CRMOBILDB.Funcionarios a aplicação é apresenta da seguinte forma:
 
+Se as informações forem preenchidas corretamente, o sistema deve armazenar um novo registro no banco de dados, contendo as informações fornecidas pelo usuário:
+
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/assets/92118593/05dfa1df-3319-4210-bfa4-bd0913d9a42e)
 
 ### CT- 02: Contato Cliente
@@ -38,7 +40,6 @@ Selecionando o Menu Serviços no Painel de Controle
 o formulário de cadastro é apresentado da seguinte forma:
 
 Na página de cadastro de serviço, as informações devem ser corretamente preenchidas. Após isso, clicar em "Ok".
-
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/assets/92118593/57e93afa-6c9b-49aa-a4e0-9ef3a9f342e3)
 
