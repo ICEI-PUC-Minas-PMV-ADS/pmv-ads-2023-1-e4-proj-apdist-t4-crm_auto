@@ -8,7 +8,7 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
 
-Ao executar a aplicação, o usuário deverá fazer login como Colaborador, preenchendo todos os campos solicitados. EM seguida A opção "Salvar" deve ser selecionada:
+Ao executar a aplicação, o usuário deverá fazer login como Colaborador, preenchendo todos os campos solicitados. Em seguida A opção "Salvar" deve ser selecionada:
 
 
 ### CT -01: Registro de Login:
