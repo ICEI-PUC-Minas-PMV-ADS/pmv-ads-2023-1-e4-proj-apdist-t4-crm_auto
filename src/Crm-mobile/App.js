@@ -1,12 +1,13 @@
-import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, StatusBar } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 
 import Rotas from "./src/routes/StackNavigator";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function App() {
   return (
     <NavigationContainer>
+      <StatusBar />
       <Rotas />
     </NavigationContainer>
   );

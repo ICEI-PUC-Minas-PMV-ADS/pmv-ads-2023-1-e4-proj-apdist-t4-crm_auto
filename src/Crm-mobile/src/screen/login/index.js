@@ -26,7 +26,7 @@ export default function Login() {
       <TouchableOpacity style={styles.botao}>
         <Text
           style={styles.textoBotao}
-          onPress={() => navigation.navigate("TelaA")}
+          onPress={() => navigation.navigate("Serviços")}
         >
           Entrar
         </Text>

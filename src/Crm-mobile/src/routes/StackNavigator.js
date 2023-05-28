@@ -4,7 +4,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
 // As telas que foram colocadas abaixo foi somente para testar as rotas para colocar as telas que foram desenvolvida basta importa la e substituir
 
-import TelaA from "../screen/telaA";
+import Servicos from "../screen/servicos";
 import TelaB from "../screen/telaB";
 import Login from "../screen/login";
 
@@ -14,7 +14,7 @@ export default function Rotas() {
   return (
     <Stack.Navigator initialRouteName="Login">
       <Stack.Screen name="Login" component={Login} />
-      <Stack.Screen name="TelaA" component={TelaA} />
+      <Stack.Screen name="Serviços" component={Servicos} />
       <Stack.Screen name="TelaB" component={TelaB} />
     </Stack.Navigator>
   );
