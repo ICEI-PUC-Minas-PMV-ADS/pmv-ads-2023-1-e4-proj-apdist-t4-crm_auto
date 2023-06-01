@@ -11,41 +11,63 @@ import {
   SafeAreaView,
   View,
   ScrollView,
+  FlatList,
 } from "react-native";
 
 import logo from "../../../assets/img/SVG-CRMobil-removebg.png";
 
-export default function Servicos() {
+const data = [
+  {
+    id: "1",
+    name: "OS:1591 Placa Veículo: RUH6G42",
+  },
+  { id: "2", name: "OS:1592  Placa Veículo: MAI6M22" },
+  { id: "3", name: "OS:1593  Placa Veículo: POL6G18" },
+  { id: "4", name: "OS:1593  Placa Veículo: POL6G18" },
+  { id: "5", name: "OS:1593  Placa Veículo: POL6G18" },
+  { id: "6", name: "OS:1593  Placa Veículo: POL6G18" },
+  { id: "7", name: "OS:1593  Placa Veículo: POL6G18" },
+  { id: "8", name: "OS:1593  Placa Veículo: POL6G18" },
+
+  // Adicione mais itens conforme necessário
+];
+
+const Item = ({ name }) => {
   const navigation = useNavigation();
+  return (
+    <TouchableOpacity
+      style={styles.item}
+      onPress={() => navigation.navigate("Ordem de Serviços")}
+    >
+      <Text style={styles.itemText}>{name}</Text>
+      <Text style={styles.statusText}>Concluído: 14/09/2023</Text>
+    </TouchableOpacity>
+  );
+};
+
+export default function Servicos() {
   return (
     <SafeAreaView
       style={styles.container}
       behavior={Platform.OS === "ios" ? "padding" : "height"}
     >
-      <View style={styles.logoContainer}>
-        <Image source={logo} style={[styles.logo, { tintColor: "#00385e" }]} />
-      </View>
-
-      <Text style={styles.titulo}>Serviços</Text>
-
       <View style={styles.container}>
         <ScrollView>
-          <TouchableOpacity style={styles.botao}>
-            <Text
-              style={styles.textoBotao}
-              onPress={() => navigation.navigate("TelaB")}
-            >
-              Serviço 1
-            </Text>
-          </TouchableOpacity>
-          <TouchableOpacity style={styles.botao}>
-            <Text
-              style={styles.textoBotao}
-              onPress={() => navigation.navigate("TelaB")}
-            >
-              Serviço 2
-            </Text>
-          </TouchableOpacity>
+          <View style={styles.logoContainer}>
+            <Image
+              source={logo}
+              style={[styles.logo, { tintColor: "#00385e" }]}
+            />
+          </View>
+
+          <Text style={styles.titulo}>Serviços</Text>
+
+          <FlatList
+            style={styles.list}
+            data={data}
+            renderItem={({ item }) => <Item name={item.name} />}
+            keyExtractor={(item) => item.id}
+          />
         </ScrollView>
       </View>
     </SafeAreaView>
@@ -62,7 +84,7 @@ const styles = StyleSheet.create({
 
   titulo: {
     textAlign: "center",
-    fontSize: 30,
+    fontSize: 35,
     lineHeight: 46,
     fontWeight: "bold",
     padding: 20,
@@ -70,28 +92,31 @@ const styles = StyleSheet.create({
   },
   logoContainer: {
     width: "100%",
-    alignItems: "flex-end",
-    marginRight: 30,
-    paddingTop: 20,
+    alignItems: "center",
+    paddingTop: 40,
   },
   logo: {
-    marginBottom: 16,
-    width: 32,
-    height: 32,
+    marginBottom: 10,
+    width: 50,
+    height: 50,
   },
 
-  botao: {
-    marginTop: 16,
-    backgroundColor: "#005691",
-    paddingVertical: 16,
-    borderRadius: 6,
-    width: Dimensions.get("window").width - 60, // Adjust the width based on your requirements
+  list: {
+    width: "100%",
   },
-  textoBotao: {
-    textAlign: "center",
-    color: "#fff",
-    fontSize: 16,
-    lineHeight: 26,
-    fontWeight: "bold",
+  item: {
+    backgroundColor: "#0F6CBD",
+    borderRadius: 6,
+    padding: 20,
+    marginBottom: 35,
+    width: Dimensions.get("window").width - 50, // Adjust the width based on your requirements
+  },
+  itemText: {
+    fontSize: 25,
+    lineHeight: 40,
+    color: "white",
+  },
+  statusText: {
+    color: "#e6e6e6",
   },
 });
