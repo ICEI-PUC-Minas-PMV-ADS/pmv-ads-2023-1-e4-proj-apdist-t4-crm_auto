@@ -2,9 +2,9 @@ import React from 'react';
 import { View, Text, Image, FlatList, StyleSheet } from 'react-native';
 
 const data = [
-  { id: '1', name: 'OS:1593 Placa Veículo: RUH6G42' },
+  { id: '1', name: 'OS:1591 Placa Veículo: RUH6G42' },
   { id: '2', name: 'OS:1592  Placa Veículo: MAI6M22' },
-  { id: '3', name: 'OS:1591  Placa Veículo: POL6G18' },
+  { id: '3', name: 'OS:1593  Placa Veículo: POL6G18' },
   // Adicione mais itens conforme necessário
 ];
 
