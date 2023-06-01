@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "CRMobil",
+    "slug": "CRMobil",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "../Crm-mobile/assets/img/SVG-CRMobil-removebg.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "../Crm-mobile/assets/img/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#005691"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "../Crm-mobile/assets/img/SVG-CRMobil-removebg.png",
+        "backgroundColor": "#005691"
+      }
+    },
+    "web": {
+      "favicon": "../Crm-mobile/assets/img/SVG-CRMobil-removebg.png"
+    }
+  }
+}
