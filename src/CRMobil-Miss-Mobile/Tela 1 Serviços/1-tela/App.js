@@ -2,9 +2,9 @@ import React from 'react';
 import { View, Text, Image, FlatList, StyleSheet } from 'react-native';
 
 const data = [
-  { id: '1', name: '000  Troca de Óleo' },
-  { id: '2', name: '001  Troca de óleo' },
-  { id: '3', name: '002  Troca de óleo' },
+  { id: '1', name: 'OS:1593 Placa Veículo: RUH6G42' },
+  { id: '2', name: 'OS:1592  Placa Veículo: MAI6M22' },
+  { id: '3', name: 'OS:1591  Placa Veículo: POL6G18' },
   // Adicione mais itens conforme necessário
 ];
 
@@ -12,7 +12,7 @@ const Item = ({ name }) => {
   return (
     <View style={styles.item}>
       <Text style={styles.itemText}>{name}</Text>
-      <Text style={styles.statusText}>Em andamento</Text>
+      <Text style={styles.statusText}>Cloncluído: 14/092023 </Text>
     </View>
   );
 };
@@ -48,22 +48,22 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#FFFFFF',
-    padding: 20,
+    padding: 30,
   },
   logoContainer: {
     position: 'absolute',
     top: 0,
     right: 0,
-    marginRight: 9,
-    marginTop: 100,
+    left: 0,
+    marginTop: 60,
+    alignItems: 'center',
   },
   logo: {
     width: 60, // Defina a largura desejada
     height: 50, // Defina a altura desejada
-  
   },
   titleContainer: {
-    flex: 10,
+    flex: 100,
     justifyContent: 'center',
     alignItems: 'center',
   },
@@ -84,7 +84,7 @@ const styles = StyleSheet.create({
     color: 'white',
   },
   title: {
-    fontSize: 60,
+    fontSize: 50,
     fontWeight: 'bold',
     color: '#CCCCCC',
   },
