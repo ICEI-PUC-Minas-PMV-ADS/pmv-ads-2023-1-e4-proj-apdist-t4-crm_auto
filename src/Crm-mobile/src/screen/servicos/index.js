@@ -52,23 +52,21 @@ export default function Servicos() {
       behavior={Platform.OS === "ios" ? "padding" : "height"}
     >
       <View style={styles.container}>
-        <ScrollView>
-          <View style={styles.logoContainer}>
-            <Image
-              source={logo}
-              style={[styles.logo, { tintColor: "#00385e" }]}
-            />
-          </View>
-
-          <Text style={styles.titulo}>Serviços</Text>
-
-          <FlatList
-            style={styles.list}
-            data={data}
-            renderItem={({ item }) => <Item name={item.name} />}
-            keyExtractor={(item) => item.id}
+        <View style={styles.logoContainer}>
+          <Image
+            source={logo}
+            style={[styles.logo, { tintColor: "#00385e" }]}
           />
-        </ScrollView>
+        </View>
+
+        <Text style={styles.titulo}>Serviços</Text>
+
+        <FlatList
+          style={styles.list}
+          data={data}
+          renderItem={({ item }) => <Item name={item.name} />}
+          keyExtractor={(item) => item.id}
+        />
       </View>
     </SafeAreaView>
   );
