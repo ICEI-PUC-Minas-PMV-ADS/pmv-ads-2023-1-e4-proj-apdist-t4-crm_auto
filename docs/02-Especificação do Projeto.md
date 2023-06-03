@@ -72,12 +72,22 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-apdist-t4-crm_a
 
 ## Indicadores de Desempenho
 
-Apresente aqui os principais indicadores de desempenho e algumas metas para o processo. Atenção: as informações necessárias para gerar os indicadores devem estar contempladas no diagrama de classe. Colocar no mínimo 5 indicadores. 
+<!-- Apresente aqui os principais indicadores de desempenho e algumas metas para o processo. Atenção: as informações necessárias para gerar os indicadores devem estar contempladas no diagrama de classe. Colocar no mínimo 5 indicadores. 
 
 Usar o seguinte modelo: 
 
 ![Indicadores de Desempenho](img/02-indic-desemp.png)
-Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe a ser apresentado a posteriori. 
+Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe a ser apresentado a posteriori. -->
+
+| Indicador | Objetivos | Descrição | Cálculo | Fonte de Dados | Perspectiva |
+| --- | --- | --- | --- | --- | --- |
+| Tempo médio de atendimento | Reduzir o tempo médio de atendimento em X% em relação ao período anterior. | Mede o tempo médio necessário para atender a uma solicitação do cliente desde o registro até a conclusão do serviço. | Tempo total de atendimento / Número total de solicitações atendidas | Sistema de CRM | Cliente |
+| Taxa de satisfação do cliente | Alcançar uma taxa de satisfação do cliente de pelo menos X% ao longo do tempo. | Avalia a satisfação dos clientes com base em pesquisas de feedback ou avaliações. | (Número de clientes satisfeitos / Número total de clientes pesquisados) * 100 | Pesquisas de feedback ou avaliações | Cliente |
+| Nível de adesão ao aplicativo mobile | Aumentar a taxa de adesão ao aplicativo mobile em X% em relação ao trimestre anterior. | Mede a porcentagem de clientes que utilizam a aplicação mobile para acompanhar o status dos serviços e acessar informações relevantes. | (Número de clientes usando o aplicativo mobile / Número total de clientes) * 100 | Registro de uso do aplicativo mobile | Cliente |
+| Taxa de cumprimento de prazos | Alcançar uma taxa de cumprimento de prazos de pelo menos X% ao longo do período. | Avalia a capacidade da oficina em cumprir os prazos acordados com os clientes. | (Número de serviços concluídos dentro do prazo / Número total de serviços) * 100 | Sistema de CRM | Oficina |
+| Taxa de conversão de orçamentos em serviços realizados | Aumentar a taxa de conversão de orçamentos em X% em relação ao ano anterior. | Mede a eficácia da oficina em converter orçamentos em serviços efetivamente realizados. | (Número de serviços realizados / Número de orçamentos) * 100 | Sistema de CRM | Oficina |
+
+
 
 ## Requisitos
 
