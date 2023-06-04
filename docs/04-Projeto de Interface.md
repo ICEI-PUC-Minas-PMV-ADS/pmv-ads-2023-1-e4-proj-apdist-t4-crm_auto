@@ -22,7 +22,7 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 
 ## Wireframes
 
-## WEB
+# WEB
 
 ## Link protótipo interativo Figma:
 
@@ -59,19 +59,33 @@ Tela - Orçamentos
 
 ![Tela - Orçamentos](./img/Tela%20Or%C3%A7amento.png)
 
-## MOBILE
+# MOBILE
 
 ## Tela - Splash
 
 Tela - Splash
 
-![Tela - Splash](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/blob/Mobile/docs/img/Wire%20frame%20Tela%20splash.png)
+![Tela - Splash](/docs/img/Wire%20frame%20Tela%20splash.png)
 
 ## Tela - Login
 
 Tela - Login
 
-![Tela - Splash](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto/blob/Mobile/docs/img/Wire%20frame%20Tela%20de%20login.png)
+![Tela - Splash](/docs/img/Wireframe-Login%20Mobile.png)
+
+## Tela - Serviços
+
+Tela - Serviços
+
+![Tela - Splash](/docs/img/Wireframe-Servi%C3%A7os%20Mobile.png)
+
+## Tela - Detalhamento serviços
+
+Tela - Detalhamento serviços
+
+![Tela - Splash](/docs/img/Wireframe-detalhamento%20Mobile.png)
+
+
 
 
 
