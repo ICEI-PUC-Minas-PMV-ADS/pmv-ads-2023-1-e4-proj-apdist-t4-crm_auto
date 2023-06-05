@@ -44,11 +44,11 @@
                     </li>
 
                     <li class="nav-item mt-1">
-                        <a asp-action="Index" asp-controller="Orcamento"
+                        <a asp-action="Index" asp-controller="OrdemServico"
                            class="nav-link text-light fs-5"
                            aria-current="page">
                             <i class="bi bi-pie-chart-fill"></i>
-                            <span class="mx-2">Orçamentos</span>
+                            <span class="mx-2">Ordem de serviço</span>
                         </a>
                     </li>
                     <li class="nav-item mt-1">
@@ -70,11 +70,11 @@
                     </a>
 
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li>
+                        <li><a class="dropdown-item" href="#">Minha conta</a></li>
+                        <li><a class="dropdown-item" asp-controller="Usuario" asp-action="Index">Editar perfil</a></li>
+                        @*<li>
                             <a class="dropdown-item" href="#">Something else here</a>
-                        </li>
+                        </li>*@
                         <li><hr class="dropdown-divider" /></li>
                         <li>
                             <a class="dropdown-item text-danger fw-bold" href="#">

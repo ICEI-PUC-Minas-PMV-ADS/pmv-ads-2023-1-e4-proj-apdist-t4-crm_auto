@@ -1,6 +1,6 @@
 ﻿namespace CRMobil.Web.Models.Oficina
 {
-    public class Oficina
+    public class OficinaViewModel
     {
         public string Id_Oficina { get; set; }
         public string Cnpj { get; set; }
@@ -14,7 +14,7 @@
         public string Complemento { get; set; }
         public string Bairro { get; set; }
         public string Cidade { get; set; }
-        //public string Estado { get; set; }
+        public string Estado { get; set; }
         public string Telefone1 { get; set; }
         public string Telefone2 { get; set; }
         public string Email { get; set; }

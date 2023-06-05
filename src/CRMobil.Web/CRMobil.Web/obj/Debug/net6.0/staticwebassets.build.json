@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QTcBaKw2aIH+152vtqThoTY/b84hy4Sx2jc4zQZkcMY=",
+  "Hash": "5Xr42vlXAriVDPCVwMIsuTqNbtglA9tKAcXtPEiYYTQ=",
   "Source": "CRMobil.Web",
   "BasePath": "_content/CRMobil.Web",
   "Mode": "Default",
@@ -1341,6 +1341,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\julio.lustosa\\Documents\\Cursos\\PUC\\Repositórios\\Eixo 4\\pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto\\src\\CRMobil.Web\\CRMobil.Web\\wwwroot\\Scripts\\App\\Oficina\\form.js",
+      "SourceId": "CRMobil.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\julio.lustosa\\Documents\\Cursos\\PUC\\Repositórios\\Eixo 4\\pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto\\src\\CRMobil.Web\\CRMobil.Web\\wwwroot\\",
+      "BasePath": "_content/CRMobil.Web",
+      "RelativePath": "Scripts/App/Oficina/form.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Scripts\\App\\Oficina\\form.js"
     }
   ]
 }

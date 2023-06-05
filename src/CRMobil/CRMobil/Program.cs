@@ -12,6 +12,15 @@ using CRMobil.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
+var connectionString = builder.Configuration.GetConnectionString("ImobiliariaConnection");
+
+builder.Services.AddDbContext<ImobiliariaContext>(opts =>
+    opts.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
+
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+builder.Services.AddControllers().AddNewtonsoftJson();
+
 builder.Services.Configure<CnnStoreDatabaseSettings>(builder.Configuration.GetSection("ConnStoreDatabase"));
 
 builder.Services.AddSingleton<ClientesService>();
