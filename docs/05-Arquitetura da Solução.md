@@ -40,17 +40,10 @@ Apresente também uma figura explicando como as tecnologias estão relacionadas 
 
 
 ## Hospedagem
-Iremos Utilizar o  **Microsoft Azure** como servidor da aplicação
+https://crmobil.netlify.app/
 
-- **Microsoft Azure:** O Azure é uma plataforma em nuvem confiável e amplamente utilizada, que suporta as tecnologias que estamos utilizando, como ASP.NET, .NET Core, MongoDB e SQL Server. Com o Azure, teremos escalabilidade flexível, serviços de banco de dados confiáveis e recursos adicionais para o desenvolvimento do sistema.
+**Ferramenta**: https://www.netlify.com/
 
-
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
 
 ## Qualidade de Software
 
