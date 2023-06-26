@@ -1,6 +1,6 @@
 ﻿namespace CRMobil.Web.Models
 {
-    public class ModelEnderecoBase
+    public class EnderecoBase
     {
         public string Cep { get; set; }
         public string Logradouro { get; set; }

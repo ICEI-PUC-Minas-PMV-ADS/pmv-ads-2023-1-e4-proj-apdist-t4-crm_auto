@@ -1,4 +1,4 @@
-﻿using CRMobil.Entities.Cliente;
+﻿using CRMobil.Entities.Clientes;
 using CRMobil.Interfaces;
 using CRMobil.Services;
 using Microsoft.AspNetCore.Authorization;
@@ -50,7 +50,7 @@ namespace CRMobil.Controllers
         {
             await _clienteService.CreateAsync(newCliente);
 
-            return CreatedAtAction(nameof(SalvarCliente), new { id = newCliente.Id_Cliente }, newCliente);
+            return CreatedAtAction(nameof(SalvarCliente), new { id = newCliente.IdCliente }, newCliente);
         }
 
         // PUT api/<ClienteController>/5
@@ -64,7 +64,7 @@ namespace CRMobil.Controllers
                 return NotFound();
             }
             
-            updateCliente.Id_Cliente = cliente.Id_Cliente;
+            updateCliente.IdCliente = cliente.IdCliente;
 
             await _clienteService.UpdateAsync(id, updateCliente);
 

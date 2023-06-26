@@ -7,36 +7,50 @@ namespace CRMobil.Web.Controllers
 {
     public class ClienteController : Controller
     {
-        private readonly string apiUrl = " https://localhost:7165/api/Cliente";
+        private readonly string apiUrl = "https://localhost:7165/api/Cliente";
 
         public async Task<IActionResult> Index()
         {
-            List<Cliente> listaClintes = new List<Cliente>();
+            List<ClienteViewModel> listaClintes = new List<ClienteViewModel>();
 
             using (var httpClient = new HttpClient())
             {
                 using (var response = await httpClient.GetAsync(apiUrl))
                 {
                     string apiResponse = await response.Content.ReadAsStringAsync();
-                    listaClintes = JsonConvert.DeserializeObject<List<Cliente>>(apiResponse);
+                    listaClintes = JsonConvert.DeserializeObject<List<ClienteViewModel>>(apiResponse);
                 }
             }
             return View(listaClintes);
         }
 
-        //public ViewResult RecuperaCliente() => View();
-
         [HttpGet]
-        public async Task<IActionResult> RecuperaCliente(string cpf_cnpj)
+        public async Task<IActionResult> RecuperaCliente(string id)
         {
-            Cliente cliente = new Cliente();
+            ClienteViewModel cliente = new ClienteViewModel();
 
             using (var httpCliente = new HttpClient())
             {
-                using (var response = await httpCliente.GetAsync(apiUrl + "/" + cpf_cnpj))
+                using (var response = await httpCliente.GetAsync(apiUrl + "/" + id))
                 {
                     string apiResponse = await response.Content.ReadAsStringAsync();
-                    cliente = JsonConvert.DeserializeObject<Cliente>(apiResponse);
+                    cliente = JsonConvert.DeserializeObject<ClienteViewModel>(apiResponse);
+                }
+            }
+            return View("FormCliente", cliente);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> ListaCliente(ClienteViewModel viewModel)
+        {
+            ClienteViewModel cliente = new ClienteViewModel();
+
+            using (var httpCliente = new HttpClient())
+            {
+                using (var response = await httpCliente.GetAsync(apiUrl + "/" + viewModel.Cnpj_Cpf))
+                {
+                    string apiResponse = await response.Content.ReadAsStringAsync();
+                    cliente = JsonConvert.DeserializeObject<ClienteViewModel>(apiResponse);
                 }
             }
             return View("FormCliente", cliente);
@@ -45,9 +59,9 @@ namespace CRMobil.Web.Controllers
         public ViewResult AdicionaCliente() => View();
 
         [HttpPost]
-        public async Task<IActionResult> AdicionaCliente(Cliente cliente)
+        public async Task<IActionResult> AdicionaCliente(ClienteViewModel cliente)
         {
-            Cliente clienteCadastrado = new Cliente();
+            ClienteViewModel clienteCadastrado = new ClienteViewModel();
 
             using (var httpClient = new HttpClient())
             {
@@ -56,7 +70,7 @@ namespace CRMobil.Web.Controllers
                 using (var response = await httpClient.PostAsync(apiUrl, content))
                 {
                     string apiResponse = await response.Content.ReadAsStringAsync();
-                    clienteCadastrado = JsonConvert.DeserializeObject<Cliente>(apiResponse);
+                    clienteCadastrado = JsonConvert.DeserializeObject<ClienteViewModel>(apiResponse);
                 }
             }
             return View(clienteCadastrado);

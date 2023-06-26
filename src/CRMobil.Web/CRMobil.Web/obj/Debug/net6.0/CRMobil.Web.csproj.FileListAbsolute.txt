@@ -38,3 +38,4 @@ C:\Users\julio.lustosa\Documents\Cursos\PUC\Repositórios\Eixo 4\pmv-ads-2023-1-
 C:\Users\julio.lustosa\Documents\Cursos\PUC\Repositórios\Eixo 4\pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto\src\CRMobil.Web\CRMobil.Web\bin\Debug\net6.0\System.Web.WebPages.Razor.dll
 C:\Users\julio.lustosa\Documents\Cursos\PUC\Repositórios\Eixo 4\pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto\src\CRMobil.Web\CRMobil.Web\bin\Debug\net6.0\System.Web.WebPages.dll
 C:\Users\julio.lustosa\Documents\Cursos\PUC\Repositórios\Eixo 4\pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto\src\CRMobil.Web\CRMobil.Web\bin\Debug\net6.0\Microsoft.Web.Infrastructure.dll
+C:\Users\julio.lustosa\Documents\Cursos\PUC\Repositórios\Eixo 4\pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto\src\CRMobil.Web\CRMobil.Web\bin\Debug\net6.0\Microsoft.Rest.ClientRuntime.dll

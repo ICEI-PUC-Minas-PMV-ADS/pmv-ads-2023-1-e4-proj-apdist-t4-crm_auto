@@ -1,5 +1,4 @@
-﻿using CRMobil.Entities.Cliente;
-using CRMobil.Entities.OrdemServico;
+﻿using CRMobil.Entities.OrdemServico;
 
 namespace CRMobil.Interfaces
 {

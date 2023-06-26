@@ -1,9 +1,6 @@
-﻿@using CRMobil.Web.Models.Usuario;
+﻿@using CRMobil.Web.Models.Funcionario
 
-@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@model Usuario
+@model FuncionarioViewModel
 @{
 }
 <!DOCTYPE html>
@@ -30,7 +27,7 @@
         <section>
             <partial name="/Views/Shared/_LayoutMenu.cshtml" />
         </section>
-        <form asp-controller="Usuario" asp-action="Salvar">
+        <form asp-controller="Funcionario" asp-action="Salvar">
             <!--Dados de Usuário-->
             <section>
                 <div class="container mt-5">
@@ -69,7 +66,7 @@
                     </div>
 
                     <div class="row">
-                        <div id="app" class="form-group col-md-2">
+                    <div id="app" class="form-group col-xs-12 col-sm-12 col-md-2 col-lg-2">
                             <label for="cep">CEP</label>
                             <div class="input-group mb-3">
                                 <input type="text"
@@ -84,7 +81,7 @@
                             </div>
                         </div>
                         <!-- INÍCIO DIV CONTEÚDO DO FORM LOGRADOURO -->
-                        <div class="form-group col-md-8">
+                    <div class="form-group col-xs-12 col-sm-12 col-md-8 col-lg-8">
                             <label for="endereco">Endereço</label>
                             <div class="input-group mb-3">
                                 <input type="text"
@@ -94,7 +91,7 @@
                                        asp-for="Logradouro" />
                             </div>
                         </div>
-                        <div class="form-group col-md-2">
+                    <div class="form-group col-xs-12 col-sm-12 col-md-2 col-lg-2">
                             <label for="numero">Número</label>
                             <div class="input-group mb-3">
                                 <input type="text"
@@ -107,7 +104,7 @@
                     </div>
 
                     <div class="row">
-                        <div class="col-md-5">
+                    <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
                             <label for="bairro">Bairro</label>
                             <div class="input-group mb-3">
                                 <input type="text"
@@ -117,7 +114,7 @@
                                        asp-for="Bairro" />
                             </div>
                         </div>
-                        <div class="col-md-7">
+                    <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
                             <label for="complemento">Complemento</label>
                             <div class="input-group mb-3">
                                 <input type="text"
@@ -140,7 +137,7 @@
                                        asp-for="Cidade" />
                             </div>
                         </div>
-                        <div class="col-md-3">
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
                             <label for="estado">Estado</label>
                             <div class="input-group mb-3">
                                 <select id="estado" class="form-select" asp-for="Estado">
@@ -176,7 +173,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-2">
+                    <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
                             <label for="telefone">Telefone</label>
                             <div class="input-group mb-3">
                                 <input type="tel"
@@ -190,52 +187,7 @@
                 </div>
             </section>
 
-            <!--Autenticação-->
-            <section>
-                <div class="container">
-                    <h4 class="text-start p-2 mb-3 mt-3 titulo text-light">
-                        Dados de Autenticação
-                    </h4>
-                    <div class="mb-3">
-                        <label for="email" class="form-label">Endereço de E-mail</label>
-                        <input type="email"
-                               class="form-control col-md-4"
-                               id="email"
-                               placeholder="E-mail"
-                               required
-                               asp-for="Email" />
-
-                        <div class="invalid-feedback text-danger">
-                            Digite um e-mail válido!
-                        </div>
-                    </div>
-                    <div class="mb-3">
-                        <label for="password" class="form-label">Senha</label>
-                        <input type="password"
-                               class="form-control col-md-4"
-                               id="password"
-                               placeholder="Senha"
-                               required
-                               asp-for="Senha" />
-                        <div class="invalid-feedback">Entre com a senha.</div>
-                    </div>
-                    <div class="mb-3">
-                        <label for="confirmPassword" class="form-label">Confirmação de senha</label>
-                        <input type="password"
-                               class="form-control col-md-4"
-                               id="confirmPassword"
-                               placeholder="Confirme a Senha"
-                               required
-                               asp-for="Confirma_Senha" />
-                        <div class="invalid-feedback text-danger">
-                            As senhas não conferem!
-                        </div>
-                    </div>
-                    <button type="submit" class="btn btn-success px-5 fw-bold mb-5 mt-4 text-end">
-                        Salvar
-                    </button>
-                </div>
-            </section>
+            <partial name="CadastroUsuario.cshtml" />
         </form>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"

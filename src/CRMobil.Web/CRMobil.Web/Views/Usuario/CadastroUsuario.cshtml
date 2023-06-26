@@ -1,0 +1,52 @@
+﻿@using CRMobil.Web.Models.Usuario
+
+@model UsuarioViewModel
+@{
+}
+
+<!--Autenticação-->
+<section>
+    <div class="container">
+        <h4 class="text-start p-2 mb-3 mt-3 titulo text-light">
+            Dados de Autenticação
+        </h4>
+        <div class="mb-3">
+            <label for="email" class="form-label">Endereço de E-mail</label>
+            <input type="email"
+                   class="form-control col-md-4"
+                   id="email"
+                   placeholder="E-mail"
+                   required
+                   asp-for="Email" />
+
+            <div class="invalid-feedback text-danger">
+                Digite um e-mail válido!
+            </div>
+        </div>
+        <div class="mb-3">
+            <label for="password" class="form-label">Senha</label>
+            <input type="password"
+                   class="form-control col-md-4"
+                   id="password"
+                   placeholder="Senha"
+                   required
+                   asp-for="Senha" />
+            <div class="invalid-feedback">Entre com a senha.</div>
+        </div>
+        <div class="mb-3 col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <label for="confirmPassword" class="form-label">Confirmação de senha</label>
+            <input type="password"
+                   class="form-control"
+                   id="confirmPassword"
+                   placeholder="Confirme a Senha"
+                   required
+                   asp-for="Confirma_Senha" />
+            <div class="invalid-feedback text-danger">
+                As senhas não conferem!
+            </div>
+        </div>
+        <button type="submit" class="btn btn-success px-5 fw-bold mb-5 mt-4 text-end">
+            Salvar
+        </button>
+    </div>
+</section>

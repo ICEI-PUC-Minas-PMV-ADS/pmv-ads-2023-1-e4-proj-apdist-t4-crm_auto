@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using CRMobil.Data.Mapper;
-using CRMobil.Entities.Cliente;
+using CRMobil.Entities.Clientes;
 
 namespace CRMobil.Profiles
 {

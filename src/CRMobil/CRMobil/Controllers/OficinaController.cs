@@ -1,5 +1,4 @@
-﻿using CRMobil.Entities.Cliente;
-using CRMobil.Entities.Oficina;
+﻿using CRMobil.Entities.Oficina;
 using CRMobil.Interfaces;
 using CRMobil.Services;
 using Microsoft.AspNetCore.Authorization;

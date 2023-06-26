@@ -1,0 +1,54 @@
+﻿@using CRMobil.Web.Models.Oficina;
+
+@model List<OrdemServicoViewModel>;
+
+<form asp-controller="">
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-3">
+                <label for="cpf_cnpj">Informe o CPF</label>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" id="cpf_cnpj" name="cpf" aria-describedby="basic-addon1" maxlength="14" />
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <label for="nomeCliente">Nome do cliente</label>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" id="nomeCliente" />
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-2">
+                <label for="telefone">Telefone</label>
+                <div class="input-group mb-3">
+                    <input type="tel" class="form-control" id="telefone" />
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <label for="celular">Celular</label>
+                <div class="input-group mb-3">
+                    <input type="tel" class="form-control" id="celular" />
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <label for="email">Email</label>
+                <div class="input-group mb-3">
+                    <input type="email" class="form-control email" id="email" />
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="form-group">
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3" style="margin-left:1.3em;">
+                    <button type="submit" id="btnFiltro" class="btn btn-default"><i class="fa fa-search"></i> Pesquisar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

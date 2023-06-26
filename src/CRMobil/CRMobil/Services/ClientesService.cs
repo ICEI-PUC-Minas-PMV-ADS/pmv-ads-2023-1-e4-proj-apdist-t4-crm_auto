@@ -1,8 +1,6 @@
 ﻿using CRMobil.Entities;
-using CRMobil.Entities.Cliente;
-using CRMobil.Entities.Usuarios;
+using CRMobil.Entities.Clientes;
 using CRMobil.Interfaces;
-using Microsoft.AspNetCore.Mvc.TagHelpers.Cache;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
 
@@ -26,9 +24,9 @@ namespace CRMobil.Services
 
         public async Task<List<Clientes>> GetAsync() => await _clienteServiceCollection.Find(_ => true).ToListAsync();
 
-        public async Task<Clientes?> GetAsync(string id) => await _clienteServiceCollection.Find(x => x.Id_Cliente == id).FirstOrDefaultAsync();
+        public async Task<Clientes?> GetAsync(string id) => await _clienteServiceCollection.Find(x => x.IdCliente == id).FirstOrDefaultAsync();
 
-        public async Task<Clientes?> GetCpfCnpjAsync(string documento) => await _clienteServiceCollection.Find(x => x.Cnpj_Cpf == documento).FirstOrDefaultAsync();
+        public async Task<Clientes?> GetCpfCnpjAsync(string documento) => await _clienteServiceCollection.Find(x => x.CnpjCpf == documento).FirstOrDefaultAsync();
 
         //public async Task CreateAsync(Clientes newCliente)
         //{
@@ -40,9 +38,9 @@ namespace CRMobil.Services
         //    await _usuarioServiceCollection.InsertOneAsync()
         //}  
 
-        public async Task UpdateAsync(string id, Clientes updateCliente) => await _clienteServiceCollection.ReplaceOneAsync(x => x.Id_Cliente == id, updateCliente);
+        public async Task UpdateAsync(string id, Clientes updateCliente) => await _clienteServiceCollection.ReplaceOneAsync(x => x.IdCliente == id, updateCliente);
 
-        public async Task RemoveAsync(string id) => await _clienteServiceCollection.DeleteOneAsync(x => x.Id_Cliente == id);
+        public async Task RemoveAsync(string id) => await _clienteServiceCollection.DeleteOneAsync(x => x.IdCliente == id);
 
         public void Dispose()
         {

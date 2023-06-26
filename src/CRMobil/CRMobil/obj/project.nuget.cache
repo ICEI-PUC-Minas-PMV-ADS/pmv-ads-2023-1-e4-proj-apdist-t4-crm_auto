@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jkXLlOVk/X7E9XcvG6/xJKUIZGYPVq1mQ3TPqOIWmPap5VI6d71Ky0k2oU5LR2E+pfW/wid7RrqSuGMoYnhtnA==",
+  "dgSpecHash": "2u5zZ/9H+9jukUNgEvZGpTqy1KBUNfROj0SjWdKuR1SiWEI5cDsX7hqVN12wBTUU46azuk67Y5p20dqU0XUgdw==",
   "success": true,
   "projectFilePath": "C:\\Users\\julio.lustosa\\Documents\\Cursos\\PUC\\Repositórios\\Eixo 4\\pmv-ads-2023-1-e4-proj-apdist-t4-crm_auto\\src\\CRMobil\\CRMobil\\CRMobil.csproj",
   "expectedPackageFiles": [
@@ -71,6 +71,8 @@
     "C:\\Users\\julio.lustosa\\.nuget\\packages\\mongodb.driver\\2.19.1\\mongodb.driver.2.19.1.nupkg.sha512",
     "C:\\Users\\julio.lustosa\\.nuget\\packages\\mongodb.driver.core\\2.19.1\\mongodb.driver.core.2.19.1.nupkg.sha512",
     "C:\\Users\\julio.lustosa\\.nuget\\packages\\mongodb.libmongocrypt\\1.7.0\\mongodb.libmongocrypt.1.7.0.nupkg.sha512",
+    "C:\\Users\\julio.lustosa\\.nuget\\packages\\mysqlconnector\\2.2.5\\mysqlconnector.2.2.5.nupkg.sha512",
+    "C:\\Users\\julio.lustosa\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\7.0.0\\pomelo.entityframeworkcore.mysql.7.0.0.nupkg.sha512",
     "C:\\Users\\julio.lustosa\\.nuget\\packages\\sharpcompress\\0.30.1\\sharpcompress.0.30.1.nupkg.sha512",
     "C:\\Users\\julio.lustosa\\.nuget\\packages\\snappier\\1.0.0\\snappier.1.0.0.nupkg.sha512",
     "C:\\Users\\julio.lustosa\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",

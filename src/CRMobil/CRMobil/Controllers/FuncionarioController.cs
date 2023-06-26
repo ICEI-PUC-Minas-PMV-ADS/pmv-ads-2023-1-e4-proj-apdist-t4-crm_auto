@@ -1,7 +1,5 @@
-﻿using CRMobil.Entities.Cliente;
-using CRMobil.Entities.Funcionarios;
+﻿using CRMobil.Entities.Funcionarios;
 using CRMobil.Interfaces;
-using CRMobil.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 

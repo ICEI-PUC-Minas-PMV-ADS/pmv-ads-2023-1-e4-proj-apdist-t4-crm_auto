@@ -1,6 +1,6 @@
 ﻿namespace CRMobil.Web.Models.Usuario
 {
-    public class Usuario : ModelEnderecoBase
+    public class UsuarioViewModel
     {
         public string Id_Usuario { get; set; }
         public string Nome { get; set; }

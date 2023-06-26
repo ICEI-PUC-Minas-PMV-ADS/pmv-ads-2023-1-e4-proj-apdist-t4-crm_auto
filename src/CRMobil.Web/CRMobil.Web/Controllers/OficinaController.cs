@@ -1,4 +1,5 @@
 ﻿using CRMobil.Web.Application.AppService;
+using CRMobil.Web.Application.IAppService;
 using CRMobil.Web.Application.Validation;
 using CRMobil.Web.Domain.Entities;
 using CRMobil.Web.Models.Cliente;
@@ -7,6 +8,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.Extensions.Primitives;
 using Newtonsoft.Json;
+using System.Net.Http.Headers;
+using System.Runtime.ConstrainedExecution;
 using System.Text;
 
 namespace CRMobil.Web.Controllers
@@ -16,6 +19,7 @@ namespace CRMobil.Web.Controllers
 
         private readonly string apiUrl = "https://localhost:7165/api/Oficina";
 
+        private readonly IOficinaAppService _oficinaAppService;
 
         public async Task<IActionResult> Index()
         {
@@ -81,9 +85,11 @@ namespace CRMobil.Web.Controllers
                 {
                     StringContent content = new StringContent(JsonConvert.SerializeObject(oficina), Encoding.UTF8, "application/json");
 
-                    if (oficina.Id_Oficina != null && oficina.Cnpj != null)
+                    if (!string.IsNullOrEmpty(oficina.Id_Oficina) && !string.IsNullOrEmpty(oficina.Cnpj))
                     {
-                        using (var response = await httpClient.PutAsync(apiUrl + "/" + oficina.Cnpj, content))
+                        string apiUrl2 = "https://localhost:7165/api/Oficina/6445cf9ec33fec12c59b99ec"; //apiUrl + "/" + oficina.Id_Oficina;
+
+                        using (var response = await httpClient.PutAsync(apiUrl2, content))
                         {
                             if (response.IsSuccessStatusCode)
                             {

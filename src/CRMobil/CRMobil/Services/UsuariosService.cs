@@ -1,5 +1,4 @@
-﻿using CRMobil.Entities.Cliente;
-using CRMobil.Entities;
+﻿using CRMobil.Entities;
 using CRMobil.Entities.Usuarios;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;

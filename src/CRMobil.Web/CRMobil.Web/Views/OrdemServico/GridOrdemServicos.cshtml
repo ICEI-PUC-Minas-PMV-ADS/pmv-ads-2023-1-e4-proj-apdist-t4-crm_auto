@@ -1,0 +1,56 @@
+﻿@using CRMobil.Web.Models.Oficina;
+@using CRMobil.Web.Models.Cliente;
+
+
+
+@model List<OrdemServicoViewModel>
+@{
+    ViewData["Title"] = "Ordem de Serviço";
+}
+
+<!--Lista de clientes-->
+<div class="container mt-5">
+    <h4 class="mb-3 p-2 titulo text-light">Clientes cadastrados</h4>
+    <div class="table-responsive">
+        <table class="table table-striped list">
+            <thead>
+                <tr class="bg-primary text-light">
+                    <th scope="col">Nº da OS</th>
+                    <th scope="col">Data da OS</th>
+                    <th scope="col">Nome do cliente</th>
+                    <th scope="col">Placa do véiculo</th>
+                    <th scope="col">Editar</th>
+                    <th scope="col">Excluir</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (OrdemServicoViewModel ordemServico in Model)
+                {
+                    <tr>
+                        <td>@ordemServico.Numero_Ordem_Servico</td>
+                        <td>@ordemServico.Data_Ordem</td>
+                        <td>@ordemServico.NomeCliente</td>
+                        <td>@ordemServico.PlacaVeiculo</td>
+                        <td>
+                            <button type="button"
+                                    class="btn"
+                                    data-mdb-ripple-color="dark"
+                                    data-placement="right"
+                                    title="Edita"
+                                    data-toggle="modal"
+                                    data-target="#editaVeiculo">
+                                @Html.ActionLink("OrdemServico", "RecuperaOrdemSevico", new { Id = ordemServico.Id })
+                                <i class="bi bi-pencil-square"></i>
+                            </button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn">
+                                <i class="bi bi-trash"></i>
+                            </button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
