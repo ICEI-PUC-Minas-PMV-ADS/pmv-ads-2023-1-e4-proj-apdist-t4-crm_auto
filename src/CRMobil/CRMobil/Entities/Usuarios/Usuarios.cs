@@ -15,10 +15,16 @@ namespace CRMobil.Entities.Usuarios
         [BsonElement("nome_usuario")]
         public string Nome_Usuario { get; set; }
 
+        [BsonElement("email")]
+        public string Email { get; set; }
+
         [BsonElement("senha")]
         public string Senha { get; set; }
 
         [BsonElement("tipo_usuario")]
         public string Tipo_Usuario { get; set; }
+
+        [BsonElement("id_funcionario")]
+        public string Id_Funcionario { get; set; }
     }
 }

@@ -42,6 +42,9 @@ namespace CRMobil.Entities.Oficina
         [BsonElement("cidade")]
         public string Cidade { get; set; }
 
+        [BsonElement("estado")]
+        public string Estado { get; set; }
+
         [BsonElement("telefone1")]
         public string Telefone1 { get; set; }
 

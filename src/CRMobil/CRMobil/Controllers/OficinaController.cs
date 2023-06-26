@@ -16,38 +16,26 @@ namespace CRMobil.Controllers
         private readonly IOficinasServices _services;
 
         public OficinaController(IOficinasServices services)
+        
         {
             _services = services;
         }
 
-        // GET: api/<OficinasController>
+        // GET: api/<OficinaController>
         [HttpGet]
         public async Task<Oficinas> RecuperaOficinas()
         {
             var result = await _services.GetAsync();
 
+
             return result;
         }
 
-        // GET api/<OficinasController>/5
-        [HttpGet("{id}")]
-        public async Task<ActionResult<Oficinas>> RecuperaOficinaPorId(string id)
-        {
-            var oficina = await _services.GetAsync(id);
-
-            if (oficina is null)
-            {
-                return NotFound();
-            }
-
-            return oficina;
-        }
-
-        // GET api/<OficinasController>/5
+        // GET api/<OficinaController>/5
         [HttpGet("{cnpj}")]
-        public async Task<ActionResult<Oficinas>> RecuperaOficinaPorCnpj(string cpf_cnpj)
+        public async Task<ActionResult<Oficinas>> RecuperaOficinaPorCnpj(string cnpj)
         {
-            var oficina = await _services.GetCnpjAsync(cpf_cnpj);
+            var oficina = await _services.GetCnpjAsync(cnpj);
 
             if (oficina is null)
             {
@@ -57,9 +45,10 @@ namespace CRMobil.Controllers
             return oficina;
         }
 
-        // POST api/<OficinasController>
+        // POST api/<OficinaController>
+        [Route("~/SalvarOficina")]
         [HttpPost]
-        [ValidateAntiForgeryToken]
+        //[ValidateAntiForgeryToken]
         public async Task<IActionResult> SalvarOficina(Oficinas newOficina)
         {
             await _services.CreateAsync(newOficina);
@@ -67,29 +56,21 @@ namespace CRMobil.Controllers
             return CreatedAtAction(nameof(SalvarOficina), new { id = newOficina.Id_Oficina}, newOficina);
         }
 
-        // PUT api/<OficinasController>/5
+        // PUT api/<OficinaController>/5
         [HttpPut("{id}")]
-        [ValidateAntiForgeryToken]
-        public async Task<ActionResult> AtualizaOficina(string id, Oficinas updateOficina)
+        //[ValidateAntiForgeryToken]
+        public async Task<IActionResult> AtualizaOficina(string id, [FromBody] Oficinas updateOficina)
         {
             var oficina = await _services.GetAsync(id);
-
-            if (oficina is null)
-            {
-                return NotFound();
-            }
-
-            updateOficina.Id_Oficina = oficina.Id_Oficina;
-
-            await _services.UpdateAsync(id, updateOficina);
-
-            return NoContent();
+            if (oficina is null) { return NotFound(); }
+            await _services.UpdateAsync(updateOficina);
+            return Ok();
         }
 
-        // DELETE api/<OficinasController>/5
+        // DELETE api/<OficinaController>/5
         [HttpDelete("{id}")]
-        [ValidateAntiForgeryToken]
-        public async Task<ActionResult> ExcluiOficina(string id)
+        //[ValidateAntiForgeryToken]
+        public async Task<IActionResult> ExcluiOficina(string id)
         {
             var oficina = await _services.GetAsync(id);
 

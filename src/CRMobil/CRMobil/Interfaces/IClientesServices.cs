@@ -10,6 +10,8 @@ namespace CRMobil.Interfaces
 
         Task<Clientes?> GetCpfCnpjAsync(string documento);
 
+        Task<Clientes?> GetByIdAsync(string id);
+
         Task CreateAsync(Clientes createModel);
 
         Task UpdateAsync(string id, Clientes updateModel);

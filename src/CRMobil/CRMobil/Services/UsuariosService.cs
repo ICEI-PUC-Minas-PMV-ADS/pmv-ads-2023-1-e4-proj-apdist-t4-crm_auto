@@ -61,8 +61,6 @@ namespace CRMobil.Services
             }
 
             return null;
-
-            //return await _userServiceCollection.Find(x => x.Nome_Usuario == userName).FirstOrDefaultAsync();
         }        
     }
 }
