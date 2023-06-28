@@ -28,6 +28,10 @@ namespace CRMobil.Controllers
         [HttpPost, Route("login")]
         public async Task<ActionResult<dynamic>> AuthenticateAsync([FromBody] Usuarios userModel)
         {
+            userModel.Id_Usuario = "";
+            userModel.Id_Funcionario = "";
+            userModel.Tipo_Usuario = "";
+
             var user = await _userService.Login(userModel.Nome_Usuario, userModel.Senha);
 
             if (user == null)
