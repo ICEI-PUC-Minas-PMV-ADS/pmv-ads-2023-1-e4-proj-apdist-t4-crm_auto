@@ -1,8 +1,6 @@
 ﻿@using CRMobil.Web.Models.Cliente;
 
-@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+@model ClienteViewModel
 
 @{
 }
@@ -37,6 +35,61 @@
                 </tr>
             </thead>
             <tbody>
+                @foreach (var listVieculo in Model.ClienteVeiculos)
+                {
+                    <tr class="fundo-cinza">
+                        <th scope="row">@listVieculo.Placa_Veiculo</th>
+                        <td>@listVieculo.Id_Veiculo</td>
+                        <td></td>
+                        <td>@listVieculo.Cor</td>
+                        <td>@listVieculo.Ano_Modelo</td>
+                        <td>@listVieculo.Quilometragem</td>
+                        <td>15/02/2023</td>
+                        <td>
+                            <!-- class="btn btn-link btn-rounded btn-sm fw-bold" -->
+                            <button type="button"
+                                    class="btn"
+                                    data-mdb-ripple-color="dark"
+                                    data-placement="right"
+                                    title="Edita"
+                                    data-toggle="modal"
+                                    data-target="#editaVeiculo">
+                                <i class="bi bi-pencil-square"></i>
+                            </button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn">
+                                <i class="bi bi-trash"></i>
+                            </button>
+                        </td>
+                    </tr>
+                }
+                
+                @*<tr class="bg-light">
+                    <th scope="row">RRR7D11</th>
+                    <td>HB20X Diamond</td>
+                    <td>Hyundai</td>
+                    <td>Branco</td>
+                    <td>2021</td>
+                    <td>20010</td>
+                    <td>15/02/2023</td>
+                    <td>
+                        <button type="button"
+                                class="btn"
+                                data-mdb-ripple-color="dark"
+                                data-placement="right"
+                                title="Edita"
+                                data-toggle="modal"
+                                data-target="#editaVeiculo">
+                            <i class="bi bi-pencil-square"></i>
+                        </button>
+                    </td>
+                    <td>
+                        <button type="button" class="btn">
+                            <i class="bi bi-trash"></i>
+                        </button>
+                    </td>
+                </tr>
                 <tr class="fundo-cinza">
                     <th scope="row">RRR7D11</th>
                     <td>HB20X Diamond</td>
@@ -46,7 +99,6 @@
                     <td>20010</td>
                     <td>15/02/2023</td>
                     <td>
-                        <!-- class="btn btn-link btn-rounded btn-sm fw-bold" -->
                         <button type="button"
                                 class="btn"
                                 data-mdb-ripple-color="dark"
@@ -62,57 +114,7 @@
                             <i class="bi bi-trash"></i>
                         </button>
                     </td>
-                </tr>
-                <tr class="bg-light">
-                    <th scope="row">RRR7D11</th>
-                    <td>HB20X Diamond</td>
-                    <td>Hyundai</td>
-                    <td>Branco</td>
-                    <td>2021</td>
-                    <td>20010</td>
-                    <td>15/02/2023</td>
-                    <td>
-                        <button type="button"
-                                class="btn"
-                                data-mdb-ripple-color="dark"
-                                data-placement="right"
-                                title="Edita"
-                                data-toggle="modal"
-                                data-target="#editaVeiculo">
-                            <i class="bi bi-pencil-square"></i>
-                        </button>
-                    </td>
-                    <td>
-                        <button type="button" class="btn">
-                            <i class="bi bi-trash"></i>
-                        </button>
-                    </td>
-                </tr>
-                <tr class="fundo-cinza">
-                    <th scope="row">RRR7D11</th>
-                    <td>HB20X Diamond</td>
-                    <td>Hyundai</td>
-                    <td>Branco</td>
-                    <td>2021</td>
-                    <td>20010</td>
-                    <td>15/02/2023</td>
-                    <td>
-                        <button type="button"
-                                class="btn"
-                                data-mdb-ripple-color="dark"
-                                data-placement="right"
-                                title="Edita"
-                                data-toggle="modal"
-                                data-target="#editaVeiculo">
-                            <i class="bi bi-pencil-square"></i>
-                        </button>
-                    </td>
-                    <td>
-                        <button type="button" class="btn">
-                            <i class="bi bi-trash"></i>
-                        </button>
-                    </td>
-                </tr>
+                </tr>*@
             </tbody>
         </table>
     </div>

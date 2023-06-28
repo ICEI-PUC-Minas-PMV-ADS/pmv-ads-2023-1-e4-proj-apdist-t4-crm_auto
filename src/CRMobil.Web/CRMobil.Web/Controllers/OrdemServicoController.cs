@@ -50,5 +50,21 @@ namespace CRMobil.Web.Controllers
             }
             return View(listaOrdemServico);
         }
+
+        //public async Task<IActionResult> ListaCliente(string id)
+        //{
+        //    ClienteViewModel cliente = new ClienteViewModel();
+
+        //    using (var httpCliente = new HttpClient())
+        //    {
+        //        string apiUrl = "https://localhost:7165/api/OrdemServico"
+        //        using (var response = await httpCliente.GetAsync(apiUrl + "/" + id))
+        //        {
+        //            string apiResponse = await response.Content.ReadAsStringAsync();
+        //            cliente = JsonConvert.DeserializeObject<ClienteViewModel>(apiResponse);
+        //        }
+        //    }
+        //    return View("FormCliente", cliente);
+        //}
     }
 }

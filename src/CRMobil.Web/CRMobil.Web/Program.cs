@@ -3,6 +3,9 @@
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+//AddRazorPages adiciona serviços para o Razor Pages ao aplicativo.
+builder.Services.AddRazorPages();
+
 builder.Services.AddEndpointsApiExplorer();
 
 var app = builder.Build();
@@ -21,6 +24,9 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+
+//MapRazorPages adiciona pontos de extremidade para o Razor Pages ao IEndpointRouteBuilder.
+app.MapRazorPages();
 
 app.MapControllerRoute(
     name: "default",

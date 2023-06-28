@@ -1,4 +1,8 @@
-﻿@*
+﻿@using CRMobil.Web.Models.Usuario;
+
+@model LoginViewModel
+
+@*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @{
@@ -54,7 +58,7 @@
     <div class="login">
         <div class="container">
             <div class="col-sm-8 offset-sm-2 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4 text-center">
-                <form class="rounded bg-dark shadow p-5 mb-4">
+                <form class="rounded bg-dark shadow p-5 mb-4" asp-action="Autenticacao" asp-controller="Usuario">
                     <img src="../img/undraw_fingerprint_login_re_t71l.svg"
                          class="img-fluid mb-2 img-logo"
                          alt="" />
@@ -68,14 +72,14 @@
                         <input type="email"
                                class="form-control"
                                id="floatingInput"
-                               placeholder="name@example.com" />
+                               placeholder="name@example.com" asp-for="Nome_Usuario" />
                         <label for="floatingInput">E-mail</label>
                     </div>
                     <div class="form-floating">
                         <input type="password"
                                class="form-control"
                                id="floatingPassword"
-                               placeholder="Password" />
+                               placeholder="Password" asp-for="Senha" />
                         <label for="floatingPassword">Senha</label>
                     </div>
                     <div class="form-check text-white text-start mt-3">
@@ -85,10 +89,8 @@
                                id="flexCheckDefault" />
                         <label class="form-check-label" for="flexCheckDefault">Mostrar Senha</label>
                     </div>
-                    <a asp-action="Index" asp-controller="Dashboard"
-                       class="btn btn-primary btn-acessar w-100 my-4"
-                       type="submit">Login</a>
-
+                    @*<a class="btn btn-primary btn-acessar w-100 my-4" type="submit">Login</a>*@
+                    <button class="btn btn-primary btn-acessar w-100 my-4">Login</button>
                     <div class="text-center text-uppercase mb-3">
                         <p class="text-white">ou</p>
                     </div>
