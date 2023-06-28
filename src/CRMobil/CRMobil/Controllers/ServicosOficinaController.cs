@@ -27,18 +27,18 @@ namespace CRMobil.Controllers
         }
 
         // GET api/<ServicosOficinaController>/5
-        [HttpGet("{id}")]
-        public async Task<ActionResult<ServicosOficina>> RecuperaServicoOficinaPorId(string id)
-        {
-            var servicosOficina = await _servicosOficinaService.GetAsync(id);
+        //[HttpGet("{id}")]
+        //public async Task<ActionResult<ServicosOficina>> RecuperaServicoOficinaPorId(string id)
+        //{
+        //    var servicosOficina = await _servicosOficinaService.GetAsync(id);
 
-            if (servicosOficina is null)
-            {
-                return NotFound();
-            }
+        //    if (servicosOficina is null)
+        //    {
+        //        return NotFound();
+        //    }
 
-            return servicosOficina;
-        }
+        //    return servicosOficina;
+        //}
 
         // GET api/<ServicosOficinaController>/RGX9A99
         [HttpGet("{placa}")]

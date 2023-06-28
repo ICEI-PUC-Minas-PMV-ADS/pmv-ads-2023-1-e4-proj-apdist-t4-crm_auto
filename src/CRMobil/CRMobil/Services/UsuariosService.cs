@@ -1,4 +1,5 @@
-﻿using CRMobil.Entities;
+﻿using CRMobil.Entities.Cliente;
+using CRMobil.Entities;
 using CRMobil.Entities.Usuarios;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
@@ -60,8 +61,6 @@ namespace CRMobil.Services
             }
 
             return null;
-
-            //return await _userServiceCollection.Find(x => x.Nome_Usuario == userName).FirstOrDefaultAsync();
         }        
     }
 }

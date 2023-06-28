@@ -4,7 +4,7 @@ using System.Xml.Linq;
 
 namespace CRMobil.Entities.Funcionarios
 {
-    public class Funcionarios
+    public class Funcionarios : EnderecoModelBase
     {
         [BsonId]
         [BsonRepresentation(MongoDB.Bson.BsonType.ObjectId)]
@@ -17,11 +17,10 @@ namespace CRMobil.Entities.Funcionarios
         [BsonElement("nome")]
         public string Nome { get; set; }
 
+        [BsonElement("telefone")]
+        public string Telefone { get; set; }
+
         [BsonElement("funcao")]
         public string Funcao { get; set; }
-
-        [BsonElement("id_oficina")]
-        public string Id_Oficina { get; set; }
-
     }
 }

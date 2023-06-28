@@ -1,5 +1,7 @@
-﻿using CRMobil.Entities.Funcionarios;
+﻿using CRMobil.Entities.Cliente;
+using CRMobil.Entities.Funcionarios;
 using CRMobil.Interfaces;
+using CRMobil.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -27,18 +29,18 @@ namespace CRMobil.Controllers
         }
 
         // GET api/<ClienteController>/5
-        [HttpGet("{id}")]
-        public async Task<ActionResult<Funcionarios>> RecuperaFuncionarioPorId(string id)
-        {
-            var funcionario = await _funcionarioService.GetAsync(id);
+        //[HttpGet("{id}")]
+        //public async Task<ActionResult<Funcionarios>> RecuperaFuncionarioPorId(string id)
+        //{
+        //    var funcionario = await _funcionarioService.GetAsync(id);
 
-            if (funcionario is null)
-            {
-                return NotFound();
-            }
+        //    if (funcionario is null)
+        //    {
+        //        return NotFound();
+        //    }
 
-            return funcionario;
-        }
+        //    return funcionario;
+        //}
 
         [HttpGet("{cpf}")]
         [AllowAnonymous]

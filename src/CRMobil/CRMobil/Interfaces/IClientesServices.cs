@@ -1,4 +1,4 @@
-﻿using CRMobil.Entities.Clientes;
+﻿using CRMobil.Entities.Cliente;
 
 namespace CRMobil.Interfaces
 {
@@ -10,6 +10,8 @@ namespace CRMobil.Interfaces
 
         Task<Clientes?> GetCpfCnpjAsync(string documento);
 
+        Task<Clientes?> GetByIdAsync(string id);
+
         Task CreateAsync(Clientes createModel);
 
         Task UpdateAsync(string id, Clientes updateModel);
@@ -17,6 +19,5 @@ namespace CRMobil.Interfaces
         Task RemoveAsync(string id);
 
         void Dispose();
-        //Task CreateAsync(Clientes newCliente);
     }
 }

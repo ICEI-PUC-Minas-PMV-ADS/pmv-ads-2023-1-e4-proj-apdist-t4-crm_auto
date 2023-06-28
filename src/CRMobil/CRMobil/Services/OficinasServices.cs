@@ -21,15 +21,15 @@ namespace CRMobil.Services
             _serviceCollection = mongoDatabase.GetCollection<Oficinas>("Oficinas");
         }
 
-        public async Task<List<Oficinas>> GetAsync() => await _serviceCollection.Find(_ => true).ToListAsync();
+        public async Task<Oficinas> GetAsync() => await _serviceCollection.Find(_ => true).FirstOrDefaultAsync();
 
         public async Task<Oficinas?> GetAsync(string id) => await _serviceCollection.Find(x => x.Id_Oficina == id).FirstOrDefaultAsync();
 
-        public async Task<Oficinas?> GetCnpjAsync(string documento) => await _serviceCollection.Find(x => x.Cnpj == documento).FirstOrDefaultAsync();
+        public async Task<Oficinas?> GetCnpjAsync(string id) => await _serviceCollection.Find(x => x.Id_Oficina == id).FirstOrDefaultAsync();
 
         public async Task CreateAsync(Oficinas createModel) => await _serviceCollection.InsertOneAsync(createModel);
 
-        public async Task UpdateAsync(string id, Oficinas updateModel) => await _serviceCollection.ReplaceOneAsync(x => x.Id_Oficina == id, updateModel);
+        public async Task UpdateAsync(Oficinas updateModel) => await _serviceCollection.ReplaceOneAsync(x => x.Id_Oficina == updateModel.Id_Oficina, updateModel);
 
         public async Task RemoveAsync(string id) => await _serviceCollection.DeleteOneAsync(x => x.Id_Oficina == id);
     }

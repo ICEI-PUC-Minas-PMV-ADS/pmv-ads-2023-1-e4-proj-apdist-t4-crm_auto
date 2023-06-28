@@ -1,4 +1,6 @@
-﻿namespace CRMobil.Interfaces
+﻿using MongoDB.Driver;
+
+namespace CRMobil.Interfaces
 {
     public interface IServiceBase<TEntity> where TEntity : class
     {

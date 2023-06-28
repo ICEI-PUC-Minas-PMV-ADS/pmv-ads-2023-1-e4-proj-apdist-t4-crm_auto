@@ -1,12 +1,13 @@
 ﻿using CRMobil.Entities.Oficina;
 using CRMobil.Entities.ServicosOficina;
+using MongoDB.Driver;
 
 namespace CRMobil.Interfaces
 {
     public interface IOficinasServices
     {
 
-        Task<List<Oficinas>> GetAsync();
+        Task<Oficinas> GetAsync();
 
         Task<Oficinas?> GetAsync(string id);
 
@@ -14,7 +15,7 @@ namespace CRMobil.Interfaces
 
         Task CreateAsync(Oficinas createModel);
 
-        Task UpdateAsync(string id, Oficinas updateModel);
+        Task UpdateAsync(Oficinas updateModel);
 
         Task RemoveAsync(string id);
     }

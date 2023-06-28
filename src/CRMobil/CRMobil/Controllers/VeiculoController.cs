@@ -27,20 +27,7 @@ namespace CRMobil.Controllers
             return listaVeiculo;
         }
 
-        // GET api/<VeiculoController>/5
-        [HttpGet("{id}")]
-        public async Task<ActionResult<Veiculos>> RecuperaVeiculoPorId(string id)
-        {
-            var veiculo = await _veiculoService.GetAsync(id);
-
-            if (veiculo is null)
-            {
-                return NotFound();
-            }
-
-            return veiculo;
-        }
-
+        // GET api/<VeiculoController>/ABC0D12
         [HttpGet("{placa}")]
         [AllowAnonymous]
         public async Task<ActionResult<Veiculos>> RecuperaVeiculoPorPlaca(string placa)

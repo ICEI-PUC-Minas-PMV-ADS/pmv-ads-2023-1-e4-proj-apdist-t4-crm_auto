@@ -3,23 +3,14 @@ using CRMobil.Entities;
 using CRMobil.Services;
 using CRMobil.IoC;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
-using CRMobil.Data.Context;
-using Microsoft.EntityFrameworkCore;
-using AutoMapper;
+using Microsoft.Extensions.Options;
+using CRMobil.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
-
-var connectionString = builder.Configuration.GetConnectionString("CRMobilAPI");
-
-builder.Services.AddDbContext<CRMobilApiContext>(opts =>
-    opts.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
-
-builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
-
-builder.Services.AddControllers().AddNewtonsoftJson();
 
 builder.Services.Configure<CnnStoreDatabaseSettings>(builder.Configuration.GetSection("ConnStoreDatabase"));
 
@@ -93,6 +84,7 @@ IConfiguration configuration = configurationBuilder.Build();
 
 builder.Services.AddServices(configuration);
 builder.Services.AddApplicationServices(configuration);
+//builder.WebHost.ConfigureKestrel(options => options.ListenAnyIP(7000));
 
 var app = builder.Build();
 static void ConfigureConfiguration(IConfigurationBuilder configuration)
@@ -119,3 +111,7 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+
+
+

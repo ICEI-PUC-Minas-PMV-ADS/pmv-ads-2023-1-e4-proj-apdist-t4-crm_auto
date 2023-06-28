@@ -1,4 +1,5 @@
-﻿using CRMobil.Entities.Usuarios;
+﻿using CRMobil.Entities.Cliente;
+using CRMobil.Entities.Usuarios;
 using CRMobil.Interfaces;
 using CRMobil.Services;
 using Microsoft.AspNetCore.Authorization;
@@ -22,30 +23,16 @@ namespace CRMobil.Controllers
             _userService = userService;
         }
 
-        // POST api/<UsuarioControllers>/5
-        //[AllowAnonymous]
-        //[HttpPost, Route("login")]
-        //public async Task<ActionResult<dynamic>> AuthenticateAsync([FromBody] Usuarios userModel)
-        //{
-        //    var user = await _userService.Login(userModel.Nome_Usuario, userModel.Senha);
-
-        //    if (user == null)
-        //    {
-        //        return NotFound(new { message = "Usuário ou senha inválidos" });
-        //    }
-
-        //    var token = TokenService.GenerateToken(user);
-
-        //    return new { username = user.Nome_Usuario, token = token };
-        //}
-
-
-        // POST api/<UsuarioControllers>/5
-        //[AllowAnonymous]
+        //POST api/<UsuarioControllers>/5
+        [AllowAnonymous]
         [HttpPost, Route("login")]
-        public async Task<ActionResult<dynamic>> AuthenticateAsync(string nomeUsuario, string senhaUsuario)
+        public async Task<ActionResult<dynamic>> AuthenticateAsync([FromBody] Usuarios userModel)
         {
-            var user = await _userService.Login(nomeUsuario, senhaUsuario);
+            userModel.Id_Usuario = "";
+            userModel.Id_Funcionario = "";
+            userModel.Tipo_Usuario = "";
+
+            var user = await _userService.Login(userModel.Nome_Usuario, userModel.Senha);
 
             if (user == null)
             {
@@ -54,9 +41,8 @@ namespace CRMobil.Controllers
 
             var token = TokenService.GenerateToken(user);
 
-            return new { username = nomeUsuario, token = token };
+            return new { username = user.Nome_Usuario, token = token };
         }
-
 
         [HttpPost]
         [Route("create")]
